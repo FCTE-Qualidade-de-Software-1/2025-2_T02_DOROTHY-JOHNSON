@@ -6,6 +6,8 @@ site_name: Dorothy Johnson
 
 nav:
    - Home: index.md
+   - Fases:
+      - Fase 1: execucaoFase1.md
 
 theme:
    name: material 
