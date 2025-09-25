@@ -22,6 +22,12 @@ jobs:
         run: |
           pip install mkdocs-material
 
-      - name: Build e deploy com MkDocs
+      - name: Build do MkDocs
         run: |
-          mkdocs gh-deploy --force
+          mkdocs build --strict
+
+      - name: Deploy para GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site

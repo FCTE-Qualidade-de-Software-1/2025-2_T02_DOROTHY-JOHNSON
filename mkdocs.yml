@@ -1,24 +1,23 @@
-repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_DOROTHY-JOHNSON
-repo_name: 2025-2_T02_DOROTHY-JOHNSON
-
+repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02-DOROTHY-JOHNSON
+repo_name: 2025-2_T02-DOROTHY-JOHNSON
 
 site_name: Dorothy Johnson
 
 nav:
-   - Home: index.md
-   - Fases:
-      - Fase 1: execucaoFase1.md
+  - Home: index.md
+  - Fases:
+      - Fase 1: fase1/execucaoFase1.md
 
 theme:
-   name: material 
-   palette:
+  name: material
+  palette:
     - scheme: default
-      toggle: 
-         icon: material/toggle-switch-off-outline
-         name: Dark mode
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Dark mode
       primary: blue
     - scheme: slate
       toggle:
-         icon: material/toggle-switch
-         name: Light mode
+        icon: material/toggle-switch
+        name: Light mode
       primary: blue
