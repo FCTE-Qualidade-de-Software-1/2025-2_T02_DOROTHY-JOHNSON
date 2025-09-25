@@ -3,9 +3,26 @@
 ## 1. Propósito da avaliação
 
 ### Requisitante e partes interessadas
-*(comprador, fornecedor, desenvolvedor, operador, etc.)*
+<!-- *(comprador, fornecedor, desenvolvedor, operador, etc.)* -->
 
 <!-- Descrever aqui quem está solicitando a avaliação e todas as partes interessadas envolvidas no processo -->
+
+O requisitante principal do Krita é a comunidade de usuários finais, composta por artistas digitais, ilustradores, quadrinistas, animadores e designers que buscam uma solução acessível e completa para criação de artes digitais [[1]](#REF1). A demanda por melhorias e novas funcionalidades parte majoritariamente desses usuários, por meio de fóruns, enquetes, relatórios de erros e sugestões de recursos.
+
+As partes interessadas envolvidas no processo também incluem [[1]](#REF1) [[2]](#REF2):
+
+- Os desenvolvedores voluntários e colaboradores, responsáveis pela implementação de recursos, correções de falhas e manutenção do código aberto;
+
+- Mantenedores do projeto, que coordenam a evolução do software, definem prioridades e integram as contribuições enviadas;
+
+- Testadores e demais membros da comunidade que validam versões, reportam problemas e sugerem ajustes;
+
+- Distribuidores e mantenedores de pacotes, como repositórios Linux e lojas de aplicativos, que asseguram que o software esteja acessível e atualizado em diferentes plataformas;
+
+- A poiadores financeiros, como doadores, patrocinadores e iniciativas de financiamento coletivo;
+
+- Os operadores, em que se destacam-se artistas, estúdios independentes e instituições de ensino, que utilizam o Krita em seus fluxos de trabalho e ajudam na sua difusão.
+
 
 ### Propósito da avaliação e uso pretendido dos resultados
 
@@ -57,3 +74,13 @@
 - **Relação das características de qualidade priorizadas com o propósito declarado**
 
 <!-- Explicar como as características escolhidas se relacionam com o propósito da avaliação -->
+
+## Referências Bibliográficas
+
+<a href="REF1">1.</a> Krita. Krita Foundation [S.l.]. Disponível em: https://krita.org/pt-pt/about/krita-foundation/
+. Acesso em: 25 set. 2025.
+
+
+<a href="REF2">2.</a> Krita. Licença de Utilização 4[S.l.]. Disponível em: https://krita.org/pt-pt/about/license
+. Acesso em: 25 set. 2025.
+

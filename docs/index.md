@@ -1,15 +1,16 @@
-# 2025-2_T02_DOROTHY-JOHNSON
+# 🚀 Dorothy Johnson (2025/2 Turma 02)
 
-![Dorothy-Johnson](img/DJohnson.png)
+![Dorothy-Johnson](assets/img/DJohnson.png)
 
-## Quem Somos?
+## 🎨 Sobre o Projeto
+
+## 🤝 Quem Somos?
 
 Somos um grupo da disciplina de Qualidade de Software, oferecida pela Universidade de Brasília e ministrada pela Professora Dra. Cristiane Ramos. Ao longo do semestre, vamos explorar conceitos fundamentais relacionados ao desenvolvimento de software de alta qualidade, incluindo práticas de garantia de qualidade, métricas de avaliação e estratégias de melhoria contínua. Nosso objetivo é aplicar esses conhecimentos de forma prática, contribuindo para a construção de sistemas mais confiáveis, eficientes e alinhados às necessidades dos usuários.
 
-## Mais informações 
+## 📄 Mais informações 
 
 Para acessar a nossa documentação [clique aqui](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/).
-
 
 ## Equipe
 

@@ -1,23 +1,54 @@
 repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02-DOROTHY-JOHNSON
-repo_name: 2025-2_T02-DOROTHY-JOHNSON
+repo_name: Dorothy Johnson (2025/2 T2)
 
 site_name: Dorothy Johnson
 
-nav:
-  - Home: index.md
-  - Fases:
-      - Fase 1: fase1/execucaoFase1.md
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+language: pt-BR
+logo: logo.png
+favicon: logo.png
 
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: blue
-    - scheme: slate
+      accent: blue
       toggle:
-        icon: material/toggle-switch
-        name: Light mode
+        icon: material/brightness-7
+        name: Mudar para o modo escuro
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para o modo claro
+
+nav:
+  - Home: index.md
+  - Fase 1: fase1/execucaoFase1.md
