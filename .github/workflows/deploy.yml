@@ -13,15 +13,21 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v4
 
+      - name: Configurar Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Instalar dependências
-        run: |
-          pip install mkdocs-material
+        run: pip install mkdocs-material
 
       - name: Build e deploy com MkDocs
+        env:
+          GIT_REMOTE: https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_DOROTHY-JOHNSON.git
         run: |
-          mkdocs gh-deploy --force
+          mkdocs gh-deploy --force --remote-name origin --remote-url $GIT_REMOTE
