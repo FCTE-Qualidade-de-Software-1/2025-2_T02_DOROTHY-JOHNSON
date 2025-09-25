@@ -46,9 +46,74 @@ As partes interessadas envolvidas no processo também incluem [[1]](#REF1) [[2]]
 
 <!-- Fornecer uma descrição detalhada e estruturada do software que será avaliado -->
 
-### Classificação do tipo de produto
+### 2.2. Classificação do tipo de produto
 
-<!-- Classificar o software de acordo com seu tipo/categoria -->
+**Nome:** Krita
+
+**Tipo:** Aplicação Desktop Multiplataforma (Qt/C++)
+
+**Repositório:** 
+- Principal: https://invent.kde.org/graphics/krita.git (repositório principal KDE)
+
+- Mirror: https://github.com/KDE/krita
+
+**Framework/Backend:**
+
+- **Framework Principal:** Qt Framework (Qt5/Qt6)
+
+- **Linguagem:** C++ (padrão C++17)
+
+- **Sistema de Build:** CMake (versão mínima 3.19.0)
+
+- **Arquitetura:** Plugin-based com bibliotecas modulares
+
+**Plataformas:**
+
+- **Desktop:** Windows, Linux, macOS
+
+- **Mobile:** Android (em desenvolvimento)
+
+- **Distribuição:** AppImage (Linux), instaladores nativos
+
+**Dependências Principais:**
+
+- **Core:** Qt5/6, KDE Frameworks
+
+- **Gráficos:** OpenGL, OpenColorIO (OCIO)
+
+- **Processamento:** Eigen3 (matemática), FFTW3 (transformadas)
+
+- **Formatos:** OpenEXR, LibRaw, OpenJPEG, WebP
+
+- **Python:** PyQt para plugins e scripts
+
+- **Multimídia:** MLT Framework, FFmpeg (para áudio/vídeo)
+
+**Arquitetura Técnica:**
+
+- **SIMD Optimization:** xsimd para processamento vetorial
+
+- **Multi-threading:** Suporte nativo para múltiplos cores
+
+- **Plugin System:** Extensível via plugins C++ e Python
+
+- **Color Management:** Integração com Little CMS e OpenColorIO
+
+- **Brush Engines:** Sistema modular de pincéis personalizáveis
+
+**Características Especiais:**
+
+- **Versão Atual:** 5.3.0-prealpha (branch master)
+
+- **Versão Qt6:** 6.0.0-prealpha (experimental)
+
+- **Licença:** GPL-3.0-only
+
+- **Fundação:** Krita Foundation (organização responsável)
+
+- **Documentação:** https://docs.krita.org/
+
+- **Comunidade:** Krita Artists (https://krita-artists.org/)
 
 ---
 
