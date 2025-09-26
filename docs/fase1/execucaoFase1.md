@@ -168,7 +168,24 @@ Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que 
 
 ### Modelo de qualidade com descrição e representação gráfica
 
-<!-- Apresentar o modelo de qualidade que será utilizado, incluindo descrição textual e representação visual -->
+**Modelo adotado.** Utilizaremos os dois modelos do **ISO/IEC 25010**:
+- **Qualidade em uso ** — resultados da interação do usuário com o sistema: **eficácia**, **eficiência**, **satisfação**, **liberdade de risco** e **cobertura de contexto**.
+- **Qualidade de produto** — propriedades do software em oito características: **Adequação Funcional**, **Eficiência de Desempenho**, **Compatibilidade**, **Usabilidade**, **Confiabilidade**, **Segurança**, **Manutenibilidade** e **Portabilidade**; cada uma com subcaracterísticas.
+
+<br>
+
+<figure style="text-align:center">
+  <img src="../assets/modelos/qualidade_em_uso.png" alt="Diagrama: Qualidade em Uso" width="70%">
+  <figcaption style="font-size:0.9rem">Qualidade em Uso</figcaption>
+</figure>
+
+<br>
+
+<figure style="text-align:center">
+  <img src="../assets/modelos/qualidade_de_produto.png" alt="Diagrama: Qualidade de Produto" width="70%">
+  <figcaption style="font-size:0.9rem">Qualidade de Produto</figcaption>
+</figure>
+
 
 ### Adaptação do modelo de qualidade
 *(refletindo ausência/presença de componentes relevantes ao software avaliado)*
