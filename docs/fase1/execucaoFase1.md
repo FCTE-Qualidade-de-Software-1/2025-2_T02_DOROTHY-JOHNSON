@@ -1,4 +1,14 @@
-# Execução da Fase 1 - Avaliação de Software
+# Fase 1
+
+## Aplicação Escolhida 
+
+O software avaliado neste trabalho é o Krita, um aplicativo livre e de código aberto para pintura digital e ilustração mantido pela comunidade KDE/Krita Foundation. Trata-se de uma aplicação multiplataforma — com pacotes oficiais para Windows, Linux e macOS, além de versão para tablets Android — voltada a artistas, ilustradores e criadores de concept art, quadrinhos, texturas e matte painting. O repositório oficial está hospedado no [Krita](https://github.com/KDE/krita). 
+
+Embora difundido amplamente, o Krita não é um produto comercial proprietário; é distribuído sob licença GPLv3, com desenvolvimento aberto e colaborativo. No enquadramento de aquisição e uso, ele se comporta como um software de prateleira (off-the-shelf) de código aberto, disponibilizado ao público em geral, sem personalizações específicas por cliente. 
+
+O domínio de aplicação do Krita abrange a criação artística digital, educação em artes visuais e fluxos de trabalho de estúdios e profissionais independentes que necessitam de um estúdio de arte 2D completo, com suporte a camadas, pincéis avançados e formatos amplamente utilizados (ex.: PSD). 
+
+---
 
 ## 1. Propósito da avaliação
 
@@ -26,7 +36,21 @@ As partes interessadas envolvidas no processo também incluem [[1]](#REF1) [[2]]
 
 ### Propósito da avaliação e uso pretendido dos resultados
 
-<!-- Explicar o objetivo da avaliação e como os resultados serão utilizados -->
+Este trabalho, desenvolvido na disciplina de **Qualidade de Software**, tem como propósito **gerar evidências objetivas** sobre a qualidade do **Krita** (projeto KDE) à luz do **SQuaRE/ISO/IEC 25010** e **transformá-las em decisões práticas** para uso e melhoria do produto. Em termos simples: queremos saber **o quão bem o Krita atende ao que promete** e **o quão bem ele se comporta entre plataformas**.
+
+**Pergunta central**  
+> Em que medida o Krita atende aos requisitos de **Adequação Funcional** e de **Portabilidade** no contexto de tarefas típicas de pintura digital (camadas, pincéis, abertura/salvamento/exportação) em **Windows, Linux, macOS e Android**?
+
+**Objetivos específicos**
+1. **Identificar e priorizar** características de qualidade relevantes para o público-alvo.  
+2. **Avaliar e medir** as subcaracterísticas selecionadas do ISO/IEC 25010:  
+   - **Adequação Funcional**: *completude*, *correção* e *adequação às tarefas*.  
+   - **Portabilidade**: *adaptabilidade*, *instalabilidade* e *substituibilidade*.  
+3. **Propor recomendações** de melhoria contínua (curto e médio prazo).  
+4. **Verificar aderência** a normas e boas práticas, registrando uma **linha de base** para reavaliações futuras.
+
+**Escopo desta Fase 1**  
+Foco nas duas características priorizadas (**Funcionalidade/Adequação Funcional** e **Portabilidade**), em **cenários multiplataforma** representativos do uso real do Krita, produzindo insumos claros para as fases seguintes do processo de avaliação.
 
 ### Escopo, profundidade e objetos de avaliação
 *(incluindo relação com avaliações anteriores ou futuras, quando aplicável)*
