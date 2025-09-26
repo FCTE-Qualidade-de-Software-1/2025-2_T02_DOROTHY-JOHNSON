@@ -89,9 +89,126 @@ Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que 
 
 ## 3. Identificação do tipo de produto
 
-### Descrição estruturada do software selecionado para avaliação
+### 3.1. Descrição estruturada do software selecionado para avaliação
 
-<!-- Fornecer uma descrição detalhada e estruturada do software que será avaliado -->
+#### 3.1.1. Descrição geral do produto
+
+- Aplicativo desktop de pintura e ilustração digital 2D, com suporte a animação, camadas, pincéis avançados e gerenciamento de recursos.
+- Gratuito e open source (GPL), multiplataforma (Windows, macOS, Linux; também há versão para Android/tablets).
+- Foco em artistas: ilustração, concept art, HQs, storyboards, texturas e animação 2D.
+
+#### 3.1.2. Quantidade de funções do produto
+
+Escopo: funções/ações expostas na interface (menus, barras, painéis, diálogos).
+
+Estimativa: centenas de funções (entre 300 e 600 comandos/ações), variando por SO, idioma, presets e plugins. 
+
+Principais agrupamentos:
+
+  - Pintura e ferramentas: motores de pincel, seleção e vetores — entre 20 e 40
+  - Exemplos de ferramentas: Pincel à mão livre, Conta‑gotas, Transformar, Preenchimento, Gradiente, Borracha, Linha/Curva, Seleções (retangular, elíptica, laço, varinha mágica), Texto, Ferramentas vetoriais, Assistente de desenho.
+  - Cores e gerenciamento de cor: profundidade 8/16/32f, modelos RGB/CMYK, perfis ICC, prova de cor e mistura de cores — dezenas
+  - Arquivos e formatos: abrir/salvar KRA, exportar PNG, JPEG, TIFF, PSD e WebP; compressão e metadados/ICC — dezenas
+  - Projeção e assistentes: perspectiva, axonométrica, guias e encaixe — diversas
+  - Painéis: Camadas e Máscaras, Predefinições de Pincel, Opções da Ferramenta, Linha do tempo — cerca de 20–30
+  - Exemplos de painéis: Camadas e Máscaras, Opções da Ferramenta, Predefinições de Pincel, Seletor de Cores Avançado/Paleta, Animação/Linha do tempo, Navegador, Histórico de Desfazer, Gerenciamento de Recursos.
+  - Diálogos e preferências/atalhos: dezenas (mais de 100 opções somadas)
+
+#### 3.1.3. Principais tarefas do produto
+
+- Pintura/ilustração digital com múltiplos pincéis, estabilizadores e texturas.
+- Gestão de camadas e máscaras, modos de mesclagem e filtros.
+- Animação 2D (timeline, onion skin, cache e exportação de vídeos/spritesheets).
+- Workflow de cores: escolher modelo de cor (RGB ou CMYK), profundidade de bits (8/16/32f), perfis ICC, mistura de cores, prova de cor e condições de visualização.
+- Arquivos: abrir e salvar KRA com camadas e animação; exportar/importar formatos (PNG, JPEG, TIFF, PSD, WebP), escolher compressão e preservar metadados/ICC.
+- Projeção/perspectiva: uso de assistentes (pontos de fuga), grades e encaixe para desenho técnico/artístico.
+- Criação/gestão de recursos (pincéis, padrões, paletas, templates) e extensões.
+- Fluxos profissionais: suporte a tablets/canetas, atalhos e layouts de área de trabalho.
+
+#### 3.1.4. Funções que merecem maior dedicação durante a avaliação
+
+- Sistema de camadas/máscaras e fidelidade de composição (modos de mesclagem, pré‑visualizações, desfazer/refazer).
+- Ferramentas de animação (linha do tempo, reprodução, renderização/exportação) quanto à corretude funcional.
+- Gerenciamento de recursos (instalação de brush packs, presets, compatibilidade, migração).
+- Importação/exportação de arquivos (formatos, metadados, perfis de cor, interoperabilidade).
+- Formatos e metadados: compressão, preservação de conteúdo (camadas/alpha/animação), abertura em aplicativos de terceiros, como PSD, e ciclo ida‑e‑volta.
+- Assistentes/Projeção: qualidade do encaixe e previsibilidade das guias em cenários complexos.
+
+#### 3.1.5. Quantidade de janelas de interação de dados com o usuário
+
+Principais janelas/diálogos: mais de 20. Exemplos:
+
+  - Tela de Boas‑Vindas, Novo Documento, Abrir/Salvar/Exportar, Preferências, Gerenciador de Recursos, Renderizar Animação/Importar Animação.
+  - Editor de Pincéis, Propriedades de Camada, Seletor de Cores/Paletas.
+  - Configurações de Tela/Canvas, Assistentes de Desenho, Gerenciador de Perfis de Cor.
+  - Timeline/Animação (render/export), Filtros/Efeitos (configuração), Atalhos.
+
+Além disso, há dezenas de painéis interativos (Camadas, Predefinições de Pincel, Opções da Ferramenta, Navegador etc.).
+
+#### 3.1.6. Principais usuários do produto
+
+- Artistas digitais (ilustradores, concept artists, quadrinistas, matte/texture artists).
+- Animadores 2D, designers de jogos, estudantes e educadores de artes visuais.
+
+#### 3.1.7. Ambiente em que o produto será inserido
+
+- Estações de trabalho ou notebooks com mouse/teclado; idealmente com mesa digitalizadora/caneta.
+- Sistemas operacionais desktop (Windows/macOS/Linux) e tablets Android compatíveis.
+- Uso frequentemente offline; integração com fluxos de arte (repositórios de assets).
+- Contextos de portabilidade: variação de hardware (GPUs e ambientes gráficos), monitores HiDPI e migração entre sistemas operacionais mantendo arquivos e configurações.
+
+#### 3.1.8. Nível de conhecimento exigido dos usuários em relação à informática
+
+Básico a intermediário: instalação de software, gestão de arquivos/projetos, preferências do sistema, drivers de tablet.
+
+#### 3.1.9. Nível de conhecimento exigido dos usuários em relação ao domínio da aplicação em si
+
+Intermediário a avançado em artes digitais: camadas/máscaras, pincéis e texturas, teoria de cores/ICC, atalhos, e para animação conceitos de frames, timing e export.
+
+#### 3.1.10. Principais componentes do produto que serão submetidos à avaliação
+
+Escopo limitado às características de qualidade SQuaRE: Adequação Funcional e Portabilidade (ISO/IEC 25010).
+
+Adequação Funcional (completude, correção e adequação das funções)
+
+  - Pintura e ferramentas: motores de pincel, estabilização, texturas; ferramentas de seleção e vetoriais.
+  - Camadas e máscaras: modos de mesclagem, máscaras de camada/vetor, operações de composição.
+  - Animação 2D: linha do tempo, onion skin e exportação em vídeo e spritesheet quanto às funcionalidades prometidas.
+  - Gestão de cores: seleção de modelo (RGB ou CMYK), profundidade 8/16/32f, perfis ICC, prova de cor e mistura de cores.
+  - Arquivos e formatos: abrir e salvar KRA preservando o conteúdo esperado (camadas e animação), exportar/importar formatos (PNG, JPEG, TIFF, PSD, WebP) e metadados/ICC.
+  - Assistentes de projeção/perspectiva: guias, encaixe e pontos de fuga para suportar os fluxos descritos.
+  - Recursos e presets: criação, importação e aplicação de pincéis, paletas e templates.
+
+Portabilidade (adaptabilidade, instalabilidade e substituibilidade)
+
+  - Instaladores e execução em múltiplos sistemas operacionais: Windows, macOS e Linux; Android quando aplicável — instalação/desinstalação, dependências e inicialização bem‑sucedidas.
+  - Portabilidade de arquivos e projetos: abrir KRA e assets criados em um SO noutro, mantendo funcionalidades e conteúdo.
+  - Migração de configurações e recursos: export/import de presets, atalhos e layouts entre plataformas.
+  - Substituibilidade: facilidade de desinstalar/atualizar, não deixar resíduos críticos, reassociar tipos de arquivo.
+
+#### 3.1.11. Massa de dados disponível para a avaliação
+
+Existem diversos recursos e materiais públicos úteis:
+
+  - Presets/pincéis e templates distribuídos com o aplicativo.
+  - Tutoriais e exemplos na documentação oficial (docs.krita.org) e comunidade (krita-artists.org).
+  - Pacotes de brushes/recursos de terceiros compatíveis para testes de importação/uso.
+- Pode-se ainda gerar massa sintética (scripts/projetos de exemplo).
+
+#### 3.1.12. Especificação dos requisitos de hardware e software para executar o produto
+
+Software:
+
+  - Windows, macOS ou Linux suportados (consultar página de Download oficial para versões específicas).
+  - Dependências embarcadas (instalador oficial); Python opcional para scripting.
+  
+Hardware (diretrizes gerais):
+
+  - CPU 64-bit; 16 GB de RAM recomendados (4 GB mínimo), SSD recomendado para projetos grandes.
+  - GPU : OpenGL 3.0 ou maior / Direct3D 11
+  - Mesa digitalizadora/caneta com pressão/tilt para melhor uso (opcional, porém recomendado).
+  
+Referência para requisitos oficiais e atualizados por plataforma: https://krita.org/en/download
 
 ### 3.2. Classificação do tipo de produto
 
