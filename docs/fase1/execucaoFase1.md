@@ -175,14 +175,14 @@ Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que 
 <br>
 
 <figure style="text-align:center">
-  <img src="../assets/modelos/qualidade_em_uso.png" alt="Diagrama: Qualidade em Uso" width="70%">
+  <img src="../../assets/modelos/qualidade_em_uso.png" alt="Diagrama: Qualidade em Uso" width="70%">
   <figcaption style="font-size:0.9rem">Qualidade em Uso</figcaption>
 </figure>
 
 <br>
 
 <figure style="text-align:center">
-  <img src="../assets/modelos/qualidade_de_produto.png" alt="Diagrama: Qualidade de Produto" width="70%">
+  <img src="../../assets/modelos/qualidade_de_produto.png" alt="Diagrama: Qualidade de Produto" width="70%">
   <figcaption style="font-size:0.9rem">Qualidade de Produto</figcaption>
 </figure>
 
