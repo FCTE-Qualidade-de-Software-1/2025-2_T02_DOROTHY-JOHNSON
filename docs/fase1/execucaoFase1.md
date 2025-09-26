@@ -16,9 +16,9 @@ O domínio de aplicação do Krita abrange a criação artística digital, educa
 
 <!-- Descrever aqui quem está solicitando a avaliação e todas as partes interessadas envolvidas no processo -->
 
-O requisitante principal do Krita é a comunidade de usuários finais, composta por artistas digitais, ilustradores, quadrinistas, animadores e designers que buscam uma solução acessível e completa para criação de artes digitais [[1]](#REF1). A demanda por melhorias e novas funcionalidades parte majoritariamente desses usuários, por meio de fóruns, enquetes, relatórios de erros e sugestões de recursos.
+O requisitante principal do Krita é a comunidade de usuários finais, composta por artistas digitais, ilustradores, quadrinistas, animadores e designers que buscam uma solução acessível e completa para criação de artes digitais [^1]. A demanda por melhorias e novas funcionalidades parte majoritariamente desses usuários, por meio de fóruns, enquetes, relatórios de erros e sugestões de recursos.
 
-As partes interessadas envolvidas no processo também incluem [[1]](#REF1) [[2]](#REF2):
+As partes interessadas envolvidas no processo também incluem [^1] [^2]:
 
 - Os desenvolvedores voluntários e colaboradores, responsáveis pela implementação de recursos, correções de falhas e manutenção do código aberto;
 
@@ -61,19 +61,26 @@ Foco nas duas características priorizadas (**Funcionalidade/Adequação Funcion
 
 <!-- Identificar os Objetivos de Desenvolvimento Sustentável (ODS) relacionados ao software e justificar a conexão -->
 
-<div align="center">
-    <img width="100" src="../assets/ods/4.png"/>
-    <img width="100"src="../assets/ods/9.png"/>
-    <img width="100" src="../assets/ods/10.png"/>
-</div>
+<p align="center">
+  <img src="../../assets/ods/4.png" width="150" style="display:inline-block; margin:0 10px;"/>
+  <img src="../../assets/ods/9.png" width="150" style="display:inline-block; margin:0 10px;"/>
+  <img src="../../assets/ods/10.png" width="150" style="display:inline-block; margin:0 10px;"/>
+</p>
+
+<p align="center">
+  Fonte: Nações Unidas (Brasil) <a href="https://brasil.un.org/pt-br/sdgs" target="_blank">[3]</a>
+</p>
+
 
 #### ODS 4 – Educação de Qualidade
 
 O Krita, por ser um software livre e gratuito, democratiza o acesso a ferramentas profissionais de criação digital, permitindo que estudantes, professores e instituições de ensino utilizem recursos avançados sem custos. Isso promove a inclusão educacional, especialmente em áreas como artes digitais, design e animação, favorecendo a aprendizagem criativa e a formação técnica em diferentes contextos.
 
+
 #### ODS 9 – Indústria, Inovação e Infraestrutura
 
 O desenvolvimento colaborativo e aberto do Krita incentiva a inovação tecnológica e a construção de infraestrutura digital acessível. Sua comunidade global de desenvolvedores e usuários contribui constantemente com melhorias, fortalecendo o ecossistema de software livre e estimulando soluções criativas para diferentes setores, como indústrias criativas, estúdios independentes e startups.
+
 
 #### ODS 10 – Redução das Desigualdades
 Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que limitam o acesso a softwares profissionais de criação digital. Isso possibilita que artistas de diferentes condições socioeconômicas, regiões e culturas possam desenvolver e compartilhar seu trabalho em igualdade de condições, reduzindo desigualdades no acesso à tecnologia criativa.
@@ -182,10 +189,13 @@ Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que 
 
 ## Referências Bibliográficas
 
-<a href="REF1">1.</a> Krita. Krita Foundation [S.l.]. Disponível em: https://krita.org/pt-pt/about/krita-foundation/
+[^1]: Krita. Krita Foundation [S.l.]. Disponível em: https://krita.org/pt-pt/about/krita-foundation/
 . Acesso em: 25 set. 2025.
 
 
-<a href="REF2">2.</a> Krita. Licença de Utilização 4[S.l.]. Disponível em: https://krita.org/pt-pt/about/license
+[^2]: Krita. Licença de Utilização 4[S.l.]. Disponível em: https://krita.org/pt-pt/about/license
+. Acesso em: 25 set. 2025.
+
+[^3]: Nações Unidas Brasil. Objetivos de Desenvolvimento Sustentável. Disponível em: https://brasil.un.org/pt-br/sdgs
 . Acesso em: 25 set. 2025.
 
