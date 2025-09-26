@@ -304,10 +304,87 @@ Referência para requisitos oficiais e atualizados por plataforma: https://krita
 </figure>
 
 
-### Adaptação do modelo de qualidade
+###  4.1. Adaptação do modelo de qualidade
 *(refletindo ausência/presença de componentes relevantes ao software avaliado)*
 
 <!-- Explicar como o modelo de qualidade foi adaptado para o software específico sendo avaliado -->
+
+#### 4.1.1. Introdução
+
+O modelo de qualidade **ISO/IEC 25010** foi adaptado ao Krita considerando a **presença e ausência de características relevantes ao software avaliado.** Esta adaptação tem como objetivo alinhar o modelo às necessidades do público-alvo e ao propósito da avaliação: verificar se o Krita cumpre suas funções essenciais de pintura digital e se opera corretamente em múltiplas plataformas, garantindo **evidências objetivas de qualidade de produto e qualidade em uso**
+
+#### 4.1.2. Modelo de Qualidade em Uso
+
+**Características escolhidas (Prioritárias):**
+
+- **Eficácia:** precisão e completude com que os usuários alcançam os objetivos especificados.[^4]
+- **Satisfação:** grau em que as necessidades do usuário são atendidas quando um produto ou sistema é usado em um contexto de uso especificado.[^4]
+- **Cobertura de contexto:** grau em que um produto ou sistema pode ser utilizado com eficácia, eficiência, liberdade de risco e satisfação, tanto nos contextos de uso especificados quanto em contextos além daqueles inicialmente explicitamente identificados.[^4]
+
+**Características não escolhidas (Ausente):**
+
+- **Eficiência:** recursos gastos em relação à precisão e completude com que os usuários alcançam os objetivos.[^4]
+- **Liberdade de risco:** grau em que um produto ou sistema mitiga o risco potencial ao status econômico, à vida humana, à saúde ou ao meio ambiente.[^4]
+
+**Tabela resumo - Qualidade em Uso**
+
+| Característica de Qualidade em Uso | Presente/Ausente | Justificativa |
+|-----------------------------------|-----------------|---------------|
+| Eficácia                           |  Presente     | Prioritária: garante que tarefas criativas sejam concluídas com sucesso. |
+| Satisfação                         |  Presente     | Prioritária: experiência agradável e produtiva é essencial para artistas. |
+| Cobertura de contexto              |  Presente     | Prioritária: garante funcionamento em diferentes plataformas. |
+| Eficiência                         |  Ausente      | Não central nesta fase; foco está na funcionalidade e portabilidade. |
+| Liberdade de risco                  |  Ausente      | Não central nesta fase; Krita é estável e não manipula dados críticos. |
+
+
+**Modelo de Qualidade em Uso (Adaptado)**
+
+<br>
+
+<figure style="text-align:center">
+  <img src="../../assets/modelos/QualidadeUso.png" alt="Diagrama: Qualidade em Uso Adaptado" width="70%">
+  <figcaption style="font-size:0.9rem">Qualidade em Uso Adaptado</figcaption>
+</figure>
+
+
+#### 4.1.3. Modelo de Qualidade de Produto
+
+**Características escolhiddas (Prioritárias):**
+
+- **Adequação Funcional:** grau em que o conjunto de funções cobre todas as tarefas e objetivos do usuário especificados.[^4]
+- **Portabilidade:** grau de eficácia e eficiência com que um sistema, produto ou componente pode ser transferido de um hardware, software ou outro ambiente operacional ou de uso para outro.[^4]
+
+**Características não escolhidas (Ausente):**
+- **Eficiência de Desempenho:** desempenho em relação à quantidade de recursos utilizados sob condições especificadas.[^4]
+- **Compatibilidade:** grau em que um produto, sistema ou componente pode trocar informações com outros produtos, sistemas ou componentes e/ou executar suas funções requeridas, enquanto compartilha o mesmo ambiente de hardware ou software.[^4]
+- **Usabilidade:** grau em que um produto ou sistema pode ser usado por usuários especificados para alcançar objetivos especificados com eficácia, eficiência e satisfação em um contexto de uso especificado.[^4]
+- **Confiabilidade:** grau em que um produto ou sistema garante que os dados sejam acessíveis apenas para aqueles autorizados a ter acesso.[^4]
+- **Segurança:** grau em que um produto ou sistema protege informações e dados de modo que pessoas, produtos ou outros sistemas tenham o grau de acesso aos dados apropriado aos seus tipos e níveis de autorização.[^4]
+- **Manutenibilidade:** grau de eficácia e eficiência com que um produto ou sistema pode ser modificado pelo mantenedor pretendido.[^4]
+
+**Tabela resumo - Qualidade de Produto**
+
+| Característica de Qualidade | Presente/Ausente | Justificativa |
+|-----------------------------|-----------------|---------------|
+| Adequação Funcional         |  Presente     | Avalia se o Krita cumpre funções essenciais; núcleo do produto. |
+| Portabilidade               |  Presente     | Avalia operação multiplataforma; relevante para artistas que usam diferentes SOs. |
+| Eficiência de Desempenho    |  Ausente      | Não crítica para fase 1; foco está na presença e correção das funções. |
+| Compatibilidade             |  Ausente      | Parcialmente contemplada na Adequação Funcional. |
+| Usabilidade                 |  Ausente      | Excluída por orientação da disciplina. |
+| Confiabilidade              |  Ausente      | Estável, mas não central para esta fase. |
+| Segurança                   |  Ausente      | Pouco relevante para aplicação de desenho digital. |
+| Manutenibilidade            |  Ausente      | Voltada a desenvolvedores, não a usuários finais. |
+
+
+**Modelo Qualidade de Produto (Adaptado)**
+
+<br>
+
+<figure style="text-align:center">
+  <img src="../../assets/modelos/QualidadeProduto.png" alt="Diagrama: Qualidade de Produto Adaptado" width="70%">
+  <figcaption style="font-size:0.9rem">Qualidade de Produto Adaptado</figcaption>
+</figure>
+
 
 ### 3.3. Lista das Características de Qualidade Escolhidas (Método SQUARE)
 
@@ -357,4 +434,6 @@ Essas características foram priorizadas porque respondem diretamente aos objeti
 
 [^3]: Nações Unidas Brasil. Objetivos de Desenvolvimento Sustentável. Disponível em: https://brasil.un.org/pt-br/sdgs
 . Acesso em: 25 set. 2025.
+
+[^4]: ISO/IEC/IEEE. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. Geneva: International Organization for Standardization, 2011.
 
