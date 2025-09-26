@@ -2,7 +2,7 @@
 
 ## 1. Propósito da avaliação
 
-### Requisitante e partes interessadas
+### 1.1. Requisitante e partes interessadas
 <!-- *(comprador, fornecedor, desenvolvedor, operador, etc.)* -->
 
 <!-- Descrever aqui quem está solicitando a avaliação e todas as partes interessadas envolvidas no processo -->
@@ -19,24 +19,41 @@ As partes interessadas envolvidas no processo também incluem [[1]](#REF1) [[2]]
 
 - Distribuidores e mantenedores de pacotes, como repositórios Linux e lojas de aplicativos, que asseguram que o software esteja acessível e atualizado em diferentes plataformas;
 
-- A poiadores financeiros, como doadores, patrocinadores e iniciativas de financiamento coletivo;
+- Apoiadores financeiros, como doadores, patrocinadores e iniciativas de financiamento coletivo;
 
 - Os operadores, em que se destacam-se artistas, estúdios independentes e instituições de ensino, que utilizam o Krita em seus fluxos de trabalho e ajudam na sua difusão.
 
 
-### Propósito da avaliação e uso pretendido dos resultados
+### 1.2. Propósito da avaliação e uso pretendido dos resultados
 
 <!-- Explicar o objetivo da avaliação e como os resultados serão utilizados -->
 
-### Escopo, profundidade e objetos de avaliação
+### 1.3. Escopo, profundidade e objetos de avaliação
 *(incluindo relação com avaliações anteriores ou futuras, quando aplicável)*
 
 <!-- Definir o escopo da avaliação, qual será a profundidade da análise e quais objetos serão avaliados -->
 
-### ODS relacionados e metas associadas ao software
-*(com breve justificativa do vínculo)*
+### 1.4. ODS relacionados e metas associadas ao software
+<!--*(com breve justificativa do vínculo)*-->
 
 <!-- Identificar os Objetivos de Desenvolvimento Sustentável (ODS) relacionados ao software e justificar a conexão -->
+
+<div align="center">
+    <img width="100" src="../assets/ods/4.png"/>
+    <img width="100"src="../assets/ods/9.png"/>
+    <img width="100" src="../assets/ods/10.png"/>
+</div>
+
+#### ODS 4 – Educação de Qualidade
+
+O Krita, por ser um software livre e gratuito, democratiza o acesso a ferramentas profissionais de criação digital, permitindo que estudantes, professores e instituições de ensino utilizem recursos avançados sem custos. Isso promove a inclusão educacional, especialmente em áreas como artes digitais, design e animação, favorecendo a aprendizagem criativa e a formação técnica em diferentes contextos.
+
+#### ODS 9 – Indústria, Inovação e Infraestrutura
+
+O desenvolvimento colaborativo e aberto do Krita incentiva a inovação tecnológica e a construção de infraestrutura digital acessível. Sua comunidade global de desenvolvedores e usuários contribui constantemente com melhorias, fortalecendo o ecossistema de software livre e estimulando soluções criativas para diferentes setores, como indústrias criativas, estúdios independentes e startups.
+
+#### ODS 10 – Redução das Desigualdades
+Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que limitam o acesso a softwares profissionais de criação digital. Isso possibilita que artistas de diferentes condições socioeconômicas, regiões e culturas possam desenvolver e compartilhar seu trabalho em igualdade de condições, reduzindo desigualdades no acesso à tecnologia criativa.
 
 ---
 
