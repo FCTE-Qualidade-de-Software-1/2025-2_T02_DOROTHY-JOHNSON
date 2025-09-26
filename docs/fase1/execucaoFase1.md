@@ -175,17 +175,42 @@ Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que 
 
 <!-- Explicar como o modelo de qualidade foi adaptado para o software específico sendo avaliado -->
 
-### Lista das características escolhidas (exceto usabilidade)
-*(com critérios de priorização adotados e sua aplicação)*
+### 3.3. Lista das Características de Qualidade Escolhidas (Método SQUARE)
 
-<!-- Listar as características de qualidade selecionadas e explicar os critérios de priorização -->
+#### 3.3.1. Adequação Funcional
 
-#### Critérios de priorização e aplicação
+**Motivação para Escolha:**
 
-- **O propósito e o tipo de produto devem orientar a seleção das características e o escopo**
-- **Relação das características de qualidade priorizadas com o propósito declarado**
+A Adequação Funcional foi selecionada para responder diretamente à pergunta central: "Em que medida o Krita atende aos requisitos funcionais em tarefas típicas de pintura digital?". Esta característica permite avaliar:
 
-<!-- Explicar como as características escolhidas se relacionam com o propósito da avaliação -->
+- **Completude:** Se o Krita oferece todas as funcionalidades necessárias (camadas, pincéis, abertura/salvamento/exportação)
+
+- **Correção:** Se as funcionalidades funcionam conforme especificado
+
+- **Adequação:** Se atende às necessidades do público-alvo (artistas digitais profissionais)
+
+A arquitetura modular do código-fonte (libs/image/, libs/brush/, libs/color/) fornece evidências objetivas para esta avaliação.
+
+#### 3.3.2. Portabilidade
+
+**Motivação para Escolha:**
+
+A Portabilidade foi escolhida para avaliar "o quão bem o Krita se comporta entre plataformas" (Windows, Linux, macOS e Android). As subcaracterísticas avaliadas são:
+
+- **Adaptabilidade:** Funcionamento efetivo em diferentes ambientes
+
+- **Instalabilidade:** Facilidade de instalação em diferentes sistemas
+
+- **Substituibilidade:** Capacidade de substituir outros softwares de pintura digital
+
+#### 3.3.3. Justificativa
+
+Essas características foram priorizadas porque respondem diretamente aos objetivos do trabalho: verificar se o Krita "atende ao que promete" funcionalmente e "se comporta bem entre plataformas", gerando evidências práticas para decisões de uso e melhoria no contexto de pintura digital profissional.
+
+**Critérios de priorização e aplicação:**
+
+- **O propósito e o tipo de produto orientam a seleção das características e o escopo**
+- **Relação das características de qualidade priorizadas com o propósito declarado:** Ambas as características escolhidas estão diretamente alinhadas com a pergunta central da avaliação e os objetivos específicos definidos na seção 1.2
 
 ## Referências Bibliográficas
 
