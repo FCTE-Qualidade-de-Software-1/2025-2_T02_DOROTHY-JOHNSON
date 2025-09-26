@@ -21,8 +21,8 @@ markdown_extensions:
       
 theme:
   name: material
-  logo: logo.png
-  favicon: logo.png
+  logo: assets/logo/logo.png
+  favicon: assets/logo/logo.png
   language: pt-BR
   features:
     - navigation.instant

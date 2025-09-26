@@ -1,6 +1,6 @@
 # Fase 1
 
-## Aplicação Escolhida 
+## 1. Aplicação Escolhida 
 
 O software avaliado neste trabalho é o Krita, um aplicativo livre e de código aberto para pintura digital e ilustração mantido pela comunidade KDE/Krita Foundation. Trata-se de uma aplicação multiplataforma — com pacotes oficiais para Windows, Linux e macOS, além de versão para tablets Android — voltada a artistas, ilustradores e criadores de concept art, quadrinhos, texturas e matte painting. O repositório oficial está hospedado no [Krita](https://github.com/KDE/krita). 
 
@@ -8,11 +8,10 @@ Embora difundido amplamente, o Krita não é um produto comercial proprietário;
 
 O domínio de aplicação do Krita abrange a criação artística digital, educação em artes visuais e fluxos de trabalho de estúdios e profissionais independentes que necessitam de um estúdio de arte 2D completo, com suporte a camadas, pincéis avançados e formatos amplamente utilizados (ex.: PSD). 
 
----
 
-## 1. Propósito da avaliação
+## 2. Propósito da avaliação
 
-### 1.1. Requisitante e partes interessadas
+### 2.1. Requisitante e partes interessadas
 <!-- *(comprador, fornecedor, desenvolvedor, operador, etc.)* -->
 
 <!-- Descrever aqui quem está solicitando a avaliação e todas as partes interessadas envolvidas no processo -->
@@ -34,9 +33,9 @@ As partes interessadas envolvidas no processo também incluem [[1]](#REF1) [[2]]
 - Os operadores, em que se destacam-se artistas, estúdios independentes e instituições de ensino, que utilizam o Krita em seus fluxos de trabalho e ajudam na sua difusão.
 
 
-### 1.2. Propósito da avaliação e uso pretendido dos resultados
+### 2.2. Propósito da avaliação e uso pretendido dos resultados
 
-Este trabalho, desenvolvido na disciplina de **Qualidade de Software**, tem como propósito **gerar evidências objetivas** sobre a qualidade do **Krita** (projeto KDE) à luz do **SQuaRE/ISO/IEC 25010** e **transformá-las em decisões práticas** para uso e melhoria do produto. Em termos simples: queremos saber **o quão bem o Krita atende ao que promete** e **o quão bem ele se comporta entre plataformas**.
+Este trabalho, desenvolvido na disciplina de Qualidade de Software, tem como propósito gerar evidências objetivas sobre a qualidade do Krita (projeto KDE) à luz do SQuaRE/ISO/IEC 25010 e transformá-las em decisões práticas para uso e melhoria do produto. Em termos simples: queremos saber o quão bem o Krita atende ao que promete e o quão bem ele se comporta entre plataformas.
 
 **Pergunta central**  
 > Em que medida o Krita atende aos requisitos de **Adequação Funcional** e de **Portabilidade** no contexto de tarefas típicas de pintura digital (camadas, pincéis, abertura/salvamento/exportação) em **Windows, Linux, macOS e Android**?
@@ -52,12 +51,12 @@ Este trabalho, desenvolvido na disciplina de **Qualidade de Software**, tem como
 **Escopo desta Fase 1**  
 Foco nas duas características priorizadas (**Funcionalidade/Adequação Funcional** e **Portabilidade**), em **cenários multiplataforma** representativos do uso real do Krita, produzindo insumos claros para as fases seguintes do processo de avaliação.
 
-### 1.3. Escopo, profundidade e objetos de avaliação
+### 2.3. Escopo, profundidade e objetos de avaliação
 *(incluindo relação com avaliações anteriores ou futuras, quando aplicável)*
 
 <!-- Definir o escopo da avaliação, qual será a profundidade da análise e quais objetos serão avaliados -->
 
-### 1.4. ODS relacionados e metas associadas ao software
+### 2.4. ODS relacionados e metas associadas ao software
 <!--*(com breve justificativa do vínculo)*-->
 
 <!-- Identificar os Objetivos de Desenvolvimento Sustentável (ODS) relacionados ao software e justificar a conexão -->
@@ -81,13 +80,13 @@ Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que 
 
 ---
 
-## 2. Identificação do tipo de produto
+## 3. Identificação do tipo de produto
 
 ### Descrição estruturada do software selecionado para avaliação
 
 <!-- Fornecer uma descrição detalhada e estruturada do software que será avaliado -->
 
-### 2.2. Classificação do tipo de produto
+### 3.2. Classificação do tipo de produto
 
 **Nome:** Krita
 
@@ -158,7 +157,7 @@ Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que 
 
 ---
 
-## 3. Especificação inicial do modelo de qualidade
+## 4. Especificação inicial do modelo de qualidade
 
 ### Modelo de qualidade com descrição e representação gráfica
 
