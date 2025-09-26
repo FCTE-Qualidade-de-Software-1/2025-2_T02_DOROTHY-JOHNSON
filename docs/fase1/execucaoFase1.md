@@ -418,11 +418,6 @@ A Portabilidade foi escolhida para avaliar "o quão bem o Krita se comporta entr
 
 Essas características foram priorizadas porque respondem diretamente aos objetivos do trabalho: verificar se o Krita "atende ao que promete" funcionalmente e "se comporta bem entre plataformas", gerando evidências práticas para decisões de uso e melhoria no contexto de pintura digital profissional.
 
-**Critérios de priorização e aplicação:**
-
-- **O propósito e o tipo de produto orientam a seleção das características e o escopo**
-- **Relação das características de qualidade priorizadas com o propósito declarado:** Ambas as características escolhidas estão diretamente alinhadas com a pergunta central da avaliação e os objetivos específicos definidos na seção 1.2
-
 ## Referências Bibliográficas
 
 [^1]: Krita. Krita Foundation [S.l.]. Disponível em: https://krita.org/pt-pt/about/krita-foundation/
