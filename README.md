@@ -1,6 +1,6 @@
 # 2025-2_T02_DOROTHY-JOHNSON
 
-![Dorothy-Johnson](docs/img/DJohnson.png)
+![Dorothy-Johnson](docs/assets/img/DJohnson.png)
 
 ## Quem Somos?
 

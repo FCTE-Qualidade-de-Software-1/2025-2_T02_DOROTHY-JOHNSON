@@ -52,9 +52,19 @@ Este trabalho, desenvolvido na disciplina de Qualidade de Software, tem como pro
 Foco nas duas características priorizadas (**Funcionalidade/Adequação Funcional** e **Portabilidade**), em **cenários multiplataforma** representativos do uso real do Krita, produzindo insumos claros para as fases seguintes do processo de avaliação.
 
 ### 2.3. Escopo, profundidade e objetos de avaliação
-*(incluindo relação com avaliações anteriores ou futuras, quando aplicável)*
 
 <!-- Definir o escopo da avaliação, qual será a profundidade da análise e quais objetos serão avaliados -->
+O escopo desta avaliação concentra-se no **software Krita**, em sua versão estável mais recente, considerando as plataformas **Windows, Linux, macOS e Android**. A abrangência será limitada a duas características do modelo ISO/IEC 25010, previamente priorizadas: **Adequação Funcional** e **Portabilidade**. A escolha se justifica por refletir diretamente a pergunta central do trabalho: em que medida o Krita entrega corretamente suas funcionalidades essenciais de pintura digital e como se comporta em diferentes ambientes de execução.
+
+A profundidade da análise será **intermediária**, balanceando aspectos técnicos e práticos de uso. Não se trata de um teste exaustivo de todas as centenas de funções do Krita, mas sim de uma avaliação focalizada em **tarefas representativas do fluxo de trabalho real de artistas digitais**, tais como manipulação de camadas e máscaras, utilização de pincéis, exportação em formatos amplamente usados (ex.: PSD, PNG, TIFF), gestão de recursos (brush packs, presets) e uso das ferramentas de animação. No eixo da portabilidade, será investigada a capacidade de instalar, executar, migrar projetos e manter consistência entre plataformas, incluindo testes de abertura de arquivos KRA e exportação/importação em diferentes sistemas operacionais.
+
+Os **objetos de avaliação** são, portanto:
+
+- **Funcionalidades essenciais de pintura digital**: camadas, pincéis, ferramentas de seleção, exportação/importação de arquivos e uso de animação.
+- **Mecanismos de gerenciamento de recursos**: presets, pincéis e layouts de trabalho.
+- **Aspectos de portabilidade**: instalabilidade e adaptabilidade em diferentes sistemas, migração de arquivos e configurações entre plataformas, e substituibilidade em relação a softwares concorrentes.
+
+Em termos de **relações com avaliações anteriores ou futuras**, esta Fase 1 estabelece uma **linha de base**. Até o momento, não há avaliações formais prévias do Krita documentadas no âmbito desta disciplina, mas os resultados aqui obtidos servirão como **ponto de referência para comparações em fases seguintes** (ex.: Fase 2 — definição de métricas, Fase 3 — plano de avaliação, Fase 4 — execução dos testes). Também poderão subsidiar avaliações futuras mais amplas, em que outras características de qualidade (como usabilidade ou desempenho) venham a ser exploradas.
 
 ### 2.4. ODS relacionados e metas associadas ao software
 <!--*(com breve justificativa do vínculo)*-->
@@ -437,6 +447,7 @@ Essas características foram priorizadas porque respondem diretamente aos objeti
 
 | Versão | Data | Descrição | Autor | Revisor |
 | -- | -- | -- | -- | -- |
+| 0.0 | 25/09/2025 | Criação da GitPage, adição do README e home da Pages | [Pedro Luciano](PedroALuciano) | - |
 | 1.0 | 25/09/2025 | Criação do esqueleto da documentação | [Victor Pontual](VictorPontual) | - |
 | 1.1 | 25/09/2025 | Adição da tipificação do projeto | [Victor Pontual](VictorPontual) | - |
 | 1.2 | 25/09/2025 | Mudanças visuais da GhPages e seção 'requisitantes e partes interessadas' | [Danielle Soares](danielle-soaress) | - |
@@ -450,3 +461,4 @@ Essas características foram priorizadas porque respondem diretamente aos objeti
 | 2.0 | 25/09/2025 | Adição da descrição estruturada do software selecionado para avaliação | [Marcelo Makoto](MM4k) | - |
 | 2.1 | 26/09/2025 | Adição da seção 'Adaptação do modelo de qualidade' | [Leticia Arisa](Leticia-Arisa-K-Higa) | - |
 | 2.2 | 26/09/2025 | Atualização final do documento da execução da Fase 1 | [Victor Pontual](VictorPontual) | - |
+| 2.3 | 27/09/2025 | Adição da definição de escopo, profundidade e objetivos de avaliação | [Pedro Luciano](PedroALuciano) | - |
