@@ -1,15 +1,18 @@
-# 2025-2_T02_DOROTHY-JOHNSON
+# 🚀 Dorothy Johnson (2025/2 Turma 02)
 
-![Dorothy-Johnson](docs/assets/img/DJohnson.png)
+![Dorothy-Johnson](assets/img/DJohnson.png)
 
-## Quem Somos?
+## 🎨 Sobre o Projeto
+
+A disciplina de Qualidade de Software tem como propósito capacitar os estudantes a avaliar, controlar e aprimorar produtos e processos de software por meio de conceitos, normas, métricas e práticas como garantia de qualidade, testes e revisões. Neste contexto, o  [Krita](https://github.com/KDE/krita) será analisado como estudo de caso, aplicando as técnicas aprendidas ao longo do curso para examinar aspectos de qualidade de um software livre e colaborativo. A avaliação considerará sua estrutura de desenvolvimento aberto, funcionalidades para criação artística digital, compatibilidade multiplataforma e aderência a boas práticas de engenharia de software, permitindo refletir sobre a qualidade de um projeto de código aberto amplamente utilizado por artistas, educadores e profissionais da área de artes visuais.
+
+## 🤝 Quem Somos?
 
 Somos um grupo da disciplina de Qualidade de Software, oferecida pela Universidade de Brasília e ministrada pela Professora Dra. Cristiane Ramos. Ao longo do semestre, vamos explorar conceitos fundamentais relacionados ao desenvolvimento de software de alta qualidade, incluindo práticas de garantia de qualidade, métricas de avaliação e estratégias de melhoria contínua. Nosso objetivo é aplicar esses conhecimentos de forma prática, contribuindo para a construção de sistemas mais confiáveis, eficientes e alinhados às necessidades dos usuários.
 
-## Mais informações 
+## 📄 Mais informações 
 
 Para acessar a nossa documentação [clique aqui](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/).
-
 
 ## Equipe
 
