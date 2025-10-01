@@ -293,16 +293,7 @@ Referência para requisitos oficiais e atualizados por plataforma: https://krita
 
 ### Modelo de qualidade com descrição e representação gráfica
 
-**Modelo adotado.** Utilizaremos os dois modelos do **ISO/IEC 25010**:
-- **Qualidade em uso ** — resultados da interação do usuário com o sistema: **eficácia**, **eficiência**, **satisfação**, **liberdade de risco** e **cobertura de contexto**.
-- **Qualidade de produto** — propriedades do software em oito características: **Adequação Funcional**, **Eficiência de Desempenho**, **Compatibilidade**, **Usabilidade**, **Confiabilidade**, **Segurança**, **Manutenibilidade** e **Portabilidade**; cada uma com subcaracterísticas.
-
-<br>
-
-<figure style="text-align:center">
-  <img src="../../assets/modelos/qualidade_em_uso.png" alt="Diagrama: Qualidade em Uso" width="70%">
-  <figcaption style="font-size:0.9rem">Qualidade em Uso</figcaption>
-</figure>
+**Modelo adotado.** Utilizaremos o modelo de **Qualidade de produto** do **ISO/IEC 25010**, que define as propriedades do software em oito características: **Adequação Funcional**, **Eficiência de Desempenho**, **Compatibilidade**, **Usabilidade**, **Confiabilidade**, **Segurança**, **Manutenibilidade** e **Portabilidade**; cada uma com subcaracterísticas.
 
 <br>
 
