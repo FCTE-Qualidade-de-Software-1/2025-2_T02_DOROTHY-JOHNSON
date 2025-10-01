@@ -385,20 +385,6 @@ A Portabilidade foi escolhida para avaliar "o quão bem o Krita se comporta entr
 
 Essas características foram priorizadas porque respondem diretamente aos objetivos do trabalho: verificar se o Krita "atende ao que promete" funcionalmente e "se comporta bem entre plataformas", gerando evidências práticas para decisões de uso e melhoria no contexto de pintura digital profissional.
 
-## Referências Bibliográficas
-
-[^1]: Krita. Krita Foundation [S.l.]. Disponível em: https://krita.org/pt-pt/about/krita-foundation/
-. Acesso em: 25 set. 2025.
-
-
-[^2]: Krita. Licença de Utilização 4[S.l.]. Disponível em: https://krita.org/pt-pt/about/license
-. Acesso em: 25 set. 2025.
-
-[^3]: Nações Unidas Brasil. Objetivos de Desenvolvimento Sustentável. Disponível em: https://brasil.un.org/pt-br/sdgs
-. Acesso em: 25 set. 2025.
-
-[^4]: ISO/IEC/IEEE. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. Geneva: International Organization for Standardization, 2011.
-
 
 ## Histórico de Versão
 
@@ -419,3 +405,17 @@ Essas características foram priorizadas porque respondem diretamente aos objeti
 | 2.1 | 26/09/2025 | Adição da seção 'Adaptação do modelo de qualidade' | [Leticia Arisa](Leticia-Arisa-K-Higa) | - |
 | 2.2 | 26/09/2025 | Atualização final do documento da execução da Fase 1 | [Victor Pontual](VictorPontual) | - |
 | 2.3 | 27/09/2025 | Adição da definição de escopo, profundidade e objetivos de avaliação | [Pedro Luciano](PedroALuciano) | - |
+
+## Referências Bibliográficas
+
+[^1]: Krita. Krita Foundation [S.l.]. Disponível em: https://krita.org/pt-pt/about/krita-foundation/
+. Acesso em: 25 set. 2025.
+
+
+[^2]: Krita. Licença de Utilização 4[S.l.]. Disponível em: https://krita.org/pt-pt/about/license
+. Acesso em: 25 set. 2025.
+
+[^3]: Nações Unidas Brasil. Objetivos de Desenvolvimento Sustentável. Disponível em: https://brasil.un.org/pt-br/sdgs
+. Acesso em: 25 set. 2025.
+
+[^4]: ISO/IEC/IEEE. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. Geneva: International Organization for Standardization, 2011.
