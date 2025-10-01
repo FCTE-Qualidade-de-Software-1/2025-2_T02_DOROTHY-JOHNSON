@@ -107,22 +107,20 @@ Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que 
 - Gratuito e open source (GPL), multiplataforma (Windows, macOS, Linux; também há versão para Android/tablets).
 - Foco em artistas: ilustração, concept art, HQs, storyboards, texturas e animação 2D.
 
-#### 3.1.2. Quantidade de funções do produto
+#### 3.1.2. Principais funções do produto
 
 Escopo: funções/ações expostas na interface (menus, barras, painéis, diálogos).
 
-Estimativa: centenas de funções (entre 300 e 600 comandos/ações), variando por SO, idioma, presets e plugins. 
-
 Principais agrupamentos:
 
-  - Pintura e ferramentas: motores de pincel, seleção e vetores — entre 20 e 40
+  - Pintura e ferramentas: motores de pincel, seleção e vetores
   - Exemplos de ferramentas: Pincel à mão livre, Conta‑gotas, Transformar, Preenchimento, Gradiente, Borracha, Linha/Curva, Seleções (retangular, elíptica, laço, varinha mágica), Texto, Ferramentas vetoriais, Assistente de desenho.
-  - Cores e gerenciamento de cor: profundidade 8/16/32f, modelos RGB/CMYK, perfis ICC, prova de cor e mistura de cores — dezenas
-  - Arquivos e formatos: abrir/salvar KRA, exportar PNG, JPEG, TIFF, PSD e WebP; compressão e metadados/ICC — dezenas
-  - Projeção e assistentes: perspectiva, axonométrica, guias e encaixe — diversas
-  - Painéis: Camadas e Máscaras, Predefinições de Pincel, Opções da Ferramenta, Linha do tempo — cerca de 20–30
+  - Cores e gerenciamento de cor: profundidade 8/16/32f, modelos RGB/CMYK, perfis ICC, prova de cor e mistura de cores
+  - Arquivos e formatos: abrir/salvar KRA, exportar PNG, JPEG, TIFF, PSD e WebP; compressão e metadados/ICC
+  - Projeção e assistentes: perspectiva, axonométrica, guias e encaixe
+  - Painéis: Camadas e Máscaras, Predefinições de Pincel, Opções da Ferramenta, Linha do tempo
   - Exemplos de painéis: Camadas e Máscaras, Opções da Ferramenta, Predefinições de Pincel, Seletor de Cores Avançado/Paleta, Animação/Linha do tempo, Navegador, Histórico de Desfazer, Gerenciamento de Recursos.
-  - Diálogos e preferências/atalhos: dezenas (mais de 100 opções somadas)
+  - Diálogos e preferências/atalhos
 
 #### 3.1.3. Principais tarefas do produto
 
@@ -144,16 +142,16 @@ Principais agrupamentos:
 - Formatos e metadados: compressão, preservação de conteúdo (camadas/alpha/animação), abertura em aplicativos de terceiros, como PSD, e ciclo ida‑e‑volta.
 - Assistentes/Projeção: qualidade do encaixe e previsibilidade das guias em cenários complexos.
 
-#### 3.1.5. Quantidade de janelas de interação de dados com o usuário
+#### 3.1.5. Principais janelas de interação de dados com o usuário
 
-Principais janelas/diálogos: mais de 20. Exemplos:
+Principais janelas/diálogos:
 
   - Tela de Boas‑Vindas, Novo Documento, Abrir/Salvar/Exportar, Preferências, Gerenciador de Recursos, Renderizar Animação/Importar Animação.
   - Editor de Pincéis, Propriedades de Camada, Seletor de Cores/Paletas.
   - Configurações de Tela/Canvas, Assistentes de Desenho, Gerenciador de Perfis de Cor.
   - Timeline/Animação (render/export), Filtros/Efeitos (configuração), Atalhos.
 
-Além disso, há dezenas de painéis interativos (Camadas, Predefinições de Pincel, Opções da Ferramenta, Navegador etc.).
+Além disso, há diversos de painéis interativos (Camadas, Predefinições de Pincel, Opções da Ferramenta, Navegador etc.).
 
 #### 3.1.6. Principais usuários do produto
 
