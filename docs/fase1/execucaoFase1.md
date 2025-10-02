@@ -107,22 +107,20 @@ Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que 
 - Gratuito e open source (GPL), multiplataforma (Windows, macOS, Linux; também há versão para Android/tablets).
 - Foco em artistas: ilustração, concept art, HQs, storyboards, texturas e animação 2D.
 
-#### 3.1.2. Quantidade de funções do produto
+#### 3.1.2. Principais funções do produto
 
 Escopo: funções/ações expostas na interface (menus, barras, painéis, diálogos).
 
-Estimativa: centenas de funções (entre 300 e 600 comandos/ações), variando por SO, idioma, presets e plugins. 
-
 Principais agrupamentos:
 
-  - Pintura e ferramentas: motores de pincel, seleção e vetores — entre 20 e 40
+  - Pintura e ferramentas: motores de pincel, seleção e vetores
   - Exemplos de ferramentas: Pincel à mão livre, Conta‑gotas, Transformar, Preenchimento, Gradiente, Borracha, Linha/Curva, Seleções (retangular, elíptica, laço, varinha mágica), Texto, Ferramentas vetoriais, Assistente de desenho.
-  - Cores e gerenciamento de cor: profundidade 8/16/32f, modelos RGB/CMYK, perfis ICC, prova de cor e mistura de cores — dezenas
-  - Arquivos e formatos: abrir/salvar KRA, exportar PNG, JPEG, TIFF, PSD e WebP; compressão e metadados/ICC — dezenas
-  - Projeção e assistentes: perspectiva, axonométrica, guias e encaixe — diversas
-  - Painéis: Camadas e Máscaras, Predefinições de Pincel, Opções da Ferramenta, Linha do tempo — cerca de 20–30
+  - Cores e gerenciamento de cor: profundidade 8/16/32f, modelos RGB/CMYK, perfis ICC, prova de cor e mistura de cores
+  - Arquivos e formatos: abrir/salvar KRA, exportar PNG, JPEG, TIFF, PSD e WebP; compressão e metadados/ICC
+  - Projeção e assistentes: perspectiva, axonométrica, guias e encaixe
+  - Painéis: Camadas e Máscaras, Predefinições de Pincel, Opções da Ferramenta, Linha do tempo
   - Exemplos de painéis: Camadas e Máscaras, Opções da Ferramenta, Predefinições de Pincel, Seletor de Cores Avançado/Paleta, Animação/Linha do tempo, Navegador, Histórico de Desfazer, Gerenciamento de Recursos.
-  - Diálogos e preferências/atalhos: dezenas (mais de 100 opções somadas)
+  - Diálogos e preferências/atalhos
 
 #### 3.1.3. Principais tarefas do produto
 
@@ -144,16 +142,16 @@ Principais agrupamentos:
 - Formatos e metadados: compressão, preservação de conteúdo (camadas/alpha/animação), abertura em aplicativos de terceiros, como PSD, e ciclo ida‑e‑volta.
 - Assistentes/Projeção: qualidade do encaixe e previsibilidade das guias em cenários complexos.
 
-#### 3.1.5. Quantidade de janelas de interação de dados com o usuário
+#### 3.1.5. Principais janelas de interação de dados com o usuário
 
-Principais janelas/diálogos: mais de 20. Exemplos:
+Principais janelas/diálogos:
 
   - Tela de Boas‑Vindas, Novo Documento, Abrir/Salvar/Exportar, Preferências, Gerenciador de Recursos, Renderizar Animação/Importar Animação.
   - Editor de Pincéis, Propriedades de Camada, Seletor de Cores/Paletas.
   - Configurações de Tela/Canvas, Assistentes de Desenho, Gerenciador de Perfis de Cor.
   - Timeline/Animação (render/export), Filtros/Efeitos (configuração), Atalhos.
 
-Além disso, há dezenas de painéis interativos (Camadas, Predefinições de Pincel, Opções da Ferramenta, Navegador etc.).
+Além disso, há diversos de painéis interativos (Camadas, Predefinições de Pincel, Opções da Ferramenta, Navegador etc.).
 
 #### 3.1.6. Principais usuários do produto
 
@@ -295,16 +293,7 @@ Referência para requisitos oficiais e atualizados por plataforma: https://krita
 
 ### Modelo de qualidade com descrição e representação gráfica
 
-**Modelo adotado.** Utilizaremos os dois modelos do **ISO/IEC 25010**:
-- **Qualidade em uso ** — resultados da interação do usuário com o sistema: **eficácia**, **eficiência**, **satisfação**, **liberdade de risco** e **cobertura de contexto**.
-- **Qualidade de produto** — propriedades do software em oito características: **Adequação Funcional**, **Eficiência de Desempenho**, **Compatibilidade**, **Usabilidade**, **Confiabilidade**, **Segurança**, **Manutenibilidade** e **Portabilidade**; cada uma com subcaracterísticas.
-
-<br>
-
-<figure style="text-align:center">
-  <img src="../../assets/modelos/qualidade_em_uso.png" alt="Diagrama: Qualidade em Uso" width="70%">
-  <figcaption style="font-size:0.9rem">Qualidade em Uso</figcaption>
-</figure>
+**Modelo adotado.** Utilizaremos o modelo de **Qualidade de produto** do **ISO/IEC 25010**, que define as propriedades do software em oito características: **Adequação Funcional**, **Eficiência de Desempenho**, **Compatibilidade**, **Usabilidade**, **Confiabilidade**, **Segurança**, **Manutenibilidade** e **Portabilidade**; cada uma com subcaracterísticas.
 
 <br>
 
@@ -321,50 +310,18 @@ Referência para requisitos oficiais e atualizados por plataforma: https://krita
 
 #### 4.1.1. Introdução
 
-O modelo de qualidade **ISO/IEC 25010** foi adaptado ao Krita considerando a **presença e ausência de características relevantes ao software avaliado.** Esta adaptação tem como objetivo alinhar o modelo às necessidades do público-alvo e ao propósito da avaliação: verificar se o Krita cumpre suas funções essenciais de pintura digital e se opera corretamente em múltiplas plataformas, garantindo **evidências objetivas de qualidade de produto e qualidade em uso**
+O modelo de qualidade **ISO/IEC 25010** foi adaptado ao Krita considerando a **presença e ausência de características relevantes ao software avaliado.** Esta adaptação tem como objetivo alinhar o modelo às necessidades do público-alvo e ao propósito da avaliação: verificar se o Krita cumpre suas funções essenciais de pintura digital e se opera corretamente em múltiplas plataformas, garantindo **evidências objetivas de qualidade de produto.**
 
-#### 4.1.2. Modelo de Qualidade em Uso
+
+#### 4.1.2. Modelo de Qualidade de Produto
 
 **Características escolhidas (Prioritárias):**
-
-- **Eficácia:** precisão e completude com que os usuários alcançam os objetivos especificados.[^4]
-- **Satisfação:** grau em que as necessidades do usuário são atendidas quando um produto ou sistema é usado em um contexto de uso especificado.[^4]
-- **Cobertura de contexto:** grau em que um produto ou sistema pode ser utilizado com eficácia, eficiência, liberdade de risco e satisfação, tanto nos contextos de uso especificados quanto em contextos além daqueles inicialmente explicitamente identificados.[^4]
-
-**Características não escolhidas (Ausente):**
-
-- **Eficiência:** recursos gastos em relação à precisão e completude com que os usuários alcançam os objetivos.[^4]
-- **Liberdade de risco:** grau em que um produto ou sistema mitiga o risco potencial ao status econômico, à vida humana, à saúde ou ao meio ambiente.[^4]
-
-**Tabela resumo - Qualidade em Uso**
-
-| Característica de Qualidade em Uso | Presente/Ausente | Justificativa |
-|-----------------------------------|-----------------|---------------|
-| Eficácia                           |  Presente     | Prioritária: garante que tarefas criativas sejam concluídas com sucesso. |
-| Satisfação                         |  Presente     | Prioritária: experiência agradável e produtiva é essencial para artistas. |
-| Cobertura de contexto              |  Presente     | Prioritária: garante funcionamento em diferentes plataformas. |
-| Eficiência                         |  Ausente      | Não central nesta fase; foco está na funcionalidade e portabilidade. |
-| Liberdade de risco                  |  Ausente      | Não central nesta fase; Krita é estável e não manipula dados críticos. |
-
-
-**Modelo de Qualidade em Uso (Adaptado)**
-
-<br>
-
-<figure style="text-align:center">
-  <img src="../../assets/modelos/QualidadeUso.png" alt="Diagrama: Qualidade em Uso Adaptado" width="70%">
-  <figcaption style="font-size:0.9rem">Qualidade em Uso Adaptado</figcaption>
-</figure>
-
-
-#### 4.1.3. Modelo de Qualidade de Produto
-
-**Características escolhiddas (Prioritárias):**
 
 - **Adequação Funcional:** grau em que o conjunto de funções cobre todas as tarefas e objetivos do usuário especificados.[^4]
 - **Portabilidade:** grau de eficácia e eficiência com que um sistema, produto ou componente pode ser transferido de um hardware, software ou outro ambiente operacional ou de uso para outro.[^4]
 
 **Características não escolhidas (Ausente):**
+
 - **Eficiência de Desempenho:** desempenho em relação à quantidade de recursos utilizados sob condições especificadas.[^4]
 - **Compatibilidade:** grau em que um produto, sistema ou componente pode trocar informações com outros produtos, sistemas ou componentes e/ou executar suas funções requeridas, enquanto compartilha o mesmo ambiente de hardware ou software.[^4]
 - **Usabilidade:** grau em que um produto ou sistema pode ser usado por usuários especificados para alcançar objetivos especificados com eficácia, eficiência e satisfação em um contexto de uso especificado.[^4]
@@ -428,20 +385,6 @@ A Portabilidade foi escolhida para avaliar "o quão bem o Krita se comporta entr
 
 Essas características foram priorizadas porque respondem diretamente aos objetivos do trabalho: verificar se o Krita "atende ao que promete" funcionalmente e "se comporta bem entre plataformas", gerando evidências práticas para decisões de uso e melhoria no contexto de pintura digital profissional.
 
-## Referências Bibliográficas
-
-[^1]: Krita. Krita Foundation [S.l.]. Disponível em: https://krita.org/pt-pt/about/krita-foundation/
-. Acesso em: 25 set. 2025.
-
-
-[^2]: Krita. Licença de Utilização 4[S.l.]. Disponível em: https://krita.org/pt-pt/about/license
-. Acesso em: 25 set. 2025.
-
-[^3]: Nações Unidas Brasil. Objetivos de Desenvolvimento Sustentável. Disponível em: https://brasil.un.org/pt-br/sdgs
-. Acesso em: 25 set. 2025.
-
-[^4]: ISO/IEC/IEEE. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. Geneva: International Organization for Standardization, 2011.
-
 
 ## Histórico de Versão
 
@@ -462,3 +405,17 @@ Essas características foram priorizadas porque respondem diretamente aos objeti
 | 2.1 | 26/09/2025 | Adição da seção 'Adaptação do modelo de qualidade' | [Leticia Arisa](Leticia-Arisa-K-Higa) | - |
 | 2.2 | 26/09/2025 | Atualização final do documento da execução da Fase 1 | [Victor Pontual](VictorPontual) | - |
 | 2.3 | 27/09/2025 | Adição da definição de escopo, profundidade e objetivos de avaliação | [Pedro Luciano](PedroALuciano) | - |
+
+## Referências Bibliográficas
+
+[^1]: Krita. Krita Foundation [S.l.]. Disponível em: https://krita.org/pt-pt/about/krita-foundation/
+. Acesso em: 25 set. 2025.
+
+
+[^2]: Krita. Licença de Utilização 4[S.l.]. Disponível em: https://krita.org/pt-pt/about/license
+. Acesso em: 25 set. 2025.
+
+[^3]: Nações Unidas Brasil. Objetivos de Desenvolvimento Sustentável. Disponível em: https://brasil.un.org/pt-br/sdgs
+. Acesso em: 25 set. 2025.
+
+[^4]: ISO/IEC/IEEE. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. Geneva: International Organization for Standardization, 2011.
