@@ -390,21 +390,22 @@ Essas características foram priorizadas porque respondem diretamente aos objeti
 
 | Versão | Data | Descrição | Autor | Revisor |
 | -- | -- | -- | -- | -- |
-| 0.0 | 25/09/2025 | Criação da GitPage, adição do README e home da Pages | [Pedro Luciano](PedroALuciano) | - |
-| 1.0 | 25/09/2025 | Criação do esqueleto da documentação | [Victor Pontual](VictorPontual) | - |
-| 1.1 | 25/09/2025 | Adição da tipificação do projeto | [Victor Pontual](VictorPontual) | - |
-| 1.2 | 25/09/2025 | Mudanças visuais da GhPages e seção 'requisitantes e partes interessadas' | [Danielle Soares](danielle-soaress) | - |
-| 1.3 | 25/09/2025 | Adição das ODS relacionadas ao software | [Danielle Soares](danielle-soaress) | - |
-| 1.4 | 25/09/2025 | Adição da seção 'Aplicação Escolhida e Propósito da avaliação' | [Enzo Emir](EnzoEmir) | - |
-| 1.5 | 25/09/2025 | Adição da seção 'sobre o projeto' | [Danielle Soares](danielle-soaress) | - |
-| 1.6 | 25/09/2025 | Listagem das características e suas relações com o objetivo de análise | [Victor Pontual](VictorPontual) | - |
-| 1.7 | 25/09/2025 | Ajustes nas imagens das ODS e adição de mais referências | [Danielle Soares](danielle-soaress) | - |
-| 1.8 | 25/09/2025 | Adição do modelo de qualidade com descrição | [Enzo Emir](EnzoEmir) | - |
-| 1.9 | 25/09/2025 | Correção de links | [Enzo Emir](EnzoEmir) | - |
-| 2.0 | 25/09/2025 | Adição da descrição estruturada do software selecionado para avaliação | [Marcelo Makoto](MM4k) | - |
-| 2.1 | 26/09/2025 | Adição da seção 'Adaptação do modelo de qualidade' | [Leticia Arisa](Leticia-Arisa-K-Higa) | - |
-| 2.2 | 26/09/2025 | Atualização final do documento da execução da Fase 1 | [Victor Pontual](VictorPontual) | - |
-| 2.3 | 27/09/2025 | Adição da definição de escopo, profundidade e objetivos de avaliação | [Pedro Luciano](PedroALuciano) | - |
+| 0.0 | 25/09/2025 | Criação da GitPage, adição do README e home da Pages | [Pedro Luciano](https://github.com/PedroALuciano) | - |
+| 1.0 | 25/09/2025 | Criação do esqueleto da documentação | [Victor Pontual](https://github.com/VictorPontual) | - |
+| 1.1 | 25/09/2025 | Adição da tipificação do projeto | [Victor Pontual](https://github.com/VictorPontual) | - |
+| 1.2 | 25/09/2025 | Mudanças visuais da GhPages e seção 'requisitantes e partes interessadas' | [Danielle Soares](https://github.com/danielle-soaress) | - |
+| 1.3 | 25/09/2025 | Adição das ODS relacionadas ao software | [Danielle Soares](https://github.com/danielle-soaress) | - |
+| 1.4 | 25/09/2025 | Adição da seção 'Aplicação Escolhida e Propósito da avaliação' | [Enzo Emir](https://github.com/EnzoEmir) | - |
+| 1.5 | 25/09/2025 | Adição da seção 'sobre o projeto' | [Danielle Soares](https://github.com/danielle-soaress) | - |
+| 1.6 | 25/09/2025 | Listagem das características e suas relações com o objetivo de análise | [Victor Pontual](https://github.com/VictorPontual) | - |
+| 1.7 | 25/09/2025 | Ajustes nas imagens das ODS e adição de mais referências | [Danielle Soares](https://github.com/danielle-soaress) | - |
+| 1.8 | 25/09/2025 | Adição do modelo de qualidade com descrição | [Enzo Emir](https://github.com/EnzoEmir) | - |
+| 1.9 | 25/09/2025 | Correção de links | [Enzo Emir](https://github.com/EnzoEmir) | - |
+| 2.0 | 25/09/2025 | Adição da descrição estruturada do software selecionado para avaliação | [Marcelo Makoto](https://github.com/MM4k) | - |
+| 2.1 | 26/09/2025 | Adição da seção 'Adaptação do modelo de qualidade' | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa) | - |
+| 2.2 | 26/09/2025 | Atualização final do documento da execução da Fase 1 | [Victor Pontual](https://github.com/VictorPontual) | - |
+| 2.3 | 27/09/2025 | Adição da definição de escopo, profundidade e objetivos de avaliação | [Pedro Luciano](https://github.com/PedroALuciano) | - |
+| 2.4 | 01/10/2025 | correção dos links | [Victor Pontual](https://github.com/VictorPontual) | - |
 
 ## Referências Bibliográficas
 
