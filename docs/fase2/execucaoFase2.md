@@ -40,7 +40,7 @@ A metodologia **Goal-Question-Metric (GQM)** [^2] é uma abordagem sistemática 
 | SOB O PONTO DE VISTA | Artista Digital |
 | CONTEXTO | Disciplina Qualidade de Software 1 |
 
-<font size="3"><p style="text-align: center">Fonte: Autores. (2025)</p></font>
+<font size="3"><p style="text-align: center">Fonte: Adaptado de Basili e Weiss (1984). [^3] </p></font>
 
 ## 3.2. Questões e Métricas
 
@@ -84,7 +84,7 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 
 ## 4.1. Descrição do Objetivo de Medição de Portabilidade
 
-<font size="3"><p style="text-align: center">Tabela 2: Descrição do Objetivo de Medição de Portabilidade</p></font>
+<font size="3"><p style="text-align: center">Tabela 2: Descrição do Objetivo de Medição de Portabilidade</p></font> 
 
 | **Elemento** | **Descrição** |
 |--------------|---------------|
@@ -94,7 +94,7 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 | SOB O PONTO DE VISTA | Artista Digital |
 | CONTEXTO | Disciplina Qualidade de Software 1 |
 
-<font size="3"><p style="text-align: center">Fonte: Autores. (2025)</p></font>
+<font size="3"><p style="text-align: center">Fonte: Adaptado de Basili e Weiss (1984). [^3]</p></font>
 
 ## 4.2. Questões e Métricas
 
@@ -158,9 +158,13 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | 0.2 | 14/10/2025 | Adição das Questões, Métricas e Hipóteses | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 0.3 | 14/10/2025 | Adição da Explicação do GQM | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 0.4 | 14/10/2025 | Organizando Hipóteses | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.5 | 14/10/2025 | Adição de Referência nas tabelas de GQM | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.6| 14/10/2025 | Melhorias na organização da página | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir),  [Marcelo Makoto](https://github.com/MM4k) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 
 ## Referências Bibliográficas
 
 [^1]:  ISO/IEC 25010:2011 (BS ISO/IEC 25010:2011). Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. British Standards Institution, 2011.
 
 [^2]:  UNIVERSIDADE FEDERAL DE PERNAMBUCO. CENTRO DE INFORMÁTICA. GQM (Goal, Question, Metric). [2009]. Material de Seminário. Disponível em: https://www.cin.ufpe.br/~scbs/metricas/seminarios/GQM_texto.pdf. Acesso em: 14 out. 2025.
+
+[^3]: BASILI, Victor R.; WEISS, David M. A Methodology for Collecting Valid Software Engineering Data. [1984]. Proceedings of the 2nd International Conference on Software Engineering. IEEE Computer Society Press. Disponível em: https://www.cs.umd.edu/users/basili/publications/proceedings/P131.pdf
