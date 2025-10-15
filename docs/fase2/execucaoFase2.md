@@ -128,7 +128,7 @@ Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplat
 **H4:** A Taxa de Adaptabilidade Multiplataforma do Krita é superior a 85% entre Windows, Linux e macOS.
 
 
-### Q2: Qual é o grau de adaptabilidade do Krita em diferentes sistemas operacionais e configurações de hardware?
+### Q2: Qual é o grau de instalabilidade do Krita em diferentes sistemas operacionais e configurações de hardware?
 
 Para medir a instalabilidade, utilizaremos o **Tempo Médio de Instalação (TMI)** e a **Taxa de Sucesso de Instalação (TSI)**.
 
