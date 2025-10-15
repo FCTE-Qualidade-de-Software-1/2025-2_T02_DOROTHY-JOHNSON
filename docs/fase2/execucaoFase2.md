@@ -51,10 +51,14 @@ Para avaliar a completude funcional do Krita, utilizaremos a métrica de **Taxa 
 > **Fórmula:**
 >
 > TCF(%) = (Número de funcionalidades implementadas corretamente ÷ Total de funcionalidades esperadas) × 100
+>
+> **Conceito base:** Functional Completeness (ISO/IEC 25010/25023) [^1]
+
 
 #### Hipótese
 
 **H1:** O Krita apresenta uma Taxa de Completude Funcional superior a 85% para tarefas essenciais de pintura digital (camadas, pincéis, exportação).
+
 
 ### Q2: Quais funcionalidades essenciais do Krita apresentam comportamento incorreto ou inadequado durante o workflow de criação artística?
 
@@ -63,10 +67,14 @@ Para medir a correção funcional, utilizaremos a **Taxa de Correção Funcional
 > **Fórmula:**
 >
 > TCR(%) = (Número de funcionalidades que operam corretamente ÷ Total de funcionalidades testadas) × 100
+>
+> **Conceito base:** Functional Correctness (ISO/IEC 25010/25023) [^1]
+
 
 #### Hipótese
 
 **H2:** A Taxa de Correção Funcional do Krita é superior a 90% para funcionalidades core, demonstrando alta confiabilidade operacional.
+
 
 ### Q3: Como a completude funcional do Krita se compara às necessidades específicas de diferentes estilos e técnicas de arte digital?
 
@@ -75,10 +83,16 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 > **Fórmula:**
 >
 > IAT(%) = (Tarefas artísticas completadas com sucesso ÷ Total de tarefas artísticas tentadas) × 100
+>
+> **Conceito base:** Task Effectiveness (ISO/IEC 25022) [^1]
+
 
 #### Hipótese
 
 **H3:** O Índice de Adequação às Tarefas do Krita é superior a 80% para workflows de ilustração.
+
+
+<br>
 
 # 4. Portabilidade
 
@@ -105,10 +119,14 @@ Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplat
 > **Fórmula:**
 >
 > TAM(%) = (Funcionalidades que operam identicamente em todas as plataformas ÷ Total de funcionalidades testadas) × 100
+>
+> **Conceito base:** Adaptability (ISO/IEC 25010/25023) [^1]
+
 
 #### Hipótese
 
 **H4:** A Taxa de Adaptabilidade Multiplataforma do Krita é superior a 85% entre Windows, Linux e macOS.
+
 
 ### Q2: Qual é o grau de adaptabilidade do Krita em diferentes sistemas operacionais e configurações de hardware?
 
@@ -118,15 +136,22 @@ Para medir a instalabilidade, utilizaremos o **Tempo Médio de Instalação (TMI
 >
 > TMI(minutos) = Σ(Tempo de instalação por plataforma) ÷ Número de plataformas testadas
 >
+> **Conceito base:** Installability (ISO/IEC 25010/25023) [^1]
+>
+>
 > **Fórmula TSI:**
 >
 > TSI(%) = (Instalações bem-sucedidas ÷ Total de tentativas de instalação) × 100
+>
+> **Conceito base:** Installability (ISO/IEC 25010/25023) [^1]
+
 
 #### Hipóteses
 
 **H5:** O Tempo Médio de Instalação do Krita é inferior a 15 minutos em todas as plataformas suportadas.
 
 **H6:** A Taxa de Sucesso de Instalação do Krita é superior a 95% em ambientes padrão.
+
 
 ### Q3: Como o Krita mantém a consistência de projetos e configurações ao migrar entre diferentes plataformas?
 
@@ -135,6 +160,9 @@ Para avaliar a consistência de dados, utilizaremos o **Índice de Preservação
 > **Fórmula:**
 >
 > IPD(%) = (Projetos que mantêm integridade completa após migração ÷ Total de projetos testados na migração) × 100
+>
+> **Conceito base:** Data Integrity (ISO/IEC 25010/25023) [^1]
+
 
 #### Hipótese
 
@@ -160,6 +188,7 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | 0.4 | 14/10/2025 | Organizando Hipóteses | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 0.5 | 14/10/2025 | Adição de Referência nas tabelas de GQM | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 0.6| 14/10/2025 | Melhorias na organização da página | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir),  [Marcelo Makoto](https://github.com/MM4k) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.6 | 15/10/2025 | Adição de mais referências |  [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 
 ## Referências Bibliográficas
 
