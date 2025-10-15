@@ -411,7 +411,6 @@ Essas características foram priorizadas porque respondem diretamente aos objeti
 [^1]: Krita. Krita Foundation [S.l.]. Disponível em: https://krita.org/pt-pt/about/krita-foundation/
 . Acesso em: 25 set. 2025.
 
-
 [^2]: Krita. Licença de Utilização 4[S.l.]. Disponível em: https://krita.org/pt-pt/about/license
 . Acesso em: 25 set. 2025.
 

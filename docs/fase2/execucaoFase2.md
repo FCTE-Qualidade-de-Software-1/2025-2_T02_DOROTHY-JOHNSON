@@ -1,14 +1,14 @@
 # Fase 2
 
-## Introdução
+## 1. Introdução
 
 Nesta etapa do projeto, aplicamos a metodologia Goal-Question-Metric (GQM) para avaliar objetivamente a qualidade do Krita. Esta abordagem foi escolhida por permitir a conversão de objetivos de qualidade em métricas concretas e mensuráveis, sendo especialmente útil para um software multiplataforma como o Krita.
 
 Com base nas características priorizadas na [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/), definimos questões específicas e métricas correspondentes para avaliar a Adequação Funcional e Portabilidade do software. O objetivo é quantificar o desempenho do Krita em cenários reais de uso por artistas digitais.
 
-## Explicando GQM
+## 2. Explicando GQM
 
-A metodologia **Goal-Question-Metric (GQM)** é uma abordagem sistemática para definição e interpretação de métricas de software. Esta metodologia segue uma estrutura hierárquica descendente que conecta objetivos organizacionais a medições específicas.
+A metodologia **Goal-Question-Metric (GQM)** [^2] é uma abordagem sistemática para definição e interpretação de métricas de software. Esta metodologia segue uma estrutura hierárquica descendente que conecta objetivos organizacionais a medições específicas.
 
 ### Estrutura da Metodologia GQM
 
@@ -26,23 +26,23 @@ A metodologia **Goal-Question-Metric (GQM)** é uma abordagem sistemática para 
 
 <br>
 
-# Adequação Funcional
+# 3. Adequação Funcional
 
-## Descrição do Objetivo de Medição de Adequação Funcional
+## 3.1. Descrição do Objetivo de Medição de Adequação Funcional
 
 <font size="3"><p style="text-align: center">Tabela 1: Descrição do Objetivo de Medição de Adequação Funcional</p></font>
 
 | **Elemento** | **Descrição** |
 |--------------|---------------|
-| **ANALISAR** | Krita |
-| **PROPÓSITO** | Entender |
-| **COM RESPEITO A:** | Adequação Funcional |
-| **SOB O PONTO DE VISTA** | Artista Digital |
-| **CONTEXTO** | Disciplina Qualidade de Software 1 |
+| ANALISAR | Krita |
+| PROPÓSITO | Entender |
+| COM RESPEITO A | Adequação Funcional |
+| SOB O PONTO DE VISTA | Artista Digital |
+| CONTEXTO | Disciplina Qualidade de Software 1 |
 
 <font size="3"><p style="text-align: center">Fonte: Autores. (2025)</p></font>
 
-## Questões e Métricas
+## 3.2. Questões e Métricas
 
 ### Q1: Em que medida o Krita atende aos requisitos funcionais em tarefas típicas de pintura digital?
 
@@ -80,23 +80,23 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 
 **H3:** O Índice de Adequação às Tarefas do Krita é superior a 80% para workflows de ilustração.
 
-# Portabilidade
+# 4. Portabilidade
 
-## Descrição do Objetivo de Medição de Portabilidade
+## 4.1. Descrição do Objetivo de Medição de Portabilidade
 
 <font size="3"><p style="text-align: center">Tabela 2: Descrição do Objetivo de Medição de Portabilidade</p></font>
 
 | **Elemento** | **Descrição** |
 |--------------|---------------|
-| **ANALISAR** | Krita |
-| **PROPÓSITO** | Entender |
-| **COM RESPEITO A:** | Portabilidade |
-| **SOB O PONTO DE VISTA** | Artista Digital |
-| **CONTEXTO** | Disciplina Qualidade de Software 1 |
+| ANALISAR | Krita |
+| PROPÓSITO | Entender |
+| COM RESPEITO A | Portabilidade |
+| SOB O PONTO DE VISTA | Artista Digital |
+| CONTEXTO | Disciplina Qualidade de Software 1 |
 
 <font size="3"><p style="text-align: center">Fonte: Autores. (2025)</p></font>
 
-## Questões e Métricas
+## 4.2. Questões e Métricas
 
 ### Q1: Em quais aspectos de portabilidade o Krita apresenta limitações para artistas digitais?
 
@@ -141,13 +141,7 @@ Para avaliar a consistência de dados, utilizaremos o **Índice de Preservação
 **H7:** O Índice de Preservação de Dados do Krita é superior a 90%, garantindo integridade de projetos e configurações durante migrações entre plataformas.
 
 
-## Referências Bibliográficas
-
-- **ISO/IEC 25010:2011 (BS ISO/IEC 25010:2011)**. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. British Standards Institution, 2011.
-- **UNIVERSIDADE FEDERAL DE PERNAMBUCO**. CENTRO DE INFORMÁTICA. GQM (Goal, Question, Metric). [2009]. Material de Seminário. Disponível em: https://www.cin.ufpe.br/~scbs/metricas/seminarios/GQM_texto.pdf. Acesso em: 14 out. 2025.
-
-
-## Uso de IA
+## 5. Uso de IA
 
 Durante o desenvolvimento desta fase, foi utilizada Inteligência Artificial (IA) como ferramenta de apoio para:
 
@@ -155,8 +149,6 @@ Durante o desenvolvimento desta fase, foi utilizada Inteligência Artificial (IA
 - **Padronização de formato**: Adequação às normas de documentação acadêmica
 
 A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteúdo técnico, métricas e análises desenvolvidos pela equipe com base nas referências bibliográficas citadas.
-
-
 
 ## Histórico de Versão
 
@@ -166,3 +158,9 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | 0.2 | 14/10/2025 | Adição das Questões, Métricas e Hipóteses | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 0.3 | 14/10/2025 | Adição da Explicação do GQM | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 0.4 | 14/10/2025 | Organizando Hipóteses | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+
+## Referências Bibliográficas
+
+[^1]:  ISO/IEC 25010:2011 (BS ISO/IEC 25010:2011). Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. British Standards Institution, 2011.
+
+[^2]:  UNIVERSIDADE FEDERAL DE PERNAMBUCO. CENTRO DE INFORMÁTICA. GQM (Goal, Question, Metric). [2009]. Material de Seminário. Disponível em: https://www.cin.ufpe.br/~scbs/metricas/seminarios/GQM_texto.pdf. Acesso em: 14 out. 2025.
