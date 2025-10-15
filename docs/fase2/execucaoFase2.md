@@ -6,6 +6,26 @@ Nesta etapa do projeto, aplicamos a metodologia Goal-Question-Metric (GQM) para 
 
 Com base nas características priorizadas na [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/), definimos questões específicas e métricas correspondentes para avaliar a Adequação Funcional e Portabilidade do software. O objetivo é quantificar o desempenho do Krita em cenários reais de uso por artistas digitais.
 
+## Explicando GQM
+
+A metodologia **Goal-Question-Metric (GQM)** é uma abordagem sistemática para definição e interpretação de métricas de software. Esta metodologia segue uma estrutura hierárquica descendente que conecta objetivos organizacionais a medições específicas.
+
+### Estrutura da Metodologia GQM
+
+**Goal (Objetivo)**: Define o propósito da medição de forma conceitual, especificando:
+
+- **Objeto de análise**: O que será analisado 
+- **Propósito**: Por que medir 
+- **Característica de qualidade**: O foco da análise 
+- **Sob o Ponto de Vista**: De qual ponto de vista está sendo analisado
+- **Contexto**: Ambiente da medição 
+
+**Question (Questão)**: Operacionaliza o objetivo através de questões específicas que caracterizam o objeto de estudo em relação ao propósito estabelecido.
+
+**Metric (Métrica)**: Fornece dados quantitativos ou qualitativos para responder às questões de forma objetiva e mensurável.
+
+<br>
+
 # Adequação Funcional
 
 ## Descrição do Objetivo de Medição de Adequação Funcional
@@ -136,4 +156,5 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | Versão | Data | Descrição | Autor | Revisor |
 | -- | -- | -- | -- | -- |
 | 0.0 | 08/10/2025 | Criação da estrutura GQM inicial | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
-| 0.1 | 08/10/2025 | Adição das Questões, Métricas e Hipóteses | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.2 | 14/10/2025 | Adição das Questões, Métricas e Hipóteses | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.3 | 14/10/2025 | Adição da Explicação do GQM | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
