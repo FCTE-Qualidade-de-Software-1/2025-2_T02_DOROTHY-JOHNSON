@@ -26,9 +26,9 @@ A metodologia **Goal-Question-Metric (GQM)** [^2] é uma abordagem sistemática 
 
 <br>
 
-# 3. Adequação Funcional
+## 3. Adequação Funcional
 
-## 3.1. Descrição do Objetivo de Medição de Adequação Funcional
+### 3.1. Descrição do Objetivo de Medição de Adequação Funcional
 
 <font size="3"><p style="text-align: center">Tabela 1: Descrição do Objetivo de Medição de Adequação Funcional</p></font>
 
@@ -42,9 +42,9 @@ A metodologia **Goal-Question-Metric (GQM)** [^2] é uma abordagem sistemática 
 
 <font size="3"><p style="text-align: center">Fonte: Adaptado de Basili e Weiss (1984). [^3] </p></font>
 
-## 3.2. Questões e Métricas
+### 3.2. Questões e Métricas
 
-### Q1: Em que medida o Krita atende aos requisitos funcionais em tarefas típicas de pintura digital?
+#### Q1: Em que medida o Krita atende aos requisitos funcionais em tarefas típicas de pintura digital?
 
 Para avaliar a completude funcional do Krita, utilizaremos a métrica de **Taxa de Completude Funcional (TCF)**, que mede o percentual de funcionalidades essenciais de pintura digital que estão implementadas e operacionais.
 
@@ -60,7 +60,7 @@ Para avaliar a completude funcional do Krita, utilizaremos a métrica de **Taxa 
 **H1:** O Krita apresenta uma Taxa de Completude Funcional superior a 85% para tarefas essenciais de pintura digital (camadas, pincéis, exportação).
 
 
-### Q2: Quais funcionalidades essenciais do Krita apresentam comportamento incorreto ou inadequado durante o workflow de criação artística?
+#### Q2: Quais funcionalidades essenciais do Krita apresentam comportamento incorreto ou inadequado durante o workflow de criação artística?
 
 Para medir a correção funcional, utilizaremos a **Taxa de Correção Funcional (TCR)**, que avalia a proporção de funcionalidades que operam conforme especificado.
 
@@ -76,7 +76,7 @@ Para medir a correção funcional, utilizaremos a **Taxa de Correção Funcional
 **H2:** A Taxa de Correção Funcional do Krita é superior a 90% para funcionalidades core, demonstrando alta confiabilidade operacional.
 
 
-### Q3: Como a completude funcional do Krita se compara às necessidades específicas de diferentes estilos e técnicas de arte digital?
+#### Q3: Como a completude funcional do Krita se compara às necessidades específicas de diferentes estilos e técnicas de arte digital?
 
 Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação às Tarefas (IAT)**, que mede o grau de alinhamento entre as funcionalidades oferecidas e as necessidades específicas dos workflows artísticos.
 
@@ -94,9 +94,9 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 
 <br>
 
-# 4. Portabilidade
+## 4. Portabilidade
 
-## 4.1. Descrição do Objetivo de Medição de Portabilidade
+### 4.1. Descrição do Objetivo de Medição de Portabilidade
 
 <font size="3"><p style="text-align: center">Tabela 2: Descrição do Objetivo de Medição de Portabilidade</p></font> 
 
@@ -110,9 +110,9 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 
 <font size="3"><p style="text-align: center">Fonte: Adaptado de Basili e Weiss (1984). [^3]</p></font>
 
-## 4.2. Questões e Métricas
+### 4.2. Questões e Métricas
 
-### Q1: Em quais aspectos de portabilidade o Krita apresenta limitações para artistas digitais?
+#### Q1: Em quais aspectos de portabilidade o Krita apresenta limitações para artistas digitais?
 
 Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplataforma (TAM)**, que mede a capacidade do software de funcionar consistentemente em diferentes sistemas operacionais.
 
@@ -128,7 +128,7 @@ Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplat
 **H4:** A Taxa de Adaptabilidade Multiplataforma do Krita é superior a 85% entre Windows, Linux e macOS.
 
 
-### Q2: Qual é o grau de instalabilidade do Krita em diferentes sistemas operacionais e configurações de hardware?
+#### Q2: Qual é o grau de instalabilidade do Krita em diferentes sistemas operacionais e configurações de hardware?
 
 Para medir a instalabilidade, utilizaremos o **Tempo Médio de Instalação (TMI)** e a **Taxa de Sucesso de Instalação (TSI)**.
 
@@ -153,7 +153,7 @@ Para medir a instalabilidade, utilizaremos o **Tempo Médio de Instalação (TMI
 **H6:** A Taxa de Sucesso de Instalação do Krita é superior a 95% em ambientes padrão.
 
 
-### Q3: Como o Krita mantém a consistência de projetos e configurações ao migrar entre diferentes plataformas?
+#### Q3: Como o Krita mantém a consistência de projetos e configurações ao migrar entre diferentes plataformas?
 
 Para avaliar a consistência de dados, utilizaremos o **Índice de Preservação de Dados (IPD)**, que mede a capacidade do software de manter integridade de arquivos e configurações entre diferentes sistemas operacionais.
 
