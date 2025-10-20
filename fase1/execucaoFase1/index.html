@@ -437,6 +437,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="2.3. Escopo, profundidade e objetos de avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-preparacao-do-projeto-e-esboco-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Preparação do Projeto e Esboço Inicial
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pintura-arte-final-e-gerenciamento-de-camadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Pintura, Arte-final e Gerenciamento de Camadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-exportacao-e-validacao-da-portabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Exportação e Validação da Portabilidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -850,6 +883,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="2.3. Escopo, profundidade e objetos de avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-preparacao-do-projeto-e-esboco-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Preparação do Projeto e Esboço Inicial
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pintura-arte-final-e-gerenciamento-de-camadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Pintura, Arte-final e Gerenciamento de Camadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-exportacao-e-validacao-da-portabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Exportação e Validação da Portabilidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -1231,16 +1297,36 @@
 <p><strong>Escopo desta Fase 1</strong><br />
 Foco nas duas características priorizadas (<strong>Funcionalidade/Adequação Funcional</strong> e <strong>Portabilidade</strong>), em <strong>cenários multiplataforma</strong> representativos do uso real do Krita, produzindo insumos claros para as fases seguintes do processo de avaliação.</p>
 <h3 id="23-escopo-profundidade-e-objetos-de-avaliacao">2.3. Escopo, profundidade e objetos de avaliação</h3>
-<!-- Definir o escopo da avaliação, qual será a profundidade da análise e quais objetos serão avaliados -->
-<p>O escopo desta avaliação concentra-se no <strong>software Krita</strong>, em sua versão estável mais recente, considerando as plataformas <strong>Windows, Linux, macOS e Android</strong>. A abrangência será limitada a duas características do modelo ISO/IEC 25010, previamente priorizadas: <strong>Adequação Funcional</strong> e <strong>Portabilidade</strong>. A escolha se justifica por refletir diretamente a pergunta central do trabalho: em que medida o Krita entrega corretamente suas funcionalidades essenciais de pintura digital e como se comporta em diferentes ambientes de execução.</p>
-<p>A profundidade da análise será <strong>intermediária</strong>, balanceando aspectos técnicos e práticos de uso. Não se trata de um teste exaustivo de todas as centenas de funções do Krita, mas sim de uma avaliação focalizada em <strong>tarefas representativas do fluxo de trabalho real de artistas digitais</strong>, tais como manipulação de camadas e máscaras, utilização de pincéis, exportação em formatos amplamente usados (ex.: PSD, PNG, TIFF), gestão de recursos (brush packs, presets) e uso das ferramentas de animação. No eixo da portabilidade, será investigada a capacidade de instalar, executar, migrar projetos e manter consistência entre plataformas, incluindo testes de abertura de arquivos KRA e exportação/importação em diferentes sistemas operacionais.</p>
-<p>Os <strong>objetos de avaliação</strong> são, portanto:</p>
+<p>O escopo desta avaliação concentra-se na execução de um <strong>fluxo de trabalho completo e representativo de um ilustrador digital</strong>, utilizando o Krita em suas versões estáveis para <strong>Windows, Linux e macOS</strong>. A abrangência será limitada às duas características priorizadas do modelo ISO/IEC 25010: <strong>Adequação Funcional</strong> e <strong>Portabilidade</strong>.</p>
+<p>A profundidade da análise será <strong>prática e verticalizada</strong>. Em vez de realizar um teste exaustivo de todas as centenas de funções do Krita, a avaliação seguirá um cenário de uso real, desde a criação de um arquivo em branco até a exportação final de uma ilustração. Este método permite gerar evidências sobre como o Krita atende às necessidades de um ciclo de produção de arte digital, avaliando não apenas as ferramentas isoladamente, mas também a sua integração e consistência.</p>
+<p>Os <strong>objetos de avaliação</strong> foram redefinidos para refletir este fluxo de trabalho focado, divididos em três etapas principais:</p>
+<h4 id="1-preparacao-do-projeto-e-esboco-inicial">1. Preparação do Projeto e Esboço Inicial</h4>
+<p>Nesta fase, serão avaliadas as funcionalidades essenciais para iniciar um projeto de ilustração.</p>
 <ul>
-<li><strong>Funcionalidades essenciais de pintura digital</strong>: camadas, pincéis, ferramentas de seleção, exportação/importação de arquivos e uso de animação.</li>
-<li><strong>Mecanismos de gerenciamento de recursos</strong>: presets, pincéis e layouts de trabalho.</li>
-<li><strong>Aspectos de portabilidade</strong>: instalabilidade e adaptabilidade em diferentes sistemas, migração de arquivos e configurações entre plataformas, e substituibilidade em relação a softwares concorrentes.</li>
+<li><strong>Criação de Novo Documento:</strong> Análise do diálogo de criação de arquivo, incluindo a definição de dimensões, resolução, modelo de cor (RGB) e profundidade de bits (8-bit).</li>
+<li><strong>Configuração de Guias e Assistentes:</strong> Uso da ferramenta "Assistente de Desenho" para configurar e utilizar guias de perspectiva (ex: 2 pontos de fuga).</li>
+<li><strong>Ferramentas de Esboço:</strong> Utilização de pincéis básicos (similares a lápis) para a criação do rascunho, avaliando a resposta à pressão da caneta e a funcionalidade do estabilizador de traço.</li>
 </ul>
-<p>Em termos de <strong>relações com avaliações anteriores ou futuras</strong>, esta Fase 1 estabelece uma <strong>linha de base</strong>. Até o momento, não há avaliações formais prévias do Krita documentadas no âmbito desta disciplina, mas os resultados aqui obtidos servirão como <strong>ponto de referência para comparações em fases seguintes</strong> (ex.: Fase 2 — definição de métricas, Fase 3 — plano de avaliação, Fase 4 — execução dos testes). Também poderão subsidiar avaliações futuras mais amplas, em que outras características de qualidade (como usabilidade ou desempenho) venham a ser exploradas.</p>
+<h4 id="2-pintura-arte-final-e-gerenciamento-de-camadas">2. Pintura, Arte-final e Gerenciamento de Camadas</h4>
+<p>Esta etapa foca no núcleo do processo de criação, onde a ilustração ganha forma e cor.</p>
+<ul>
+<li><strong>Arte-final (Line Art):</strong> Uso de pincéis de tinta sobre uma nova camada para criar os contornos definitivos do desenho.</li>
+<li><strong>Colorização e Pintura:</strong> Aplicação de cores base com a ferramenta de preenchimento e pincéis de pintura, testando a criação de camadas para cores, sombras e iluminação.</li>
+<li><strong>Gerenciamento de Camadas:</strong> Organização do projeto através da criação de grupos de camadas, renomeação, alteração de opacidade e uso de modos de mesclagem (ex: <em>Multiply</em>, <em>Overlay</em>).</li>
+</ul>
+<h4 id="3-exportacao-e-validacao-da-portabilidade">3. Exportação e Validação da Portabilidade</h4>
+<p>A fase final avalia a capacidade do Krita de finalizar e compartilhar o trabalho de forma consistente entre diferentes ambientes.</p>
+<ul>
+<li><strong>Salvamento e Exportação:</strong> Análise do processo de salvamento do projeto no formato nativo (<code>.kra</code>) e exportação da ilustração final para formatos de distribuição web, como <code>PNG</code> e <code>JPEG</code>, verificando as opções de compressão e metadados.</li>
+<li><strong>Teste de Consistência Multiplataforma:</strong> O principal teste de portabilidade consistirá em:<ol>
+<li>Criar e salvar um arquivo <code>.kra</code> em um sistema operacional (ex: Windows).</li>
+<li>Abrir o mesmo arquivo em outro sistema operacional (ex: Linux).</li>
+<li>Verificar a integridade visual e estrutural do projeto (camadas, cores, modos de mesclagem, guias).</li>
+<li>Exportar a imagem a partir do segundo sistema e comparar o resultado com a exportação original.</li>
+</ol>
+</li>
+</ul>
+<p>Em termos de relações com avaliações anteriores ou futuras, esta Fase 1 estabelece uma <strong>linha de base</strong>. Até o momento, não há avaliações formais prévias do Krita documentadas no âmbito desta disciplina, mas os resultados aqui obtidos servirão como <strong>ponto de referência para comparações em fases seguintes</strong> (ex.: Fase 2 — definição de métricas, Fase 3 — plano de avaliação, Fase 4 — execução dos testes). Também poderão subsidiar avaliações futuras mais amplas, em que outras características de qualidade (como usabilidade ou desempenho) venham a ser exploradas.</p>
 <h3 id="24-ods-relacionados-e-metas-associadas-ao-software">2.4. ODS relacionados e metas associadas ao software</h3>
 <!--*(com breve justificativa do vínculo)*-->
 
