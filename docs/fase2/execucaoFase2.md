@@ -4,7 +4,7 @@
 
 Nesta etapa do projeto, aplicamos a metodologia Goal-Question-Metric (GQM) para avaliar objetivamente a qualidade do Krita. Esta abordagem foi escolhida por permitir a conversão de objetivos de qualidade em métricas concretas e mensuráveis, sendo especialmente útil para um software multiplataforma como o Krita.
 
-Com base nas características priorizadas na [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/), definimos questões específicas e métricas correspondentes para avaliar a Adequação Funcional e Portabilidade do software. O objetivo é quantificar o desempenho do Krita em cenários reais de uso por artistas digitais.
+Com base nas características priorizadas na [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/#23-escopo-profundidade-e-objetos-de-avaliacao), definimos questões específicas e métricas correspondentes para avaliar a Adequação Funcional e Portabilidade do software. O objetivo é quantificar o desempenho do Krita em cenários reais de uso por artistas digitais.
 
 ## 2. Explicando GQM
 
