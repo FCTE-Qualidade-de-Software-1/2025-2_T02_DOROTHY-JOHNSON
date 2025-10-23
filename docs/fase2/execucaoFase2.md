@@ -48,17 +48,23 @@ A metodologia **Goal-Question-Metric (GQM)** [^2] é uma abordagem sistemática 
 
 Para avaliar a completude funcional do Krita, utilizaremos a métrica de **Taxa de Completude Funcional (TCF)**, que mede o percentual de funcionalidades essenciais de pintura digital que estão implementadas e operacionais.
 
-> **Fórmula:**
+> **Fórmula TCF:**
 >
 > TCF(%) = (Número de funcionalidades implementadas corretamente ÷ Total de funcionalidades esperadas) × 100
 >
 > **Conceito base:** Functional Completeness (ISO/IEC 25010/25023) [^1]
+>
+> **Fórmula ICF:**
+>ICF (%) = (Funcionalidades documentadas implementadas ÷ Total de funcionalidades documentadas) × 100
+>
+> **Conceito base:** Functional Completeness (ISO/IEC 25010/25023) [^1]
 
 
-#### Hipótese
+#### Hipóteses
 
 **H1:** O Krita apresenta uma Taxa de Completude Funcional superior a 85% para tarefas essenciais de pintura digital (camadas, pincéis, exportação).
 
+**H2:** O Krita apresenta um Índice de Cobertura Funcional superior a 90%, indicando alta correspondência entre funcionalidades documentadas e implementadas.
 
 #### Q2: Quais funcionalidades essenciais do Krita apresentam comportamento incorreto ou inadequado durante o workflow de criação artística?
 
@@ -73,7 +79,7 @@ Para medir a correção funcional, utilizaremos a **Taxa de Correção Funcional
 
 #### Hipótese
 
-**H2:** A Taxa de Correção Funcional do Krita é superior a 90% para funcionalidades core, demonstrando alta confiabilidade operacional.
+**H3:** A Taxa de Correção Funcional do Krita é superior a 90% para funcionalidades core, demonstrando alta confiabilidade operacional.
 
 
 #### Q3: Como a completude funcional do Krita se compara às necessidades específicas de diferentes estilos e técnicas de arte digital?
@@ -89,7 +95,7 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 
 #### Hipótese
 
-**H3:** O Índice de Adequação às Tarefas do Krita é superior a 80% para workflows de ilustração.
+**H4:** O Índice de Adequação às Tarefas do Krita é superior a 80% para workflows de ilustração.
 
 
 <br>
@@ -125,7 +131,7 @@ Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplat
 
 #### Hipótese
 
-**H4:** A Taxa de Adaptabilidade Multiplataforma do Krita é superior a 85% entre Windows, Linux e macOS.
+**H5:** A Taxa de Adaptabilidade Multiplataforma do Krita é superior a 85% entre Windows, Linux e macOS.
 
 
 #### Q2: Qual é o grau de instalabilidade do Krita em diferentes sistemas operacionais e configurações de hardware?
@@ -148,9 +154,9 @@ Para medir a instalabilidade, utilizaremos o **Tempo Médio de Instalação (TMI
 
 #### Hipóteses
 
-**H5:** O Tempo Médio de Instalação do Krita é inferior a 15 minutos em todas as plataformas suportadas.
+**H6:** O Tempo Médio de Instalação do Krita é inferior a 15 minutos em todas as plataformas suportadas.
 
-**H6:** A Taxa de Sucesso de Instalação do Krita é superior a 95% em ambientes padrão.
+**H7:** A Taxa de Sucesso de Instalação do Krita é superior a 95% em ambientes padrão.
 
 
 #### Q3: Como o Krita mantém a consistência de projetos e configurações ao migrar entre diferentes plataformas?
@@ -166,7 +172,7 @@ Para avaliar a consistência de dados, utilizaremos o **Índice de Preservação
 
 #### Hipótese
 
-**H7:** O Índice de Preservação de Dados do Krita é superior a 90%, garantindo integridade de projetos e configurações durante migrações entre plataformas.
+**H8:** O Índice de Preservação de Dados do Krita é superior a 90%, garantindo integridade de projetos e configurações durante migrações entre plataformas.
 
 
 ## 5. Uso de IA
