@@ -485,9 +485,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipotese" class="md-nav__link">
+  <a href="#hipoteses" class="md-nav__link">
     <span class="md-ellipsis">
-      Hipótese
+      Hipóteses
     </span>
   </a>
   
@@ -503,7 +503,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipotese_1" class="md-nav__link">
+  <a href="#hipotese" class="md-nav__link">
     <span class="md-ellipsis">
       Hipótese
     </span>
@@ -521,7 +521,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipotese_2" class="md-nav__link">
+  <a href="#hipotese_1" class="md-nav__link">
     <span class="md-ellipsis">
       Hipótese
     </span>
@@ -578,7 +578,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipotese_3" class="md-nav__link">
+  <a href="#hipotese_2" class="md-nav__link">
     <span class="md-ellipsis">
       Hipótese
     </span>
@@ -596,7 +596,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipoteses" class="md-nav__link">
+  <a href="#hipoteses_1" class="md-nav__link">
     <span class="md-ellipsis">
       Hipóteses
     </span>
@@ -614,7 +614,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipotese_4" class="md-nav__link">
+  <a href="#hipotese_3" class="md-nav__link">
     <span class="md-ellipsis">
       Hipótese
     </span>
@@ -765,9 +765,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipotese" class="md-nav__link">
+  <a href="#hipoteses" class="md-nav__link">
     <span class="md-ellipsis">
-      Hipótese
+      Hipóteses
     </span>
   </a>
   
@@ -783,7 +783,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipotese_1" class="md-nav__link">
+  <a href="#hipotese" class="md-nav__link">
     <span class="md-ellipsis">
       Hipótese
     </span>
@@ -801,7 +801,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipotese_2" class="md-nav__link">
+  <a href="#hipotese_1" class="md-nav__link">
     <span class="md-ellipsis">
       Hipótese
     </span>
@@ -858,7 +858,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipotese_3" class="md-nav__link">
+  <a href="#hipotese_2" class="md-nav__link">
     <span class="md-ellipsis">
       Hipótese
     </span>
@@ -876,7 +876,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipoteses" class="md-nav__link">
+  <a href="#hipoteses_1" class="md-nav__link">
     <span class="md-ellipsis">
       Hipóteses
     </span>
@@ -894,7 +894,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hipotese_4" class="md-nav__link">
+  <a href="#hipotese_3" class="md-nav__link">
     <span class="md-ellipsis">
       Hipótese
     </span>
@@ -1014,30 +1014,34 @@
 <h4 id="q1-em-que-medida-o-krita-atende-aos-requisitos-funcionais-em-tarefas-tipicas-de-pintura-digital">Q1: Em que medida o Krita atende aos requisitos funcionais em tarefas típicas de pintura digital?</h4>
 <p>Para avaliar a completude funcional do Krita, utilizaremos a métrica de <strong>Taxa de Completude Funcional (TCF)</strong>, que mede o percentual de funcionalidades essenciais de pintura digital que estão implementadas e operacionais.</p>
 <blockquote>
-<p><strong>Fórmula:</strong></p>
+<p><strong>Fórmula TCF:</strong></p>
 <p>TCF(%) = (Número de funcionalidades implementadas corretamente ÷ Total de funcionalidades esperadas) × 100</p>
 <p><strong>Conceito base:</strong> Functional Completeness (ISO/IEC 25010/25023) <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
+<p><strong>Fórmula ICF:</strong>
+ICF (%) = (Funcionalidades documentadas implementadas ÷ Total de funcionalidades documentadas) × 100</p>
+<p><strong>Conceito base:</strong> Functional Completeness (ISO/IEC 25010/25023) <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
 </blockquote>
-<h4 id="hipotese">Hipótese</h4>
+<h4 id="hipoteses">Hipóteses</h4>
 <p><strong>H1:</strong> O Krita apresenta uma Taxa de Completude Funcional superior a 85% para tarefas essenciais de pintura digital (camadas, pincéis, exportação).</p>
+<p><strong>H2:</strong> O Krita apresenta um Índice de Cobertura Funcional superior a 90%, indicando alta correspondência entre funcionalidades documentadas e implementadas.</p>
 <h4 id="q2-quais-funcionalidades-essenciais-do-krita-apresentam-comportamento-incorreto-ou-inadequado-durante-o-workflow-de-criacao-artistica">Q2: Quais funcionalidades essenciais do Krita apresentam comportamento incorreto ou inadequado durante o workflow de criação artística?</h4>
 <p>Para medir a correção funcional, utilizaremos a <strong>Taxa de Correção Funcional (TCR)</strong>, que avalia a proporção de funcionalidades que operam conforme especificado.</p>
 <blockquote>
 <p><strong>Fórmula:</strong></p>
 <p>TCR(%) = (Número de funcionalidades que operam corretamente ÷ Total de funcionalidades testadas) × 100</p>
-<p><strong>Conceito base:</strong> Functional Correctness (ISO/IEC 25010/25023) <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
+<p><strong>Conceito base:</strong> Functional Correctness (ISO/IEC 25010/25023) <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
 </blockquote>
-<h4 id="hipotese_1">Hipótese</h4>
-<p><strong>H2:</strong> A Taxa de Correção Funcional do Krita é superior a 90% para funcionalidades core, demonstrando alta confiabilidade operacional.</p>
+<h4 id="hipotese">Hipótese</h4>
+<p><strong>H3:</strong> A Taxa de Correção Funcional do Krita é superior a 90% para funcionalidades core, demonstrando alta confiabilidade operacional.</p>
 <h4 id="q3-como-a-completude-funcional-do-krita-se-compara-as-necessidades-especificas-de-diferentes-estilos-e-tecnicas-de-arte-digital">Q3: Como a completude funcional do Krita se compara às necessidades específicas de diferentes estilos e técnicas de arte digital?</h4>
 <p>Para avaliar a adequação funcional, utilizaremos o <strong>Índice de Adequação às Tarefas (IAT)</strong>, que mede o grau de alinhamento entre as funcionalidades oferecidas e as necessidades específicas dos workflows artísticos.</p>
 <blockquote>
 <p><strong>Fórmula:</strong></p>
 <p>IAT(%) = (Tarefas artísticas completadas com sucesso ÷ Total de tarefas artísticas tentadas) × 100</p>
-<p><strong>Conceito base:</strong> Task Effectiveness (ISO/IEC 25022) <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
+<p><strong>Conceito base:</strong> Task Effectiveness (ISO/IEC 25022) <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
 </blockquote>
-<h4 id="hipotese_2">Hipótese</h4>
-<p><strong>H3:</strong> O Índice de Adequação às Tarefas do Krita é superior a 80% para workflows de ilustração.</p>
+<h4 id="hipotese_1">Hipótese</h4>
+<p><strong>H4:</strong> O Índice de Adequação às Tarefas do Krita é superior a 80% para workflows de ilustração.</p>
 <p><br></p>
 <h2 id="4-portabilidade">4. Portabilidade</h2>
 <h3 id="41-descricao-do-objetivo-de-medicao-de-portabilidade">4.1. Descrição do Objetivo de Medição de Portabilidade</h3>
@@ -1079,32 +1083,32 @@
 <blockquote>
 <p><strong>Fórmula:</strong></p>
 <p>TAM(%) = (Funcionalidades que operam identicamente em todas as plataformas ÷ Total de funcionalidades testadas) × 100</p>
-<p><strong>Conceito base:</strong> Adaptability (ISO/IEC 25010/25023) <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
+<p><strong>Conceito base:</strong> Adaptability (ISO/IEC 25010/25023) <sup id="fnref5:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
 </blockquote>
-<h4 id="hipotese_3">Hipótese</h4>
-<p><strong>H4:</strong> A Taxa de Adaptabilidade Multiplataforma do Krita é superior a 85% entre Windows, Linux e macOS.</p>
+<h4 id="hipotese_2">Hipótese</h4>
+<p><strong>H5:</strong> A Taxa de Adaptabilidade Multiplataforma do Krita é superior a 85% entre Windows, Linux e macOS.</p>
 <h4 id="q2-qual-e-o-grau-de-instalabilidade-do-krita-em-diferentes-sistemas-operacionais-e-configuracoes-de-hardware">Q2: Qual é o grau de instalabilidade do Krita em diferentes sistemas operacionais e configurações de hardware?</h4>
 <p>Para medir a instalabilidade, utilizaremos o <strong>Tempo Médio de Instalação (TMI)</strong> e a <strong>Taxa de Sucesso de Instalação (TSI)</strong>.</p>
 <blockquote>
 <p><strong>Fórmula TMI:</strong></p>
 <p>TMI(minutos) = Σ(Tempo de instalação por plataforma) ÷ Número de plataformas testadas</p>
-<p><strong>Conceito base:</strong> Installability (ISO/IEC 25010/25023) <sup id="fnref5:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
+<p><strong>Conceito base:</strong> Installability (ISO/IEC 25010/25023) <sup id="fnref6:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
 <p><strong>Fórmula TSI:</strong></p>
 <p>TSI(%) = (Instalações bem-sucedidas ÷ Total de tentativas de instalação) × 100</p>
-<p><strong>Conceito base:</strong> Installability (ISO/IEC 25010/25023) <sup id="fnref6:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
+<p><strong>Conceito base:</strong> Installability (ISO/IEC 25010/25023) <sup id="fnref7:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
 </blockquote>
-<h4 id="hipoteses">Hipóteses</h4>
-<p><strong>H5:</strong> O Tempo Médio de Instalação do Krita é inferior a 15 minutos em todas as plataformas suportadas.</p>
-<p><strong>H6:</strong> A Taxa de Sucesso de Instalação do Krita é superior a 95% em ambientes padrão.</p>
+<h4 id="hipoteses_1">Hipóteses</h4>
+<p><strong>H6:</strong> O Tempo Médio de Instalação do Krita é inferior a 15 minutos em todas as plataformas suportadas.</p>
+<p><strong>H7:</strong> A Taxa de Sucesso de Instalação do Krita é superior a 95% em ambientes padrão.</p>
 <h4 id="q3-como-o-krita-mantem-a-consistencia-de-projetos-e-configuracoes-ao-migrar-entre-diferentes-plataformas">Q3: Como o Krita mantém a consistência de projetos e configurações ao migrar entre diferentes plataformas?</h4>
 <p>Para avaliar a consistência de dados, utilizaremos o <strong>Índice de Preservação de Dados (IPD)</strong>, que mede a capacidade do software de manter integridade de arquivos e configurações entre diferentes sistemas operacionais.</p>
 <blockquote>
 <p><strong>Fórmula:</strong></p>
 <p>IPD(%) = (Projetos que mantêm integridade completa após migração ÷ Total de projetos testados na migração) × 100</p>
-<p><strong>Conceito base:</strong> Data Integrity (ISO/IEC 25010/25023) <sup id="fnref7:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
+<p><strong>Conceito base:</strong> Data Integrity (ISO/IEC 25010/25023) <sup id="fnref8:1"><a class="footnote-ref" href="#fn:1">3</a></sup></p>
 </blockquote>
-<h4 id="hipotese_4">Hipótese</h4>
-<p><strong>H7:</strong> O Índice de Preservação de Dados do Krita é superior a 90%, garantindo integridade de projetos e configurações durante migrações entre plataformas.</p>
+<h4 id="hipotese_3">Hipótese</h4>
+<p><strong>H8:</strong> O Índice de Preservação de Dados do Krita é superior a 90%, garantindo integridade de projetos e configurações durante migrações entre plataformas.</p>
 <h2 id="5-uso-de-ia">5. Uso de IA</h2>
 <p>Durante o desenvolvimento desta fase, foi utilizada Inteligência Artificial (IA) como ferramenta de apoio para:</p>
 <ul>
@@ -1186,7 +1190,7 @@
 <p>BASILI, Victor R.; WEISS, David M. A Methodology for Collecting Valid Software Engineering Data. [1984]. Proceedings of the 2nd International Conference on Software Engineering. IEEE Computer Society Press. Disponível em: https://www.cs.umd.edu/users/basili/publications/proceedings/P131.pdf&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:1">
-<p>ISO/IEC 25010:2011 (BS ISO/IEC 25010:2011). Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. British Standards Institution, 2011.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref6:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref7:1" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p>ISO/IEC 25010:2011 (BS ISO/IEC 25010:2011). Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. British Standards Institution, 2011.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref6:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref7:1" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref8:1" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
