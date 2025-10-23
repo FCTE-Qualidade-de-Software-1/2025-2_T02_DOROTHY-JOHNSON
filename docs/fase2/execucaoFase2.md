@@ -177,7 +177,7 @@ Para avaliar a consistência de dados, utilizaremos o **Índice de Preservação
 
 ## 5. Uso de IA
 
-Durante o desenvolvimento desta fase, foi utilizada Inteligência Artificial (IA) como ferramenta de apoio para:
+Durante o desenvolvimento desta fase, foi utilizada o ChatGPT como ferramenta de apoio para:
 
 - **Revisão gramatical**: Correção de erros ortográficos e gramaticais
 - **Padronização de formato**: Adequação às normas de documentação acadêmica
