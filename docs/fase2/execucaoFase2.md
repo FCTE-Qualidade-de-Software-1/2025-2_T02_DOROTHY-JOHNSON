@@ -46,7 +46,7 @@ A metodologia **Goal-Question-Metric (GQM)** [^2] é uma abordagem sistemática 
 
 #### Q1: Em que medida o Krita atende aos requisitos funcionais em tarefas típicas de pintura digital?
 
-Para avaliar a completude funcional do Krita, utilizaremos a métrica de **Taxa de Completude Funcional (TCF)**, que mede o percentual de funcionalidades essenciais de pintura digital que estão implementadas e operacionais.
+Para avaliar a completude funcional do Krita, serão utilizadas as métricas **Taxa de Completude Funcional (TCF) e Índice de Cobertura Funcional (ICF)**, que medem, respectivamente, o percentual de funcionalidades essenciais de pintura digital que estão implementadas e operacionais e o grau de correspondência entre as funcionalidades documentadas e as efetivamente disponíveis no software.
 
 > **Fórmula TCF:**
 >
@@ -59,6 +59,20 @@ Para avaliar a completude funcional do Krita, utilizaremos a métrica de **Taxa 
 >
 > **Conceito base:** Functional Completeness (ISO/IEC 25010/25023) [^1]
 
+### Critérios de Medição e Julgamento
+
+- **Método de Coleta:** A medição será realizada através de um checklist de funcionalidades essenciais derivadas do escopo da [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/#23-escopo-profundidade-e-objetos-de-avaliacao) (Seção 2.3), cobrindo:
+
+1. **Preparação:** Criação de documento (dimensões, resolução, cor), guias de perspectiva.
+2. **Pintura:** Pincéis básicos (lápis, tinta), estabilizador seletor de cor, preenchimento.
+3. **Camadas:** Criação, renomeação, grupos, opacidade, modos de mesclagem (Multiply, Overlay).
+4. **Exportação:** Salvar em .kra, exportar para PNG e JPEG.
+
+### **Níveis de Pontuação (Julgamento):**
+
+- **Desejável:** TCF/ICF $\geq 95\%$
+- **Aceitável:** $80\% \leq$ TCF/ICF $< 95\%$
+- **Inaceitável:** TCF/ICF $< 80\%$
 
 #### Hipóteses
 
@@ -76,6 +90,16 @@ Para medir a correção funcional, utilizaremos a **Taxa de Correção Funcional
 >
 > **Conceito base:** Functional Correctness (ISO/IEC 25010/25023) [^1]
 
+### Critérios de Medição e Julgamento
+
+- **Método de Coleta:** Execução de casos de teste baseados no workflow da [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/#23-escopo-profundidade-e-objetos-de-avaliacao) (Seção 2.3). Uma funcionalidade opera "corretamente" se o resultado observado corresponde ao resultado esperado.
+
+### **Níveis de Pontuação (Julgamento):**
+
+- **Desejável:** TCR $\geq 95\%$
+- **Aceitável:** $80\% \leq$ TCR $< 95\%$
+- **Inaceitável:** TCR $< 80\%$
+
 
 #### Hipótese
 
@@ -92,6 +116,19 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 >
 > **Conceito base:** Task Effectiveness (ISO/IEC 25022) [^1]
 
+### Critérios de Medição e Julgamento
+
+- **Método de Coleta:** Execução do workflow completo de ilustração definido na [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/#23-escopo-profundidade-e-objetos-de-avaliacao) (Seção 2.3), dividido em 3 tarefas macro:
+
+1. **Preparação e Esboço**
+2. **Pintura, Arte-final e Gerenciamento de Camadas.**
+3. **Exportação e Validação.**
+
+### **Níveis de Pontuação (Julgamento):**
+
+- **Desejável:** IAT $\geq 95\%$
+- **Aceitável:** $80\% \leq$ IAT $< 95\%$
+- **Inaceitável:** IAT $< 80\%$
 
 #### Hipótese
 
@@ -128,6 +165,15 @@ Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplat
 >
 > **Conceito base:** Adaptability (ISO/IEC 25010/25023) [^1]
 
+### Critérios de Medição e Julgamento
+
+- **Método de Coleta:** Execução das funcionalidades essenciais nas 3 plataformas de desktop (Windows, Linux, MacOS). Uma funcionalida opera "identicamente" se o resultado e a interface para alcançá-lo são consistentes.
+
+### **Níveis de Pontuação (Julgamento):**
+
+- **Desejável:** TAM $\geq 95\%$
+- **Aceitável:** $80\% \leq$ TAM $< 95\%$
+- **Inaceitável:** TAM $< 80\%$
 
 #### Hipótese
 
@@ -151,6 +197,20 @@ Para medir a instalabilidade, utilizaremos o **Tempo Médio de Instalação (TMI
 >
 > **Conceito base:** Installability (ISO/IEC 25010/25023) [^1]
 
+### Critérios de Medição e Julgamento
+
+- **Método de Coleta:** Cronometragem do processo de instalação (desde o download do instalador oficial até a primeira abertura bem-sucedida do software) em 3 plataformas (Windows, Linux, MacOS).
+
+### **Níveis de Pontuação (Julgamento) para TMI:**
+
+- **Desejável:** TMI $\leq 10$ minutos
+- **Aceitável:** $10 <$ TMI $\leq 20$ minutos
+- **Inaceitável:** TMI $> 20$ minutos
+
+### **Níveis de Pontuação (Julgamento) para TSI:**
+
+- **Desejável:** TSI = 100%
+- **Inaceitável:** TSI < 100%
 
 #### Hipóteses
 
@@ -169,6 +229,20 @@ Para avaliar a consistência de dados, utilizaremos o **Índice de Preservação
 >
 > **Conceito base:** Data Integrity (ISO/IEC 25010/25023) [^1]
 
+### Critérios de Medição e Julgamento
+
+- **Método de Coleta:** Execução do "Teste de Consistência Multiplataforma definido na [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/#23-escopo-profundidade-e-objetos-de-avaliacao) (Seção 2.3):
+
+1. Criar um projeto .kra no SO 1
+2. Abrir o mesmo .kra no SO 2 e no SO 3.
+3. Verificar a integridade visual e estrutural. A "integridade completa" significa que não há perda de dados, camadas, cores ou guias.
+
+### **Níveis de Pontuação (Julgamento):**
+
+- **Desejável:** IPD = 100%
+- **Inaceitável:** IPD < 100%
+
+
 
 #### Hipótese
 
@@ -177,7 +251,7 @@ Para avaliar a consistência de dados, utilizaremos o **Índice de Preservação
 
 ## 5. Uso de IA
 
-Durante o desenvolvimento desta fase, foi utilizada Inteligência Artificial (IA) como ferramenta de apoio para:
+Durante o desenvolvimento desta fase, foi utilizada o ChatGPT como ferramenta de apoio para:
 
 - **Revisão gramatical**: Correção de erros ortográficos e gramaticais
 - **Padronização de formato**: Adequação às normas de documentação acadêmica
@@ -194,7 +268,9 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | 0.4 | 14/10/2025 | Organizando Hipóteses | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 0.5 | 14/10/2025 | Adição de Referência nas tabelas de GQM | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 0.6| 14/10/2025 | Melhorias na organização da página | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir),  [Marcelo Makoto](https://github.com/MM4k) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
-| 0.6 | 15/10/2025 | Adição de mais referências |  [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.7 | 15/10/2025 | Adição de mais referências |  [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.8 | 23/10/2025 | Nova métrica |  [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.9 | 23/10/2025 | Adição dos critérios de medição e julgamento |  [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 
 ## Referências Bibliográficas
 
