@@ -137,7 +137,7 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 A Figura 1 ilustra a estrutura GQM para a Adequação Funcional.
 
 <figure style="text-align:center">
-  <img src="/assets/gqm/adequacao_funcional.png" alt="Diagrama GQM para Adequação Funcional" width="100%">
+  <img src="../../assets/gqm/adequacao_funcional.png" alt="Diagrama GQM para Adequação Funcional" width="100%">
   <figcaption style="font-size:0.9rem">Figura 1: Estrutura GQM para Adequação Funcional</figcaption>
 </figure>
 <p align="center">Fonte: Autores (2025).</p>
@@ -259,7 +259,7 @@ Para avaliar a consistência de dados, utilizaremos o **Índice de Preservação
 A Figura 2 ilustra a estrutura GQM para a Portabilidade.
 
 <figure style="text-align:center">
-  <img src="/assets/gqm/portabilidade.png" alt="Diagrama GQM para Portabilidade" width="100%">
+  <img src="../../assets/gqm/portabilidade.png" alt="Diagrama GQM para Portabilidade" width="100%">
   <figcaption style="font-size:0.9rem">Figura 2: Estrutura GQM para Portabilidade</figcaption>
 </figure>
 <p align="center">Fonte: Autores (2025).</p>
