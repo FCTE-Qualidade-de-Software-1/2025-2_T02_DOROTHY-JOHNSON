@@ -53,18 +53,37 @@ Foco nas duas características priorizadas (**Funcionalidade/Adequação Funcion
 
 ### 2.3. Escopo, profundidade e objetos de avaliação
 
-<!-- Definir o escopo da avaliação, qual será a profundidade da análise e quais objetos serão avaliados -->
-O escopo desta avaliação concentra-se no **software Krita**, em sua versão estável mais recente, considerando as plataformas **Windows, Linux, macOS e Android**. A abrangência será limitada a duas características do modelo ISO/IEC 25010, previamente priorizadas: **Adequação Funcional** e **Portabilidade**. A escolha se justifica por refletir diretamente a pergunta central do trabalho: em que medida o Krita entrega corretamente suas funcionalidades essenciais de pintura digital e como se comporta em diferentes ambientes de execução.
+O escopo desta avaliação concentra-se na execução de um **fluxo de trabalho completo e representativo de um ilustrador digital**, utilizando o Krita em suas versões estáveis para **Windows, Linux e macOS**. A abrangência será limitada às duas características priorizadas do modelo ISO/IEC 25010: **Adequação Funcional** e **Portabilidade**.
 
-A profundidade da análise será **intermediária**, balanceando aspectos técnicos e práticos de uso. Não se trata de um teste exaustivo de todas as centenas de funções do Krita, mas sim de uma avaliação focalizada em **tarefas representativas do fluxo de trabalho real de artistas digitais**, tais como manipulação de camadas e máscaras, utilização de pincéis, exportação em formatos amplamente usados (ex.: PSD, PNG, TIFF), gestão de recursos (brush packs, presets) e uso das ferramentas de animação. No eixo da portabilidade, será investigada a capacidade de instalar, executar, migrar projetos e manter consistência entre plataformas, incluindo testes de abertura de arquivos KRA e exportação/importação em diferentes sistemas operacionais.
+A profundidade da análise será **prática e verticalizada**. Em vez de realizar um teste exaustivo de todas as centenas de funções do Krita, a avaliação seguirá um cenário de uso real, desde a criação de um arquivo em branco até a exportação final de uma ilustração. Este método permite gerar evidências sobre como o Krita atende às necessidades de um ciclo de produção de arte digital, avaliando não apenas as ferramentas isoladamente, mas também a sua integração e consistência.
 
-Os **objetos de avaliação** são, portanto:
+Os **objetos de avaliação** foram redefinidos para refletir este fluxo de trabalho focado, divididos em três etapas principais:
 
-- **Funcionalidades essenciais de pintura digital**: camadas, pincéis, ferramentas de seleção, exportação/importação de arquivos e uso de animação.
-- **Mecanismos de gerenciamento de recursos**: presets, pincéis e layouts de trabalho.
-- **Aspectos de portabilidade**: instalabilidade e adaptabilidade em diferentes sistemas, migração de arquivos e configurações entre plataformas, e substituibilidade em relação a softwares concorrentes.
+#### 1. Preparação do Projeto e Esboço Inicial
+Nesta fase, serão avaliadas as funcionalidades essenciais para iniciar um projeto de ilustração.
 
-Em termos de **relações com avaliações anteriores ou futuras**, esta Fase 1 estabelece uma **linha de base**. Até o momento, não há avaliações formais prévias do Krita documentadas no âmbito desta disciplina, mas os resultados aqui obtidos servirão como **ponto de referência para comparações em fases seguintes** (ex.: Fase 2 — definição de métricas, Fase 3 — plano de avaliação, Fase 4 — execução dos testes). Também poderão subsidiar avaliações futuras mais amplas, em que outras características de qualidade (como usabilidade ou desempenho) venham a ser exploradas.
+- **Criação de Novo Documento:** Análise do diálogo de criação de arquivo, incluindo a definição de dimensões, resolução, modelo de cor (RGB) e profundidade de bits (8-bit).
+- **Configuração de Guias e Assistentes:** Uso da ferramenta "Assistente de Desenho" para configurar e utilizar guias de perspectiva (ex: 2 pontos de fuga).
+- **Ferramentas de Esboço:** Utilização de pincéis básicos (similares a lápis) para a criação do rascunho, avaliando a resposta à pressão da caneta e a funcionalidade do estabilizador de traço.
+
+#### 2. Pintura, Arte-final e Gerenciamento de Camadas
+Esta etapa foca no núcleo do processo de criação, onde a ilustração ganha forma e cor.
+
+- **Arte-final (Line Art):** Uso de pincéis de tinta sobre uma nova camada para criar os contornos definitivos do desenho.
+- **Colorização e Pintura:** Aplicação de cores base com a ferramenta de preenchimento e pincéis de pintura, testando a criação de camadas para cores, sombras e iluminação.
+- **Gerenciamento de Camadas:** Organização do projeto através da criação de grupos de camadas, renomeação, alteração de opacidade e uso de modos de mesclagem (ex: *Multiply*, *Overlay*).
+
+#### 3. Exportação e Validação da Portabilidade
+A fase final avalia a capacidade do Krita de finalizar e compartilhar o trabalho de forma consistente entre diferentes ambientes.
+
+- **Salvamento e Exportação:** Análise do processo de salvamento do projeto no formato nativo (`.kra`) e exportação da ilustração final para formatos de distribuição web, como `PNG` e `JPEG`, verificando as opções de compressão e metadados.
+- **Teste de Consistência Multiplataforma:** O principal teste de portabilidade consistirá em:
+    1. Criar e salvar um arquivo `.kra` em um sistema operacional (ex: Windows).
+    2. Abrir o mesmo arquivo em outro sistema operacional (ex: Linux).
+    3. Verificar a integridade visual e estrutural do projeto (camadas, cores, modos de mesclagem, guias).
+    4. Exportar a imagem a partir do segundo sistema e comparar o resultado com a exportação original.
+
+Em termos de relações com avaliações anteriores ou futuras, esta Fase 1 estabelece uma **linha de base**. Até o momento, não há avaliações formais prévias do Krita documentadas no âmbito desta disciplina, mas os resultados aqui obtidos servirão como **ponto de referência para comparações em fases seguintes** (ex.: Fase 2 — definição de métricas, Fase 3 — plano de avaliação, Fase 4 — execução dos testes). Também poderão subsidiar avaliações futuras mais amplas, em que outras características de qualidade (como usabilidade ou desempenho) venham a ser exploradas.
 
 ### 2.4. ODS relacionados e metas associadas ao software
 <!--*(com breve justificativa do vínculo)*-->
@@ -411,7 +430,6 @@ Essas características foram priorizadas porque respondem diretamente aos objeti
 
 [^1]: Krita. Krita Foundation [S.l.]. Disponível em: https://krita.org/pt-pt/about/krita-foundation/
 . Acesso em: 25 set. 2025.
-
 
 [^2]: Krita. Licença de Utilização 4[S.l.]. Disponível em: https://krita.org/pt-pt/about/license
 . Acesso em: 25 set. 2025.
