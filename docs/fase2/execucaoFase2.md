@@ -70,9 +70,9 @@ Para avaliar a completude funcional do Krita, serão utilizadas as métricas **T
 
 ### **Níveis de Pontuação (Julgamento):**
 
-- **Desejável:** TCF/ICF $\geq 95\%$
-- **Aceitável:** $80\% \leq$ TCF/ICF $< 95\%$
-- **Inaceitável:** TCF/ICF $< 80\%$
+- **Desejável:** TCF/ICF ≥ 95%
+- **Aceitável:** 80% ≤ TCF/ICF < 95%
+- **Inaceitável:** TCF/ICF < 80%
 
 #### Hipóteses
 
@@ -96,9 +96,9 @@ Para medir a correção funcional, utilizaremos a **Taxa de Correção Funcional
 
 ### **Níveis de Pontuação (Julgamento):**
 
-- **Desejável:** TCR $\geq 95\%$
-- **Aceitável:** $80\% \leq$ TCR $< 95\%$
-- **Inaceitável:** TCR $< 80\%$
+- **Desejável:** TCR ≥ 95%
+- **Aceitável:** 80% ≤ TCR < 95%
+- **Inaceitável:** TCR < 80%
 
 
 #### Hipótese
@@ -126,9 +126,9 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 
 ### **Níveis de Pontuação (Julgamento):**
 
-- **Desejável:** IAT $\geq 95\%$
-- **Aceitável:** $80\% \leq$ IAT $< 95\%$
-- **Inaceitável:** IAT $< 80\%$
+- **Desejável:** IAT ≥ 95%
+- **Aceitável:** 80% ≤ IAT < 95%
+- **Inaceitável:** IAT < 80%
 
 #### Hipótese
 
@@ -179,9 +179,9 @@ Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplat
 
 ### **Níveis de Pontuação (Julgamento):**
 
-- **Desejável:** TAM $\geq 95\%$
-- **Aceitável:** $80\% \leq$ TAM $< 95\%$
-- **Inaceitável:** TAM $< 80\%$
+- **Desejável:** TAM ≥ 95%
+- **Aceitável:** 80% ≤ TAM < 95%
+- **Inaceitável:** TAM < 80%
 
 #### Hipótese
 
@@ -211,9 +211,9 @@ Para medir a instalabilidade, utilizaremos o **Tempo Médio de Instalação (TMI
 
 ### **Níveis de Pontuação (Julgamento) para TMI:**
 
-- **Desejável:** TMI $\leq 10$ minutos
-- **Aceitável:** $10 <$ TMI $\leq 20$ minutos
-- **Inaceitável:** TMI $> 20$ minutos
+- **Desejável:** TMI ≤ 10 minutos
+- **Aceitável:** 10 < TMI ≤ 20 minutos
+- **Inaceitável:** TMI > 20 minutos
 
 ### **Níveis de Pontuação (Julgamento) para TSI:**
 
