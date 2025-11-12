@@ -44,29 +44,46 @@ Avaliar o percentual de funcionalidades essenciais de pintura digital que estão
 Baseado no checklist de funcionalidades essenciais derivado do workflow da [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/#23-escopo-profundidade-e-objetos-de-avaliacao), foram testadas sistematicamente as seguintes funcionalidades:
 
 **1. Preparação do Projeto e Esboço Inicial:**
-- [ ] Criação de novo documento (definir dimensões, resolução, modelo de cor RGB, profundidade 8-bit)
-- [ ] Configuração de Assistentes de Desenho (guias de perspectiva - 2 pontos de fuga)
-- [ ] Ferramentas de esboço (pincéis similares a lápis, resposta à pressão, estabilizador de traço)
+
+- Criação de novo documento (definir dimensões, resolução, modelo de cor RGB, profundidade 8-bit)
+
+- Configuração de Assistentes de Desenho (guias de perspectiva - 2 pontos de fuga)
+
+- Ferramentas de esboço (pincéis similares a lápis, resposta à pressão, estabilizador de traço)
 
 **2. Ferramentas de Pintura e Arte-final:**
-- [ ] Pincéis de tinta para line art em nova camada
-- [ ] Estabilizador de traço funcional
-- [ ] Seletor de cores avançado/paletas
-- [ ] Ferramenta de preenchimento (flood fill)
-- [ ] Pincéis de pintura para colorização
+
+- Pincéis de tinta para line art em nova camada
+
+- Estabilizador de traço funcional
+
+- Seletor de cores avançado/paletas
+
+- Ferramenta de preenchimento (flood fill)
+
+- Pincéis de pintura para colorização
 
 **3. Sistema de Camadas e Gerenciamento:**
-- [ ] Criação e organização de camadas
-- [ ] Renomeação de camadas
-- [ ] Criação de grupos de camadas
-- [ ] Controle de opacidade por camada
-- [ ] Modos de mesclagem (Multiply para sombras, Overlay para iluminação)
-- [ ] Máscaras de camada básicas
+
+- Criação e organização de camadas
+
+- Renomeação de camadas
+
+- Criação de grupos de camadas
+
+- Controle de opacidade por camada
+
+- Modos de mesclagem (Multiply para sombras, Overlay para iluminação)
+
+- Máscaras de camada básicas
 
 **4. Exportação e Formatos:**
-- [ ] Salvamento em formato nativo .kra (preservando camadas e metadados)
-- [ ] Exportação para PNG (com transparência)
-- [ ] Exportação para JPEG (com opções de compressão)
+
+- Salvamento em formato nativo .kra (preservando camadas e metadados)
+
+- Exportação para PNG (com transparência)
+
+- Exportação para JPEG (com opções de compressão)
 
 #### 3.1.3. Evidências Coletadas
 
