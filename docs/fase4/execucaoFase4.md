@@ -316,6 +316,7 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | Versão | Data | Descrição | Autor | Revisor |
 | -- | -- | -- | -- | -- |
 | 0.1 | 11/11/2025 | Criação da página | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | - |
+| 0.2 | 11/11/2025 | Adição das evidências | [Enzo Emir](https://github.com/EnzoEmir)| - |
 
 ## Referências Bibliográficas
 
