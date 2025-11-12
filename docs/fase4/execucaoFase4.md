@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Esta fase representa a execução prática das avaliações de qualidade do Krita, baseadas nas métricas GQM definidas na [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase2/execucaoFase2/) e nos instrumentos de medição planejados na Fase 3. Aplicamos sistematicamente os procedimentos de coleta de dados para obter evidências objetivas sobre a Adequação Funcional e Portabilidade do software.
+Esta fase representa a execução prática das avaliações de qualidade do Krita, baseadas nas métricas GQM definidas na [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase2/execucaoFase2/) e nos instrumentos de medição planejados na [Fase 3](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase3/execucaoFase3/). Aplicamos sistematicamente os procedimentos de coleta de dados para obter evidências objetivas sobre a Adequação Funcional e Portabilidade do software.
 
 O objetivo é executar os testes definidos, coletar evidências através de gravações de tela e documentação sistemática, e analisar os resultados para responder às questões de pesquisa estabelecidas na metodologia GQM. Esta fase consolida todo o trabalho desenvolvido anteriormente, fornecendo dados concretos para avaliar se o Krita atende aos requisitos de qualidade no contexto de uso por artistas digitais em ambientes multiplataforma.
 
@@ -10,12 +10,12 @@ O objetivo é executar os testes definidos, coletar evidências através de grav
 
 ### 2.1. Instrumentos e Metodologia Aplicados
 
-A execução dos testes seguiu rigorosamente os instrumentos de medição, ferramentas e protocolos definidos na **[Fase 3 - Plano de Avaliação]**. Para detalhes completos sobre:
+A execução dos testes seguiu rigorosamente os instrumentos de medição, ferramentas e protocolos definidos na **Fase 3**. Para detalhes completos sobre:
 
-- **Ferramentas de captura** (OBS Studio, ScreenToGif, Greenshot)
-- **Ambiente de teste controlado** (hardware padronizado, cronometragem, checklists)
-- **Critérios de documentação** (nomenclatura, limites de tempo, anotações)
-- **Protocolo de execução** (setup, gravação, validação, backup)
+- **Ferramentas de captura** (OBS Studio)
+- **Ambiente de teste controlado** (hardware padronizado, cronometragem)
+- **Critérios de documentação** (nomenclatura, anotações)
+- **Protocolo de execução** (setup, gravação, validação)
 
 Consulte a documentação da [Fase 3](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase3/execucaoFase3/), que estabeleceu todos os procedimentos metodológicos aplicados nesta fase de execução.
 
@@ -31,7 +31,16 @@ Consulte a documentação da [Fase 3](https://fcte-qualidade-de-software-1.githu
 
 Cada membro da equipe ficou responsável por testar **2 questões específicas** das 8 questões de pesquisa definidas na [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase2/execucaoFase2/), garantindo cobertura completa e especialização na coleta de evidências:
 
--- COLOCAR TABELA
+| **Métrica** | **Membro(s)** |
+|-------------|---------------|
+| TCF | [Enzo Emir](https://github.com/EnzoEmir) |
+| ICF | [Enzo Emir](https://github.com/EnzoEmir) |
+| TCR | - |
+| IAT | - |
+| TAM | - |
+| TMI | [Enzo Emir](https://github.com/EnzoEmir) |
+| TSI | [Enzo Emir](https://github.com/EnzoEmir) |
+| IPD | - |
 
 ## 3. Execução das Avaliações de Adequação Funcional
 
@@ -87,9 +96,11 @@ Baseado no checklist de funcionalidades essenciais derivado do workflow da [Fase
 
 #### 3.1.3. Evidências Coletadas
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rRs5WbRCcIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 #### 3.1.4. Análise dos Resultados
 
-**Resultado TCF:** ___% (__ funcionalidades implementadas / __ funcionalidades esperadas)
+**Resultado TCF:** 100% (23 funcionalidades implementadas / 23 funcionalidades esperadas)
 
 ### 3.2. Teste de Cobertura Funcional (ICF)
 
@@ -113,6 +124,9 @@ Conforme as categorias de funcionalidades definidas no escopo da [Fase 1](https:
 
 #### 3.2.3. Evidências Coletadas
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rRs5WbRCcIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hHPGPiOO9zI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### 3.2.4. Análise dos Resultados
 
@@ -165,11 +179,6 @@ Medir a capacidade do software de funcionar consistentemente em diferentes siste
 #### 4.1.2. Procedimento Executado
 Execução das funcionalidades essenciais nas 3 plataformas de desktop:
 
-**Plataformas Testadas:**
-- [ ] Windows 10/11 (versão estável do Krita)
-- [ ] Linux Ubuntu
-- [ ] Android
-
 **Funcionalidades Testadas por Plataforma:**
 Para cada sistema operacional, foi executado o workflow completo de ilustração e verificada a consistência de:
 
@@ -213,20 +222,34 @@ Múltiplas tentativas de instalação em ambientes controlados:
 #### 4.2.3. Evidências Coletadas
 
 **TMI - Evidências Coletadas:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3jl9uRlkoNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JnTXEBkEHm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 - Windows: ___ minutos (download: ___min, instalação: ___min, primeiro boot: ___min)
 - Linux: ___ minutos (download: ___min, instalação: ___min, primeiro boot: ___min)  
 - Android: ___ minutos (download: ___min, instalação: ___min, primeiro boot: ___min)
 
 **Resultado TMI:** ___ minutos (média aritmética das três plataformas)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3jl9uRlkoNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **TSI - Evidências Coletadas:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3jl9uRlkoNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 - Windows: ___/2 tentativas bem-sucedidas
+
 - Linux: ___/2 tentativas bem-sucedidas  
+
 - Android: ___/2 tentativas bem-sucedidas
+
+
+#### 4.2.4. Análise dos Resultados
 
 **Resultado TSI:** ___% (__ instalações bem-sucedidas / __ tentativas totais)
 
-#### 4.2.4. Análise dos Resultados
 
 ### 4.3. Teste de Preservação de Dados (IPD)
 
@@ -250,9 +273,9 @@ Execução do "Teste de Consistência Multiplataforma" conforme definido na [Fas
 
 #### 4.3.3. Evidências Coletadas
 
-**Resultado IPD:** ___% (__ projetos com integridade completa / __ projetos testados)
-
 #### 4.3.4. Análise dos Resultados
+
+**Resultado IPD:** ___% (__ projetos com integridade completa / __ projetos testados)
 
 ## 5. Síntese dos Resultados
 
@@ -294,7 +317,7 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 
 | Versão | Data | Descrição | Autor | Revisor |
 | -- | -- | -- | -- | -- |
-| 0.1 | 11/11/2025 | - | - | - |
+| 0.1 | 11/11/2025 | Criação da página | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | - |
 
 ## Referências Bibliográficas
 
