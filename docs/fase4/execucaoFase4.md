@@ -231,10 +231,6 @@ Múltiplas tentativas de instalação em ambientes controlados:
 - Linux: ___ minutos (download: ___min, instalação: ___min, primeiro boot: ___min)  
 - Android: ___ minutos (download: ___min, instalação: ___min, primeiro boot: ___min)
 
-**Resultado TMI:** ___ minutos (média aritmética das três plataformas)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3jl9uRlkoNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 **TSI - Evidências Coletadas:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3jl9uRlkoNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -247,6 +243,8 @@ Múltiplas tentativas de instalação em ambientes controlados:
 
 
 #### 4.2.4. Análise dos Resultados
+
+**Resultado TMI:** ___ minutos (média aritmética das três plataformas)
 
 **Resultado TSI:** ___% (__ instalações bem-sucedidas / __ tentativas totais)
 
