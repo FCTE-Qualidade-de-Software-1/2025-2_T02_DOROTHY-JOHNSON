@@ -12,16 +12,16 @@ O objetivo é executar os testes definidos, coletar evidências através de grav
 
 A execução dos testes seguiu rigorosamente os instrumentos de medição, ferramentas e protocolos definidos na **Fase 3**. Para detalhes completos sobre:
 
-- **Ferramentas de captura** (OBS Studio)
-- **Ambiente de teste controlado** (hardware padronizado, cronometragem)
-- **Critérios de documentação** (nomenclatura, anotações)
-- **Protocolo de execução** (setup, gravação, validação)
+- Ferramentas de captura (OBS Studio)
+- Ambiente de teste controlado (hardware padronizado, cronometragem)
+- Critérios de documentação (nomenclatura, anotações)
+- Protocolo de execução (setup, gravação, validação)
 
 Consulte a documentação da [Fase 3](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase3/execucaoFase3/), que estabeleceu todos os procedimentos metodológicos aplicados nesta fase de execução.
 
 ### 2.2. Contexto de Execução Realizada
 
-**Período de Execução:** 11 a 12 de novembro de 2025
+**Período de Execução:** 11 a 17 de novembro de 2025
 
 **Configuração dos Ambientes de Teste:**
 - **Windows**: Versão _____, Krita ______ 
@@ -35,11 +35,11 @@ Cada membro da equipe ficou responsável por testar **2 questões específicas**
 |-------------|---------------|
 | TCF | [Enzo Emir](https://github.com/EnzoEmir) |
 | ICF | [Enzo Emir](https://github.com/EnzoEmir) |
-| TCR | - |
+| TCR | [Danielle Soares](https://github.com/danielle-soaress) |
 | IAT | - |
 | TAM | - |
-| TMI | [Enzo Emir](https://github.com/EnzoEmir) |
-| TSI | [Enzo Emir](https://github.com/EnzoEmir) |
+| TMI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
+| TSI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
 | IPD | - |
 
 ## 3. Execução das Avaliações de Adequação Funcional
@@ -142,13 +142,85 @@ Avaliar a proporção de funcionalidades que operam conforme especificado durant
 Execução de casos de teste baseados no workflow da Fase 1:
 
 **Cenário de Teste:** Criação de ilustração completa
-1. **Preparação e Esboço Inicial**
-2. **Pintura, Arte-final e Gerenciamento de Camadas**
-3. **Exportação e Validação**
+
+1. Preparação e Esboço Inicial
+
+2. Pintura, Arte-final e Gerenciamento de Camadas
+
+3. Exportação e Validação
 
 #### 3.3.3. Evidências Coletadas
 
+**Teste em um Tablet Android:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pIW6QDWi6CI?si=0HKBsAVc64Uvc17J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+| Funcionalidade Utilizada          | Funciona? OK / INCONSISTENTE |
+|-----------------------------------|--------------------------------------|
+| Pincel Basic 1                    |                OK                    |
+| Pincel WaterC Basic Round-Grunge  |                OK                     |
+| Pincel Charcoal Pencil Large      |                OK                     |
+| Pincel Marker Details             |               OK                     |
+| Pincel Wet Paint Plus             |               OK                    |
+| Borracha Eraser Circle            |               OK                     |
+| Pick Colors                       | INCONSISTENTE – não pegou as cores desejadas |
+| Paleta de Cores                   |                OK                     |
+| Ferramenta de Camadas             |                 OK                   |
+| Opacidade de Pincéis              |                OK                    |
+| Tamanho de Pincéis                |                OK                    |
+| Zoom                              |               OK                      |
+| Rotate Canvas                     |              OK                     |
+| Desfazer                          | INCONSISTENTE – difícil manuseio, não funcionou sempre     |
+| Fazer                             | INCONSISTENTE – difícil manuseio, não funcionou sempre    |
+
+!!! info "Resultado Consolidado"
+    **TCR:** 73,33%  
+    **Funcionalidades Testadas:** 15  
+    **Operando Corretamente:** 11  
+
+
+**Teste em um Desktop Windows:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LXjZK_MJfPA?si=sk9MIklQU79cxYlp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+| Funcionalidade Utilizada                 | Funciona? OK / INCONSISTENTE |
+|------------------------------------------|--------------------------------------|
+| Pincel Basic 1                           |            OK              |
+| Pincel Marker Medium                     |            OK                  |
+| Pincel Basic 5 Size                      |     OK             |
+| Pincel Basic 4 Flow Opacity              |   OK         |
+| Pincel WaterC Spread WideArea            |    OK         |
+| Pincel WaterC Basic Round-Fringe 02      |    OK         |
+| Pincel WaterC Spread Pattern             |        OK       |
+| Pincel Texture Impressionism             |        OK         |
+| Pincel WaterColor Texture                |   OK      |
+| Pincel WaterColor Fringe                 |      OK  |
+| Pincel Blender Blur                      | OK        |
+| Pincel Stamp Leaves                      | OK        |
+| Pincel Stamp Stylised Tree               | OK        |
+| Pincel Stamp Herbals                     | OK        |
+| Ferramenta de Pick Colors                | OK        |
+| Ferramenta de Paleta de Cores            | OK        |
+| Ferramenta de Camadas                    | OK        |
+| Ferramenta de Opacidade de Pincéis       | OK        |
+| Ferramenta de Tamanho de Pincéis         | OK        |
+| Zoom                                     |      OK             |
+| Rotate Canvas                            |        OK               |
+| Desfazer                                 |         OK             |
+| Fazer                                    |          OK        |
+| Exportar (PNG e .kra)                     |             OK         |
+
+
+!!! info "Resultado Consolidado"
+    **TCR:** 100%  
+    **Funcionalidades Testadas:** 24  
+    **Operando Corretamente:** 24  
+
+
 #### 3.3.4. Análise dos Resultados
+
+Considerando os testes realizados em diferentes plataformas, dispositivos e estilos de desenho, a consolidação dos resultados é calculada pela soma de todas as funcionalidades testadas e de todas as funcionalidades que apresentaram funcionamento correto.
 
 **Resultado TCR:** ___% (__ funcionalidades operando corretamente / __ funcionalidades testadas)
 
@@ -198,6 +270,7 @@ Para cada sistema operacional, foi executado o workflow completo de ilustração
 ### 4.2. Teste de Instalabilidade 
 
 #### 4.2.1. Objetivo da Medição
+
 Cronometrar o processo de instalação e medir a taxa de sucesso em diferentes plataformas.
 
 #### 4.2.2. Procedimento Executado
@@ -206,7 +279,9 @@ Cronometrar o processo de instalação e medir a taxa de sucesso em diferentes p
 Cronometragem completa do processo de instalação em cada plataforma, desde o download até a primeira execução bem-sucedida:
 
 **Etapas Cronometradas:**
+
 1. **Instalação**: Execução do instalador até conclusão
+
 2. **Primeiro Boot**: Tempo até abertura completa da interface
 
 **Taxa de Sucesso de Instalação (TSI):**
@@ -221,19 +296,34 @@ Múltiplas tentativas de instalação em ambientes controlados:
 
 #### 4.2.3. Evidências Coletadas
 
-**TMI - Evidências Coletadas:**
+#### Vídeos de Instalação
+
+Android:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1LrzdEJ75pA?si=Gqf1evNEkRG_aUhX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Ubuntu (Linux):
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/twd9sgbbIl0?si=0YZzZ_2EiiVGBqRJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Windows 10:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GK9HIM5Qsp4?si=BO7fJ80Q0-sn1etT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Windows 11:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3jl9uRlkoNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JnTXEBkEHm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+**TMI - Evidências Coletadas:**
 
 - Windows: ___ minutos (download: ___min, instalação: ___min, primeiro boot: ___min)
 - Linux: ___ minutos (download: ___min, instalação: ___min, primeiro boot: ___min)  
 - Android: ___ minutos (download: ___min, instalação: ___min, primeiro boot: ___min)
 
 **TSI - Evidências Coletadas:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3jl9uRlkoNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - Windows: ___/2 tentativas bem-sucedidas
 
@@ -317,6 +407,7 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | -- | -- | -- | -- | -- |
 | 0.1 | 11/11/2025 | Criação da página | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | - |
 | 0.2 | 11/11/2025 | Adição das evidências | [Enzo Emir](https://github.com/EnzoEmir)| - |
+| 0.3 | 16/11/2025 | Adição de evidências para TCR, TMI e TSI, além de cálculos preliminares do TCR | [Danielle Soares](https://github.com/danielle-soaress)| - |
 
 ## Referências Bibliográficas
 

@@ -11,34 +11,51 @@ O processo de coleta e análise seguirá utilizando ferramentas do Krita, de cap
 Com base no planejamento da Fase 2, serão coletados dados para as seguintes métricas:
 
 **Adequação Funcional:**
+
 - Taxa de Completude Funcional (TCF)
+
 - Índice de Cobertura Funcional (ICF)  
+
 - Taxa de Correção Funcional (TCR)
+
 - Índice de Adequação às Tarefas (IAT)
 
 **Portabilidade:**
+
 - Taxa de Adaptabilidade Multiplataforma (TAM)
+
 - Tempo Médio de Instalação (TMI)
+
 - Taxa de Sucesso de Instalação (TSI)
+
 - Índice de Preservação de Dados (IPD)
 
 ### 1.2. Ferramentas e Métodos de Coleta
 
 #### 1.2.1. Ambiente de Teste
-- **Sistemas Operacionais:** Windows 11, Ubuntu 22.04 LTS, Android
+
+- **Sistemas Operacionais:** Windows 11 ou 10, Ubuntu 22.04 LTS, Android
+
 - **Hardware de Teste:** Configurações padronizadas com pelo menos 8GB RAM, processador Intel i5/AMD Ryzen 5 ou equivalente
+
 - **Versão do Krita:** Versão mais recente estável disponível no site oficial (5.2.13)
 
 #### 1.2.2. Instrumentos de Medição
 
-**Para Adequação Funcional:**
+Para Adequação Funcional:
+
 - **Checklist de Funcionalidades:** Documento estruturado baseado no escopo da Fase 1, contendo todas as funcionalidades essenciais a serem testadas
+
 - **Cronômetro:** Para medição de tempos de execução das tarefas
+
 - **Registro de Tela:** Software de captura (OBS Studio) para documentar a execução dos testes
 
-**Para Portabilidade:**
+Para Portabilidade:
+
 - **Cronômetro de Precisão:** Para medição dos tempos de instalação
+
 - **Máquinas Virtuais:** VirtualBox/VMware para testes em múltiplas plataformas de forma controlada
+
 - **Arquivos de Teste Padronizados:** Projetos .kra com diferentes níveis de complexidade para teste de migração entre plataformas
 
 #### 1.2.3. Processo de Coleta Passo a Passo
