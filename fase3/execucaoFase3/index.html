@@ -767,32 +767,74 @@
 <p>O processo de coleta e análise seguirá utilizando ferramentas do Krita, de capturas de telas para evidenciar o que estará sendo testado e calculos das fórmulas para analisar os dados garantindo a rastreabilidade e reprodutibilidade dos resultados obtidos.</p>
 <h3 id="11-metricas-a-serem-implementadas">1.1. Métricas a Serem Implementadas</h3>
 <p>Com base no planejamento da Fase 2, serão coletados dados para as seguintes métricas:</p>
-<p><strong>Adequação Funcional:</strong>
-- Taxa de Completude Funcional (TCF)
-- Índice de Cobertura Funcional (ICF)<br />
-- Taxa de Correção Funcional (TCR)
-- Índice de Adequação às Tarefas (IAT)</p>
-<p><strong>Portabilidade:</strong>
-- Taxa de Adaptabilidade Multiplataforma (TAM)
-- Tempo Médio de Instalação (TMI)
-- Taxa de Sucesso de Instalação (TSI)
-- Índice de Preservação de Dados (IPD)</p>
+<p><strong>Adequação Funcional:</strong></p>
+<ul>
+<li>
+<p>Taxa de Completude Funcional (TCF)</p>
+</li>
+<li>
+<p>Índice de Cobertura Funcional (ICF)  </p>
+</li>
+<li>
+<p>Taxa de Correção Funcional (TCR)</p>
+</li>
+<li>
+<p>Índice de Adequação às Tarefas (IAT)</p>
+</li>
+</ul>
+<p><strong>Portabilidade:</strong></p>
+<ul>
+<li>
+<p>Taxa de Adaptabilidade Multiplataforma (TAM)</p>
+</li>
+<li>
+<p>Tempo Médio de Instalação (TMI)</p>
+</li>
+<li>
+<p>Taxa de Sucesso de Instalação (TSI)</p>
+</li>
+<li>
+<p>Índice de Preservação de Dados (IPD)</p>
+</li>
+</ul>
 <h3 id="12-ferramentas-e-metodos-de-coleta">1.2. Ferramentas e Métodos de Coleta</h3>
 <h4 id="121-ambiente-de-teste">1.2.1. Ambiente de Teste</h4>
 <ul>
-<li><strong>Sistemas Operacionais:</strong> Windows 11, Ubuntu 22.04 LTS, Android</li>
-<li><strong>Hardware de Teste:</strong> Configurações padronizadas com pelo menos 8GB RAM, processador Intel i5/AMD Ryzen 5 ou equivalente</li>
-<li><strong>Versão do Krita:</strong> Versão mais recente estável disponível no site oficial (5.2.13)</li>
+<li>
+<p><strong>Sistemas Operacionais:</strong> Windows 11 ou 10, Ubuntu 22.04 LTS, Android</p>
+</li>
+<li>
+<p><strong>Hardware de Teste:</strong> Configurações padronizadas com pelo menos 8GB RAM, processador Intel i5/AMD Ryzen 5 ou equivalente</p>
+</li>
+<li>
+<p><strong>Versão do Krita:</strong> Versão mais recente estável disponível no site oficial (5.2.13)</p>
+</li>
 </ul>
 <h4 id="122-instrumentos-de-medicao">1.2.2. Instrumentos de Medição</h4>
-<p><strong>Para Adequação Funcional:</strong>
-- <strong>Checklist de Funcionalidades:</strong> Documento estruturado baseado no escopo da Fase 1, contendo todas as funcionalidades essenciais a serem testadas
-- <strong>Cronômetro:</strong> Para medição de tempos de execução das tarefas
-- <strong>Registro de Tela:</strong> Software de captura (OBS Studio) para documentar a execução dos testes</p>
-<p><strong>Para Portabilidade:</strong>
-- <strong>Cronômetro de Precisão:</strong> Para medição dos tempos de instalação
-- <strong>Máquinas Virtuais:</strong> VirtualBox/VMware para testes em múltiplas plataformas de forma controlada
-- <strong>Arquivos de Teste Padronizados:</strong> Projetos .kra com diferentes níveis de complexidade para teste de migração entre plataformas</p>
+<p>Para Adequação Funcional:</p>
+<ul>
+<li>
+<p><strong>Checklist de Funcionalidades:</strong> Documento estruturado baseado no escopo da Fase 1, contendo todas as funcionalidades essenciais a serem testadas</p>
+</li>
+<li>
+<p><strong>Cronômetro:</strong> Para medição de tempos de execução das tarefas</p>
+</li>
+<li>
+<p><strong>Registro de Tela:</strong> Software de captura (OBS Studio) para documentar a execução dos testes</p>
+</li>
+</ul>
+<p>Para Portabilidade:</p>
+<ul>
+<li>
+<p><strong>Cronômetro de Precisão:</strong> Para medição dos tempos de instalação</p>
+</li>
+<li>
+<p><strong>Máquinas Virtuais:</strong> VirtualBox/VMware para testes em múltiplas plataformas de forma controlada</p>
+</li>
+<li>
+<p><strong>Arquivos de Teste Padronizados:</strong> Projetos .kra com diferentes níveis de complexidade para teste de migração entre plataformas</p>
+</li>
+</ul>
 <h4 id="123-processo-de-coleta-passo-a-passo">1.2.3. Processo de Coleta Passo a Passo</h4>
 <ol>
 <li>
