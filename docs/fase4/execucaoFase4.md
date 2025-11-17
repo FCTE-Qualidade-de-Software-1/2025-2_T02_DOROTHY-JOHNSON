@@ -33,9 +33,9 @@ Cada membro da equipe ficou responsável por testar **2 questões específicas**
 
 | **Métrica** | **Membro(s)** |
 |-------------|---------------|
-| TCF | [Enzo Emir](https://github.com/EnzoEmir) |
-| ICF | [Enzo Emir](https://github.com/EnzoEmir) |
-| TCR | [Danielle Soares](https://github.com/danielle-soaress) |
+| TCF | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) |
+| ICF | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) |
+| TCR | [Danielle Soares](https://github.com/danielle-soaress), [Marcelo Makoto](https://github.com/MM4k) |
 | IAT | - |
 | TAM | - |
 | TMI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
@@ -98,9 +98,13 @@ Baseado no checklist de funcionalidades essenciais derivado do workflow da [Fase
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rRs5WbRCcIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://youtube.com/embed/pOrDbv29W5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 #### 3.1.4. Análise dos Resultados
 
-**Resultado TCF:** 100% (23 funcionalidades implementadas / 23 funcionalidades esperadas)
+**Resultado TCF (vídeo 1):** 100% (23 funcionalidades implementadas / 23 funcionalidades esperadas)
+
+**Resultado TCF (vídeo 2):** 100% (33 funcionalidades testadas / 33 funcionalidades operando corretamente)
 
 ### 3.2. Teste de Cobertura Funcional (ICF)
 
@@ -111,6 +115,7 @@ Medir o grau de correspondência entre as funcionalidades documentadas e as efet
 Verificação da correspondência entre funcionalidades documentadas na documentação oficial do Krita (docs.krita.org) e as implementadas no software:
 
 **Método de Verificação:**
+
 1. **Consulta à Documentação Oficial**: Levantamento de funcionalidades documentadas para pintura digital
 2. **Teste de Disponibilidade**: Verificação da presença de cada funcionalidade documentada na interface
 
@@ -128,9 +133,11 @@ Conforme as categorias de funcionalidades definidas no escopo da [Fase 1](https:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hHPGPiOO9zI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://youtube.com/embed/pOrDbv29W5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 #### 3.2.4. Análise dos Resultados
 
-**Resultado ICF:** ___% (__ funcionalidades documentadas implementadas / __ funcionalidades documentadas)
+**Resultado ICF:** 100% (23 funcionalidades documentadas / 23 funcionalidades documentadas implementadas no software)
 
 
 ### 3.3. Teste de Correção Funcional (TCR)
@@ -216,6 +223,50 @@ Execução de casos de teste baseados no workflow da Fase 1:
     **TCR:** 100%  
     **Funcionalidades Testadas:** 24  
     **Operando Corretamente:** 24  
+
+<iframe width="560" height="315" src="https://youtube.com/embed/pOrDbv29W5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+| Funcionalidade Utilizada                 | Funciona? OK / INCONSISTENTE |
+|------------------------------------------|--------------------------------------|
+| Airbrush Soft                           |            OK              |
+| Pincel Basic 1                     |            OK                  |
+| Eraser Circle                      |     OK             |
+| Pincel Basic 5 Size              |   OK         |
+| Charcoal Rock Soft            |    OK         |
+| Water C Special Splats      |    OK         |
+| RGBA 06 Rock             |        OK       |
+| Texture Large Splat             |        OK         |
+| Texture Random Particles                |   OK      |
+| Texture Spines                 |      OK  |
+| Texture Splats                      | OK        |
+| Texture Spray                      | OK        |
+| Texture Starfield               | OK        |
+| Texture Wood Fiber                     | OK        |
+| Stamp Bokeh                | OK        |
+| Stamp Floor            | OK        |
+| Stamp Grass                    | OK        |
+| Stamp Grass Patch       | OK        |
+| Stamp Herbals         | OK        |
+| Stamp Leaves         | OK        |
+| Stamp Mountains Distant         | OK        |
+| Stamp Shoujo Bubbles         | OK        |
+| Stamp Sparkles         | OK        |
+| Stamp Stylised Tree         | OK        |
+| Adicionar Camadas         | OK        |
+| Ocultar Camadas         | OK        |
+| Selecionar Camada         | OK        |
+| Selecionar Cores         | OK        |
+| Alterar Opacidade         | OK        |
+| Alterar Tamanho de Pincéis         | OK        |
+| Zoom                                     |      OK             |
+| Desfazer                                 |         OK             |
+| Exportar (PNG e .kra)                     |             OK         |
+
+
+!!! info "Resultado Consolidado"
+    **TCR:** 100%  
+    **Funcionalidades Testadas:** 33  
+    **Operando Corretamente:** 33  
 
 
 #### 3.3.4. Análise dos Resultados
@@ -408,6 +459,7 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | 0.1 | 11/11/2025 | Criação da página | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | - |
 | 0.2 | 11/11/2025 | Adição das evidências | [Enzo Emir](https://github.com/EnzoEmir)| - |
 | 0.3 | 16/11/2025 | Adição de evidências para TCR, TMI e TSI, além de cálculos preliminares do TCR | [Danielle Soares](https://github.com/danielle-soaress)| - |
+| 0.4 | 17/11/2025 | Adição de evidências para TCF, ICF e TCR | [Marcelo Makoto](https://github.com/MM4k)| - |
 
 ## Referências Bibliográficas
 
