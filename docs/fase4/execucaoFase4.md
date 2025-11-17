@@ -35,7 +35,7 @@ Cada membro da equipe ficou responsável por testar **2 questões específicas**
 |-------------|---------------|
 | TCF | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) |
 | ICF | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) |
-| TCR | [Danielle Soares](https://github.com/danielle-soaress), [Marcelo Makoto](https://github.com/MM4k) |
+| TCR | [Danielle Soares](https://github.com/danielle-soaress), [Marcelo Makoto](https://github.com/MM4k), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa) |
 | IAT | - |
 | TAM | - |
 | TMI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
@@ -269,6 +269,87 @@ Execução de casos de teste baseados no workflow da Fase 1:
     **Operando Corretamente:** 33  
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qzcHjYInLIg?si=do5hPVPjhpUjZuZZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+| Funcionalidade Utilizada                 | Funciona? OK / INCONSISTENTE |
+|------------------------------------------|--------------------------------------|
+| Definir Dimensões do Documento           | OK                                   |
+| Selecionar Camada                        | OK                                   |
+| Organizar Camada                         | OK                                   |
+| Selecionar Cores                         | OK                                   |
+| Alterar Opacidade                        | OK                                   |
+| Alterar Tamanho de Pincéis               | OK                                   |
+| Zoom                                     | OK                                   |
+| Desfazer                                 | OK                                   |
+| Exportar (PNG e .kra)                    | OK                                   |
+| Draw a Gradient                          | OK                                   |
+| Pencil-1 Hard                            | OK                                   |
+| Polyline                                 | OK                                   |
+| Eraser Circle                            | OK                                   |
+| Bristles - 4 Glaze                       | OK                                   |
+| Fill                                     | OK                                   |
+| Adjuste Color                            | OK                                   |
+| Stamp Grass                              | OK                                   |
+| Stamp Vegetal                            | OK                                   |
+| Bristles - 5 Flat                        | OK                                   |
+| Texture Starfield                        | OK                                   |
+| Stamp Sparkles                           | OK                                   |
+| Ellipse                                  | OK                                   |
+| Basic - 6 Details                        | OK                                   |
+| Adjuste Overlay Burn                     | OK                                   |
+| Stamp Leaves                             | OK                                   |
+| Basic - 5 Opacity                        | OK                                   |
+
+
+!!! info "Resultado Consolidado"
+    **TCR:** 100%  
+    **Funcionalidades Testadas:** 25
+    **Operando Corretamente:** 25
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tHBhAd5j6Ao?si=D-tQk2Kdl2Aiv82i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+| Funcionalidade Utilizada                 | Funciona? OK / INCONSISTENTE |
+|------------------------------------------|--------------------------------------|
+| Definir dimensões do documento           | OK                                   | 
+| Assistente de Desenho                    | OK                                   | 
+| Pencil-1 Hard                            | INCONSISTENTE                        |
+| Polyline                                 | OK                                   | 
+| Free Hand Path                           | OK                                   | 
+| Eraser Circle                            | OK                                   | 
+| Eraser Small                             | OK                                   | 
+| Pencil-5 Tilted                          | OK                                   | 
+| Selecionar Camada                        | OK                                   | 
+| Organizar Camada                         | OK                                   | 
+| Selecionar Cores                         | OK                                   | 
+| Alterar Opacidade                        | OK                                   | 
+| Alterar Tamanho de Pincéis               | OK                                   | 
+| Zoom                                     | OK                                   | 
+| Desfazer                                 | OK                                   | 
+| Exportar (PNG e .kra)                    | OK                                   | 
+| Dry Roller                               | OK                                   | 
+| Basic - 6 Details                        | OK                                   | 
+| Bristles - 5 Flat                        | OK                                   | 
+| Stamp Leaves                             | OK                                   | 
+| Stamp Grass Patch                        | OK                                   | 
+| Stamp Grass                              | OK                                   | 
+| Texture Big                              | OK                                   | 
+| Dry Bristles                             | OK                                   | 
+| Blender Blur                             | OK                                   | 
+| Dry Bristles Eroded                      | OK                                   | 
+| Dry Textured Creases                     | OK                                   | 
+| Stamp Herbals                            | OK                                   |
+| Ellipse                                  | OK                                   | 
+| Adjuste Overlay Burn                     | OK                                   | 
+| Line                                     | OK                                   | 
+
+
+!!! info "Resultado Consolidado"
+    **TCR:** 100%  
+    **Funcionalidades Testadas:** 31
+    **Operando Corretamente:** 31
+
 #### 3.3.4. Análise dos Resultados
 
 Considerando os testes realizados em diferentes plataformas, dispositivos e estilos de desenho, a consolidação dos resultados é calculada pela soma de todas as funcionalidades testadas e de todas as funcionalidades que apresentaram funcionamento correto.
@@ -460,6 +541,7 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | 0.2 | 11/11/2025 | Adição das evidências | [Enzo Emir](https://github.com/EnzoEmir)| - |
 | 0.3 | 16/11/2025 | Adição de evidências para TCR, TMI e TSI, além de cálculos preliminares do TCR | [Danielle Soares](https://github.com/danielle-soaress)| - |
 | 0.4 | 17/11/2025 | Adição de evidências para TCF, ICF e TCR | [Marcelo Makoto](https://github.com/MM4k)| - |
+| 0.5 | 17/11/2025 | Adição de evidências para TCR | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa)| - |
 
 ## Referências Bibliográficas
 
