@@ -582,7 +582,7 @@ Execução do "Teste de Consistência Multiplataforma" conforme definido na [Fas
 
 O teste foi executado em 3 projetos distintos, cada um contendo ilustrações completas com múltiplas camadas, modos de mesclagem, assistentes de desenho e configurações avançadas de pincéis.
 
-<iframe width="560" height="315" src="https://youtu.be/Oz1bROo37b4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/embed/Oz1bROo37b4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9WUxjhUjL3k?si=mWmvPVuq05MHaqNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -626,7 +626,7 @@ Este resultado confirma que o Krita garante total preservação de dados multipl
 | TAM | ___% | ___ | H5: > 85% |  |
 | TMI | ___ min | ___ | H6: < 15 min |  |
 | TSI | ___% | ___ | H7: > 95% |  |
-| IPD | ___% | ___ | H8: > 90% |  |
+| IPD | 100% | 100% | H8: 100% > 90% | Aprovado |
 
 ### 5.2. Análise Geral dos Resultados
 
