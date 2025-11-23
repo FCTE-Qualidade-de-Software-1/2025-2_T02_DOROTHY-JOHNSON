@@ -397,6 +397,60 @@ Para cada sistema operacional, foi executado o workflow completo de ilustração
 
 #### 4.1.3. Evidências Coletadas
 
+**Teste em um Desktop Windows:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cQSAtqY1CCg?si=ZnPgSON2SL_rB1RE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+| Funcionalidade Testada                 | Funciona? Sucesso / Falha |
+|------------------------------------------|--------------------------------------|
+| Layout                                   | Sucesso                              |
+| Tradução                                 | Sucesso                              |
+| Ícones                                   | Sucesso                              |
+| Organização                              | Sucesso                              |
+| Pincéis                                  | Sucesso                              |
+| Seletor de Cores                         | Sucesso                              |
+| Camadas                                  | Sucesso                              |
+| Exportação                               | Sucesso                              |
+| Responsividade                           | Sucesso                              |
+| Atalhos                                  | Sucesso                              |
+| Salvamento do arquivo                    | Sucesso                              |
+| Abertura do arquivo                      | Sucesso                              |
+| Persistência                             | Sucesso                              |
+
+
+!!! info "Resultado Consolidado"
+    **TAM:** 100%  
+    **Funcionalidades Testadas:** 13
+    **Operando Identicamente:** 13
+
+
+**Teste em um Desktop Linux:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LUd0esNwM5c?si=SBsccrrHYL3rlpTj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+| Funcionalidade Testada                 | Funciona? Sucesso / Falha |
+|------------------------------------------|--------------------------------------|
+| Layout                                   | Sucesso                              |
+| Tradução                                 | Sucesso                              |
+| Ícones                                   | Sucesso                              |
+| Organização                              | Sucesso                              |
+| Pincéis                                  | Sucesso                              |
+| Seletor de Cores                         | Sucesso                              |
+| Camadas                                  | Sucesso                              |
+| Exportação                               | Sucesso                              |
+| Responsividade                           | Sucesso                              |
+| Atalhos                                  | Sucesso                              |
+| Salvamento do arquivo                    | Sucesso                              |
+| Abertura do arquivo                      | Sucesso                              |
+| Persistência                             | Sucesso                              |
+
+
+!!! info "Resultado Consolidado"
+    **TAM:** 100%  
+    **Funcionalidades Testadas:** 13
+    **Operando Identicamente:** 13
+
 #### 4.1.4. Análise dos Resultados
 
 **Resultado TAM:** ___% (__ funcionalidades idênticas em todas as plataformas / __ funcionalidades testadas)
