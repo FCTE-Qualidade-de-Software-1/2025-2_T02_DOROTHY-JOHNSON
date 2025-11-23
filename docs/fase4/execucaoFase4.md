@@ -358,22 +358,51 @@ Considerando os testes realizados em diferentes plataformas, dispositivos e esti
 
 **Resultado TCR:** ___% (__ funcionalidades operando corretamente / __ funcionalidades testadas)
 
-### 3.4. Teste de Adequação às Tarefas (IAT)
+## 3.4. Teste de Adequação às Tarefas (IAT)
 
-#### 3.4.1. Objetivo da Medição
-Medir o grau de alinhamento entre as funcionalidades oferecidas e as necessidades específicas dos workflows artísticos.
+### 3.4.1. Objetivo da Medição
 
-#### 3.4.2. Procedimento Executado
-Execução do workflow completo de ilustração dividido em 3 tarefas macro:
-1. **Preparação e Esboço Inicial**
-2. **Pintura, Arte-final e Gerenciamento de Camadas**
-3. **Exportação e Validação**
+Medir o grau de alinhamento entre as funcionalidades oferecidas pelo Krita e as necessidades específicas do workflow artístico.
+O IAT avalia se as ferramentas disponíveis permitem executar integralmente o ciclo de criação de uma ilustração digital, considerando fluidez, continuidade do processo e ausência de impedimentos funcionais.
 
-#### 3.4.3. Evidências Coletadas
+### 3.4.2. Procedimento Executado
 
-#### 3.4.4. Análise dos Resultados
+O workflow completo de produção artística foi executado em três tarefas macro:
 
-**Resultado IAT:** ___% (__ tarefas completadas com sucesso / __ tarefas tentadas)
+1. Preparação e Esboço Inicial: criação do documento, configuração do ambiente de trabalho, ajuste e uso de pincéis para sketch, manipulação de camadas e definição da composição inicial.
+
+2. Pintura, Arte-final e Gerenciamento de Camadas: construção de lineart, aplicação de pintura base, ajustes visuais e organização de camadas durante o processo criativo.
+
+3. Exportação e Validação: revisão visual da arte final, conferência de dimensões e resolução, exportação do projeto e verificação de compatibilidade.
+
+Todas as etapas foram aplicadas de forma prática ao longo de diferentes cenários de teste.
+
+### 3.4.3. Evidências Coletadas
+
+Vídeos de execução do workflow:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cc9QCvoG0vU?si=FveR5SiwMNXvjbri" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Durante a execução dos fluxos, foi possível observar que as ferramentas essenciais permitiram o desenvolvimento completo das tarefas previstas, desde a construção do sketch e manipulação de pincéis até a finalização e exportação do artefato.
+
+### 3.4.4. Análise dos Resultados
+
+O fluxo artístico completo foi concluído sem barreiras funcionais. As ferramentas de desenho, camadas, navegação, edição e exportação suportaram integralmente as necessidades das tarefas macro executadas.
+
+O resultado foi calculado pela relação entre tarefas concluídas e tarefas tentadas:
+
+**IAT = (Tarefas macro concluídas / Tarefas macro tentadas) × 100**
+
+Foram tentadas 3 tarefas macro e todas foram concluídas com sucesso:
+
+**IAT = (3 / 3) × 100 = 100%**
+
+### Resultado IAT
+
+**100% (3 tarefas concluídas / 3 tarefas tentadas)**
+
+O Krita demonstrou adequação total às necessidades práticas de criação artística digital dentro do workflow analisado, permitindo a execução contínua e completa desde o início da ilustração até sua exportação final.
+
 
 ## 4. Execução das Avaliações de Portabilidade
 
