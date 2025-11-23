@@ -578,9 +578,38 @@ Execução do "Teste de Consistência Multiplataforma" conforme definido na [Fas
 
 #### 4.3.3. Evidências Coletadas
 
+**Teste de Consistência Multiplataforma:**
+
+O teste foi executado em 3 projetos distintos, cada um contendo ilustrações completas com múltiplas camadas, modos de mesclagem, assistentes de desenho e configurações avançadas de pincéis.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9WUxjhUjL3k?si=mWmvPVuq05MHaqNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Resultados da Verificação de Integridade:**
+
+Para cada projeto testado, os seguintes aspectos foram verificados após migração entre plataformas (Windows → Linux → Android):
+
+| Aspecto Verificado | Projeto 1 | Projeto 2 | Projeto 3 |
+|-------------------|-----------|-----------|-----------|
+| Preservação de camadas e hierarquia | Íntegro | Íntegro | Íntegro |
+| Integridade de cores | Íntegro | Íntegro | Íntegro |
+| Consistência de assistentes e guias | Íntegro | Íntegro | Íntegro |
+| Configurações de pincéis e texturas | Íntegro | Íntegro | Íntegro |
+
+Todos os três projetos mantiveram integridade completa ao serem transferidos entre as diferentes plataformas. As camadas permaneceram organizadas, as cores foram preservadas sem alterações, os assistentes de desenho continuaram funcionais e todas as configurações de pincéis foram mantidas.
+
 #### 4.3.4. Análise dos Resultados
 
-**Resultado IPD:** ___% (__ projetos com integridade completa / __ projetos testados)
+Os testes demonstraram que o formato nativo .kra do Krita é completamente portável entre diferentes sistemas operacionais. Todos os projetos testados mantiveram 100% de sua integridade estrutural e visual ao serem migrados entre Windows, Linux e Android.
+
+O resultado foi calculado pela relação entre projetos que mantiveram integridade completa e o total de projetos testados:
+
+**IPD = (Projetos com integridade completa / Projetos testados) × 100**
+
+**IPD = (3 / 3) × 100 = 100%**
+
+**Resultado IPD:** 100% (3 projetos com integridade completa / 3 projetos testados)
+
+Este resultado confirma que o Krita garante total preservação de dados multiplataforma, permitindo que artistas trabalhem no mesmo projeto em diferentes sistemas operacionais sem perda de informações ou necessidade de conversões.
 
 ## 5. Síntese dos Resultados
 
