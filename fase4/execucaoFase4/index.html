@@ -2969,8 +2969,56 @@ Múltiplas tentativas de instalação em ambientes controlados:</p>
 - Consistência de assistentes e guias
 - Configurações de pincéis e texturas</p>
 <h4 id="433-evidencias-coletadas">4.3.3. Evidências Coletadas</h4>
+<p><strong>Teste de Consistência Multiplataforma:</strong></p>
+<p>O teste foi executado em 3 projetos distintos, cada um contendo ilustrações completas com múltiplas camadas, modos de mesclagem, assistentes de desenho e configurações avançadas de pincéis.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9WUxjhUjL3k?si=mWmvPVuq05MHaqNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p><strong>Resultados da Verificação de Integridade:</strong></p>
+<p>Para cada projeto testado, os seguintes aspectos foram verificados após migração entre plataformas (Windows → Linux → Android):</p>
+<table>
+<thead>
+<tr>
+<th>Aspecto Verificado</th>
+<th>Projeto 1</th>
+<th>Projeto 2</th>
+<th>Projeto 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preservação de camadas e hierarquia</td>
+<td>Íntegro</td>
+<td>Íntegro</td>
+<td>Íntegro</td>
+</tr>
+<tr>
+<td>Integridade de cores</td>
+<td>Íntegro</td>
+<td>Íntegro</td>
+<td>Íntegro</td>
+</tr>
+<tr>
+<td>Consistência de assistentes e guias</td>
+<td>Íntegro</td>
+<td>Íntegro</td>
+<td>Íntegro</td>
+</tr>
+<tr>
+<td>Configurações de pincéis e texturas</td>
+<td>Íntegro</td>
+<td>Íntegro</td>
+<td>Íntegro</td>
+</tr>
+</tbody>
+</table>
+<p>Todos os três projetos mantiveram integridade completa ao serem transferidos entre as diferentes plataformas. As camadas permaneceram organizadas, as cores foram preservadas sem alterações, os assistentes de desenho continuaram funcionais e todas as configurações de pincéis foram mantidas.</p>
 <h4 id="434-analise-dos-resultados">4.3.4. Análise dos Resultados</h4>
-<p><strong>Resultado IPD:</strong> ___% (__ projetos com integridade completa / __ projetos testados)</p>
+<p>Os testes demonstraram que o formato nativo .kra do Krita é completamente portável entre diferentes sistemas operacionais. Todos os projetos testados mantiveram 100% de sua integridade estrutural e visual ao serem migrados entre Windows, Linux e Android.</p>
+<p>O resultado foi calculado pela relação entre projetos que mantiveram integridade completa e o total de projetos testados:</p>
+<p><strong>IPD = (Projetos com integridade completa / Projetos testados) × 100</strong></p>
+<p><strong>IPD = (3 / 3) × 100 = 100%</strong></p>
+<p><strong>Resultado IPD:</strong> 100% (3 projetos com integridade completa / 3 projetos testados)</p>
+<p>Este resultado confirma que o Krita garante total preservação de dados multiplataforma, permitindo que artistas trabalhem no mesmo projeto em diferentes sistemas operacionais sem perda de informações ou necessidade de conversões.</p>
 <h2 id="5-sintese-dos-resultados">5. Síntese dos Resultados</h2>
 <h3 id="51-resumo-das-metricas-obtidas">5.1. Resumo das Métricas Obtidas</h3>
 <table>
