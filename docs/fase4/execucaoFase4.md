@@ -582,6 +582,8 @@ Execução do "Teste de Consistência Multiplataforma" conforme definido na [Fas
 
 O teste foi executado em 3 projetos distintos, cada um contendo ilustrações completas com múltiplas camadas, modos de mesclagem, assistentes de desenho e configurações avançadas de pincéis.
 
+<iframe width="560" height="315" src="https://youtu.be/Oz1bROo37b4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9WUxjhUjL3k?si=mWmvPVuq05MHaqNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Resultados da Verificação de Integridade:**
