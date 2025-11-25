@@ -732,14 +732,14 @@ Este resultado confirma que o Krita garante total preservação de dados multipl
 
 | **Métrica** | **Resultado** | **Nível** | **Hipótese** | **Status** |
 |-------------|---------------|-----------|--------------|------------|
-| TCF | 100% | ___ | H1: > 85% | Aprovado |
-| ICF | 100% | ___ | H2: > 90% | Aprovado |
-| TCR | ___% | ___ | H3: > 90% |  |
-| IAT | ___% | ___ | H4: > 80% |  |
-| TAM | 100% | 100% | H5: > 85% | Aprovado |
-| TMI | 1,289 min | ___ | H6: < 15 min | Aprovado  |
-| TSI | 100% | ___ | H7: > 95% | Aprovado |
-| IPD | 100% | 100% | H8: 100% > 90% | Aprovado |
+| TCF | 100% | Desejável | H1: > 85% | Aprovado |
+| ICF | 100% | Desejável | H2: > 90% | Aprovado |
+| TCR | 93,55% | Aceitável | H3: > 90% | Aprovado |
+| IAT | 100% | Desejável | H4: > 80% | Aprovado |
+| TAM | 100% | Desejável | H5: > 85% | Aprovado |
+| TMI | 1,289 min | Desejável | H6: < 15 min | Aprovado  |
+| TSI | 100% | Desejável | H7: > 95% | Aprovado |
+| IPD | 100% | Desejável | H8: 100% > 90% | Aprovado |
 
 ### 5.2. Análise Geral dos Resultados
 
@@ -772,8 +772,9 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | 0.4 | 17/11/2025 | Adição de evidências para TCF, ICF e TCR | [Marcelo Makoto](https://github.com/MM4k)| - |
 | 0.5 | 17/11/2025 | Adição de evidências para TCR | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa)| - |
 | 0.6 | 17/11/2025 | Adição de evidência para ICF | [Marcelo Makoto](https://github.com/MM4k)| - |
-| 0.7 | 24/11/2025 | Atualização das evidências TMI e cálculo do  | [Marcelo Makoto](https://github.com/MM4k)| - |
+| 0.7 | 24/11/2025 | Atualização das evidências TMI e cálculo do TCR | [Danielle Soares](https://github.com/danielle-soaress)| - |
 | 0.8 | 25/11/2025 | Cálculo do  TMI e TSI  | [Enzo Emir](https://github.com/EnzoEmir)| - |
+| 0.9 | 25/11/2025 | Completando quadro de resumo das métricas obtidas  | [Danielle Soares](https://github.com/danielle-soaress)| - |
 
 ## Referências Bibliográficas
 
