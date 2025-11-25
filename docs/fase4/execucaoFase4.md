@@ -515,6 +515,8 @@ Múltiplas tentativas de instalação em ambientes controlados:
 
 #### Vídeos de Instalação
 
+##### Gravações 1
+
 Android:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1LrzdEJ75pA?si=Gqf1evNEkRG_aUhX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -527,33 +529,42 @@ Windows 10:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GK9HIM5Qsp4?si=BO7fJ80Q0-sn1etT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+##### Gravações 2
+
+Android:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tmyBwX4iAqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Ubuntu (Linux):
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-fnNKYur0xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Windows 11:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3jl9uRlkoNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JnTXEBkEHm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 **TMI - Evidências Coletadas:**
 
-- Windows: ___ minutos (download: ___min, instalação: ___min, primeiro boot: ___min)
-- Linux: ___ minutos (download: ___min, instalação: ___min, primeiro boot: ___min)  
-- Android: ___ minutos (download: ___min, instalação: ___min, primeiro boot: ___min)
+- Android: ___ minutos (instalação: 18 e 35 seg, primeiro boot: -- e 44 seg)
+- Linux: ___ minutos (instalação: 48 e 136 seg, primeiro boot: -- e 16 seg)  
+- Windows: ___ minutos (instalação: 53 e 40 seg, primeiro boot: -- e 14 seg)
+
 
 **TSI - Evidências Coletadas:**
 
-- Windows: ___/2 tentativas bem-sucedidas
+- Windows: 2/2 tentativas bem-sucedidas
 
-- Linux: ___/2 tentativas bem-sucedidas  
+- Linux: 2/2 tentativas bem-sucedidas  
 
-- Android: ___/2 tentativas bem-sucedidas
+- Android: 2/2 tentativas bem-sucedidas
 
 
 #### 4.2.4. Análise dos Resultados
 
 **Resultado TMI:** ___ minutos (média aritmética das três plataformas)
 
-**Resultado TSI:** ___% (__ instalações bem-sucedidas / __ tentativas totais)
+**Resultado TSI:** 100% ( 2 instalações bem-sucedidas / 2 tentativas totais)
 
 
 ### 4.3. Teste de Preservação de Dados (IPD)
