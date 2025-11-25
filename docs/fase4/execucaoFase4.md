@@ -773,6 +773,7 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | 0.5 | 17/11/2025 | Adição de evidências para TCR | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa)| - |
 | 0.6 | 17/11/2025 | Adição de evidência para ICF | [Marcelo Makoto](https://github.com/MM4k)| - |
 | 0.7 | 24/11/2025 | Atualização das evidências TMI e cálculo do  | [Marcelo Makoto](https://github.com/MM4k)| - |
+| 0.8 | 25/11/2025 | Cálculo do  TMI e TSI  | [Enzo Emir](https://github.com/EnzoEmir)| - |
 
 ## Referências Bibliográficas
 
