@@ -102,9 +102,11 @@ Baseado no checklist de funcionalidades essenciais derivado do workflow da [Fase
 
 #### 3.1.4. Análise dos Resultados
 
-**Resultado TCF (vídeo 1):** 100% (23 funcionalidades implementadas / 23 funcionalidades esperadas)
+!!! info "Resultado Consolidado"
 
-**Resultado TCF (vídeo 2):** 100% (33 funcionalidades testadas / 33 funcionalidades operando corretamente)
+    **Resultado TCF (vídeo 1):** 100% (23 funcionalidades implementadas / 23 funcionalidades esperadas)
+
+    **Resultado TCF (vídeo 2):** 100% (33 funcionalidades testadas / 33 funcionalidades operando corretamente)
 
 ### 3.2. Teste de Cobertura Funcional (ICF)
 
@@ -139,7 +141,9 @@ Conforme as categorias de funcionalidades definidas no escopo da [Fase 1](https:
 
 #### 3.2.4. Análise dos Resultados
 
-**Resultado ICF:** 100% (23 funcionalidades documentadas / 23 funcionalidades documentadas implementadas no software)
+!!! info "Resultado Consolidado"
+
+    **Resultado ICF:** 100% (23 funcionalidades documentadas / 23 funcionalidades documentadas implementadas no software)
 
 
 ### 3.3. Teste de Correção Funcional (TCR)
@@ -612,19 +616,16 @@ Múltiplas tentativas de instalação em ambientes controlados:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oYoR8Aowuu8?si=-IJ8RILfw4bObrjV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- **Total (Instalação + Primeiro Boot):**  44.31s
 
 **Ubuntu (Linux):**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jb92G3qIdCo?si=Xs_l9PMUf79LWeNm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- **Total (Instalação + Primeiro Boot):**  51.35s
 
 **Windows 10:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nYlx0b8kmKU?si=CP1VCPa2aJRLylhD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- **Total (Instalação + Primeiro Boot):**  44.15s
 
 ##### Gravações 2
 
@@ -632,25 +633,22 @@ Múltiplas tentativas de instalação em ambientes controlados:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tmyBwX4iAqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- **Total (Instalação + Primeiro Boot):**  1min.08s
 
 **Ubuntu (Linux):**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-fnNKYur0xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- **Total (Instalação + Primeiro Boot):**  1min.49s
 
 **Windows 11:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3jl9uRlkoNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- **Total (Instalação + Primeiro Boot):**  39.91s
 
 **TMI - Evidências Coletadas:**
 
-- Android: ___ minutos (instalação: 18 e 35 seg, primeiro boot: -- e 44 seg)
-- Linux: ___ minutos (instalação: 48 e 136 seg, primeiro boot: -- e 16 seg)  
-- Windows: ___ minutos (instalação: 53 e 40 seg, primeiro boot: -- e 14 seg)
+- Android: 83 e 79 seg (instalação: 39 e 35 seg, primeiro boot: 44 e 44 seg)
+- Linux: 51 e 152 seg (instalação: 48 e 136 seg, primeiro boot: 3 e 16 seg)  
+- Windows: 45 e 54 seg (instalação: 40 e 40 seg, primeiro boot: 5 e 14 seg)
 
 
 **TSI - Evidências Coletadas:**
@@ -664,9 +662,11 @@ Múltiplas tentativas de instalação em ambientes controlados:
 
 #### 4.2.4. Análise dos Resultados
 
-**Resultado TMI:** ___ minutos (média aritmética das três plataformas)
+!!! info "Resultado Consolidado"
 
-**Resultado TSI:** 100% ( 2 instalações bem-sucedidas / 2 tentativas totais)
+    **Resultado TMI:** 77,34 seg ou 1,289 min  (média aritmética das três plataformas)
+
+    **Resultado TSI:** 100% ( 2 instalações bem-sucedidas / 2 tentativas totais)
 
 
 ### 4.3. Teste de Preservação de Dados (IPD)
@@ -732,13 +732,13 @@ Este resultado confirma que o Krita garante total preservação de dados multipl
 
 | **Métrica** | **Resultado** | **Nível** | **Hipótese** | **Status** |
 |-------------|---------------|-----------|--------------|------------|
-| TCF | ___% | ___ | H1: > 85% |  |
-| ICF | ___% | ___ | H2: > 90% |  |
+| TCF | 100% | ___ | H1: > 85% | Aprovado |
+| ICF | 100% | ___ | H2: > 90% | Aprovado |
 | TCR | ___% | ___ | H3: > 90% |  |
 | IAT | ___% | ___ | H4: > 80% |  |
 | TAM | ___% | ___ | H5: > 85% |  |
-| TMI | ___ min | ___ | H6: < 15 min |  |
-| TSI | ___% | ___ | H7: > 95% |  |
+| TMI | 1,289 min | ___ | H6: < 15 min | Aprovado  |
+| TSI | 100% | ___ | H7: > 95% | Aprovado |
 | IPD | 100% | 100% | H8: 100% > 90% | Aprovado |
 
 ### 5.2. Análise Geral dos Resultados
