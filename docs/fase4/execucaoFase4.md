@@ -160,7 +160,7 @@ Execução de casos de teste baseados no workflow da Fase 1:
 
 #### 3.3.3. Evidências Coletadas
 
-**Teste em um Tablet Android:**
+**Amostra 1: Teste em um Tablet Android:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pIW6QDWi6CI?si=0HKBsAVc64Uvc17J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -188,7 +188,7 @@ Execução de casos de teste baseados no workflow da Fase 1:
     **Operando Corretamente:** 11  
 
 
-**Teste em um Desktop Windows:**
+**Amostra 2: Teste em um Desktop Windows:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LXjZK_MJfPA?si=sk9MIklQU79cxYlp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -226,7 +226,11 @@ Execução de casos de teste baseados no workflow da Fase 1:
     **Funcionalidades Testadas:** 24  
     **Operando Corretamente:** 24  
 
+
+**Amostra 3: Teste em um Desktop Linux:**
+
 <iframe width="560" height="315" src="https://youtube.com/embed/pOrDbv29W5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 | Funcionalidade Utilizada                 | Funciona? OK / INCONSISTENTE |
 |------------------------------------------|--------------------------------------|
@@ -271,6 +275,8 @@ Execução de casos de teste baseados no workflow da Fase 1:
     **Operando Corretamente:** 33  
 
 
+**Amostra 4: Teste em um Desktop Linux:**
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qzcHjYInLIg?si=do5hPVPjhpUjZuZZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 | Funcionalidade Utilizada                 | Funciona? OK / INCONSISTENTE |
@@ -308,6 +314,8 @@ Execução de casos de teste baseados no workflow da Fase 1:
     **Funcionalidades Testadas:** 25
     **Operando Corretamente:** 25
 
+
+**Amostra 5: Teste em um Desktop Linux:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tHBhAd5j6Ao?si=D-tQk2Kdl2Aiv82i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -356,7 +364,90 @@ Execução de casos de teste baseados no workflow da Fase 1:
 
 Considerando os testes realizados em diferentes plataformas, dispositivos e estilos de desenho, a consolidação dos resultados é calculada pela soma de todas as funcionalidades testadas e de todas as funcionalidades que apresentaram funcionamento correto.
 
-**Resultado TCR:** ___% (__ funcionalidades operando corretamente / __ funcionalidades testadas)
+!!! details "Clique para expandir a tabela completa de funcionalidades (62) e status por amostra"
+    | Funcionalidade | Amostra 1 | Amostra 2 | Amostra 3 | Amostra 4 | Amostra 5 | Status Final |
+    |--------------------------------------------|-----------|-----------|-----------|-----------|-----------|--------------|
+    | Zoom | OK | OK | OK | OK | OK | OK |
+    | Rotate Canvas | OK | OK | - | - | - | OK |
+    | Desfazer / Undo | INCONSISTENTE | OK | OK | OK | OK | INCONSISTENTE |
+    | Fazer / Redo | INCONSISTENTE | OK | - | - | - | INCONSISTENTE |
+    | Selecionar Camada / Organizar / Adicionar / Ocultar | OK | OK | OK | OK | OK | OK |
+    | Opacidade de Pincéis / Alterar Opacidade | OK | OK | OK | OK | OK | OK |
+    | Tamanho de Pincéis / Alterar Tamanho | OK | OK | OK | OK | OK | OK |
+    | Pick Colors | INCONSISTENTE | OK | OK | - | - | INCONSISTENTE |
+    | Paleta de Cores | OK | OK | OK | - | - | OK |
+    | Exportar (PNG e .kra) | - | OK | OK | OK | OK | OK |
+    | Definir dimensões do documento | - | - | - | OK | OK | OK |
+    | Draw a Gradient | - | - | - | OK | - | OK |
+    | Polyline | - | - | - | OK | OK | OK |
+    | Free Hand Path | - | - | - | - | OK | OK |
+    | Fill | - | - | - | OK | - | OK |
+    | Assistente de Desenho | - | - | - | - | OK | OK |
+    | Line | - | - | - | - | OK | OK |
+    | Pincel Basic 1 | OK | OK | OK | - | - | OK |
+    | Pincel Basic 4 Flow Opacity | - | OK | - | - | - | OK |
+    | Pincel Basic 5 Size | - | OK | OK | - | - | OK |
+    | Pincel Marker Medium | - | OK | - | - | - | OK |
+    | Pincel Marker Details | OK | - | - | - | - | OK |
+    | Pincel Charcoal Pencil Large | OK | - | - | - | - | OK |
+    | Charcoal Rock Soft | - | OK | - | - | - | OK |
+    | Pincel Wet Paint Plus | OK | - | - | - | - | OK |
+    | Pincel WaterC Basic Round-Grunge | OK | - | - | - | - | OK |
+    | Pincel WaterC Spread WideArea | - | OK | - | - | - | OK |
+    | Pincel WaterC Basic Round-Fringe 02 | - | OK | - | - | - | OK |
+    | Pincel WaterC Spread Pattern | - | OK | - | - | - | OK |
+    | Pincel WaterC Special Splats | - | - | OK | - | - | OK |
+    | Pincel Blender Blur | - | OK | OK | - | OK | OK |
+    | Stamp Leaves | - | OK | OK | OK | OK | OK |
+    | Stamp Stylised Tree | - | OK | OK | - | - | OK |
+    | Stamp Herbals | - | OK | OK | - | OK | OK |
+    | Stamp Grass | - | OK | OK | - | OK | OK |
+    | Stamp Grass Patch | - | - | OK | - | OK | OK |
+    | Stamp Mountains Distant | - | OK | - | - | - | OK |
+    | Stamp Bokeh | - | OK | - | - | - | OK |
+    | Stamp Floor | - | OK | - | - | - | OK |
+    | Stamp Sparkles | - | OK | OK | - | - | OK |
+    | Texture Impressionism | - | OK | - | - | - | OK |
+    | WaterColor Texture | - | OK | - | - | - | OK |
+    | WaterColor Fringe | - | OK | - | - | - | OK |
+    | Texture Large Splat | - | - | OK | - | - | OK |
+    | Texture Random Particles | - | - | OK | - | - | OK |
+    | Texture Spines | - | - | OK | - | - | OK |
+    | Texture Splats | - | - | OK | - | - | OK |
+    | Texture Spray | - | - | OK | - | - | OK |
+    | Texture Starfield | - | - | OK | OK | OK | OK |
+    | Texture Wood Fiber | - | - | OK | - | - | OK |
+    | Texture Big | - | - | - | - | OK | OK |
+    | Dry Bristles | - | - | - | - | OK | OK |
+    | Dry Bristles Eroded | - | - | - | - | OK | OK |
+    | Dry Textured Creases | - | - | - | - | OK | OK |
+    | Pencil-1 Hard | - | - | OK | OK | INCONSISTENTE | INCONSISTENTE |
+    | Pencil-5 Tilted | - | - | - | - | OK | OK |
+    | Basic - 6 Details | - | - | OK | OK | OK | OK |
+    | Basic - 5 Opacity | - | - | OK | OK | OK | OK |
+    | Adjust Color | - | - | OK | OK | - | OK |
+    | Adjust Overlay Burn | - | - | OK | OK | OK | OK |
+    | Bristles - 4 Glaze | - | - | OK | OK | - | OK |
+    | Bristles - 5 Flat | - | - | OK | OK | OK | OK |
+
+
+!!! info "Cálculo final da TCR"
+    * **Total funcionalidades únicas:** 62
+
+    * **Funcionalidades inconsistentes em alguma amostra:** 4
+        * Desfazer / Undo
+        * Fazer / Redo
+        * Pick Colors
+        * Pencil-1 Hard
+
+    * **Funcionalidades operando corretamente:** 62 - 4 = 58
+
+    TCR (%) = (58 ÷ 62) × 100 ≈ 93,55%
+
+    #### Resultado final
+
+    TCR consolidada considerando todas as amostras e consistência entre plataformas: **93,55%**
+
 
 ## 3.4. Teste de Adequação às Tarefas (IAT)
 
@@ -517,32 +608,43 @@ Múltiplas tentativas de instalação em ambientes controlados:
 
 ##### Gravações 1
 
-Android:
+**Android:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1LrzdEJ75pA?si=Gqf1evNEkRG_aUhX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oYoR8Aowuu8?si=-IJ8RILfw4bObrjV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Ubuntu (Linux):
+- **Total (Instalação + Primeiro Boot):**  44.31s
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/twd9sgbbIl0?si=0YZzZ_2EiiVGBqRJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+**Ubuntu (Linux):**
 
-Windows 10:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jb92G3qIdCo?si=Xs_l9PMUf79LWeNm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GK9HIM5Qsp4?si=BO7fJ80Q0-sn1etT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+- **Total (Instalação + Primeiro Boot):**  51.35s
 
+**Windows 10:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nYlx0b8kmKU?si=CP1VCPa2aJRLylhD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- **Total (Instalação + Primeiro Boot):**  44.15s
 
 ##### Gravações 2
 
-Android:
+**Android:** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tmyBwX4iAqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Ubuntu (Linux):
+- **Total (Instalação + Primeiro Boot):**  1min.08s
+
+**Ubuntu (Linux):**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-fnNKYur0xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Windows 11:
+- **Total (Instalação + Primeiro Boot):**  1min.49s
+
+**Windows 11:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3jl9uRlkoNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- **Total (Instalação + Primeiro Boot):**  39.91s
 
 **TMI - Evidências Coletadas:**
 
@@ -670,6 +772,7 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | 0.4 | 17/11/2025 | Adição de evidências para TCF, ICF e TCR | [Marcelo Makoto](https://github.com/MM4k)| - |
 | 0.5 | 17/11/2025 | Adição de evidências para TCR | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa)| - |
 | 0.6 | 17/11/2025 | Adição de evidência para ICF | [Marcelo Makoto](https://github.com/MM4k)| - |
+| 0.7 | 24/11/2025 | Atualização das evidências TMI e cálculo do  | [Marcelo Makoto](https://github.com/MM4k)| - |
 
 ## Referências Bibliográficas
 
