@@ -37,7 +37,7 @@ Cada membro da equipe ficou responsável por testar **2 questões específicas**
 | ICF | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) |
 | TCR | [Danielle Soares](https://github.com/danielle-soaress), [Marcelo Makoto](https://github.com/MM4k), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa) |
 | IAT | - |
-| TAM | - |
+| TAM | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa)  |
 | TMI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
 | TSI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
 | IPD | - |
@@ -577,7 +577,7 @@ Para cada sistema operacional, foi executado o workflow completo de ilustração
 
 #### 4.1.4. Análise dos Resultados
 
-**Resultado TAM:** ___% (__ funcionalidades idênticas em todas as plataformas / __ funcionalidades testadas)
+**Resultado TAM:** 100% ( 13 funcionalidades idênticas em todas as plataformas / 13 funcionalidades testadas)
 
 ### 4.2. Teste de Instalabilidade 
 
@@ -736,7 +736,7 @@ Este resultado confirma que o Krita garante total preservação de dados multipl
 | ICF | 100% | ___ | H2: > 90% | Aprovado |
 | TCR | ___% | ___ | H3: > 90% |  |
 | IAT | ___% | ___ | H4: > 80% |  |
-| TAM | ___% | ___ | H5: > 85% |  |
+| TAM | 100% | 100% | H5: > 85% | Aprovado |
 | TMI | 1,289 min | ___ | H6: < 15 min | Aprovado  |
 | TSI | 100% | ___ | H7: > 95% | Aprovado |
 | IPD | 100% | 100% | H8: 100% > 90% | Aprovado |
