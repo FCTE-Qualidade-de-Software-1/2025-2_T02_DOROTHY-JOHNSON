@@ -24,8 +24,14 @@ Consulte a documentação da [Fase 3](https://fcte-qualidade-de-software-1.githu
 **Período de Execução:** 11 a 17 de novembro de 2025
 
 **Configuração dos Ambientes de Teste:**
-- **Windows**: Versão _____, Krita ______ 
-- **Linux**: Distribuição _____, Krita ______
+
+- **Windows 10**: Versão 22H2, Krita 5.2.13
+
+- **Windows 11**: Versão 25H2, Krita 5.2.13
+
+- **Linux**: Distribuição Ubuntu 24.04.3 LTS, Krita 5.2.13
+
+- **Android**: Versão 13, Krita 5.2.13
 
 **Equipe de Execução:**
 
@@ -36,11 +42,11 @@ Cada membro da equipe ficou responsável por testar **2 questões específicas**
 | TCF | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) |
 | ICF | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) |
 | TCR | [Danielle Soares](https://github.com/danielle-soaress), [Marcelo Makoto](https://github.com/MM4k), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa) |
-| IAT | - |
+| IAT | [Victor Pontual](https://github.com/VictorPontual)- |
 | TAM | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa) |
 | TMI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
 | TSI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
-| IPD | - |
+| IPD | [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 
 ## 3. Execução das Avaliações de Adequação Funcional
 
@@ -636,7 +642,7 @@ Este resultado confirma que o Krita garante total preservação de dados multipl
 |-------------|---------------|-----------|--------------|------------|
 | TCF | 100% | Desejável | H1: > 85% | Aprovado |
 | ICF | 100% | Desejável | H2: > 90% | Aprovado |
-| TCR | 96,87% | Aceitável | H3: > 90% | Aprovado |
+| TCR | 96,87% | Desejável | H3: > 90% | Aprovado |
 | IAT | 100% | Desejável | H4: > 80% | Aprovado |
 | TAM | 100% | Desejável | H5: > 85% | Aprovado |
 | TMI | 8 min | Desejável | H6: < 15 min | Aprovado |
@@ -675,7 +681,7 @@ A portabilidade do Krita demonstrou ser um ponto forte significativo:
 ### 6.1. Resposta à Pergunta Central
 Com base nos resultados obtidos, em que medida o Krita atende aos requisitos de **Adequação Funcional** e de **Portabilidade** no contexto de tarefas típicas de pintura digital em **Windows, Linux, Android**?
 
-**O Krita demonstra atendimento excepcional aos requisitos de qualidade avaliados, com desempenho consistentemente superior às expectativas estabelecidas.**
+> O Krita demonstra atendimento excepcional aos requisitos de qualidade avaliados, com desempenho consistentemente superior às expectativas estabelecidas.
 
 **Adequação Funcional (Média: 99,22%)**
 - Funcionalidades essenciais 100% implementadas e documentadas
@@ -689,13 +695,14 @@ Com base nos resultados obtidos, em que medida o Krita atende aos requisitos de 
 - Preservação total de dados entre sistemas operacionais
 - Suporte robusto para ambientes multiplataforma
 
-**Conclusão:** O Krita não apenas atende, mas **supera significativamente** os requisitos de qualidade para software de pintura digital multiplataforma, confirmando sua posição como alternativa viável e robusta no mercado de ferramentas artísticas digitais.
+!!! info "Conclusão" 
+    O Krita não apenas atende, mas **supera significativamente** os requisitos de qualidade para software de pintura digital multiplataforma, confirmando sua posição como alternativa viável e robusta no mercado de ferramentas artísticas digitais.
 
 ### 6.2. Conclusão Geral
 
 Este projeto de avaliação de qualidade do Krita, desenvolvido ao longo do semestre e de quatro fases, demonstrou a eficácia da metodologia Goal-Question-Metric (GQM) aplicada à avaliação de software de código aberto. A integração das fases permitiu uma avaliação abrangente e objetiva da qualidade do software.
 
-#### Integração das Quatro Fases
+#### 6.2.1. Integração das Quatro Fases
 
 **Fase 1 - Fundação Metodológica**: Estabeleceu os alicerces da avaliação através da definição precisa do escopo, identificação do público-alvo (artistas digitais) e mapeamento do workflow completo de ilustração digital. A priorização das características de Adequação Funcional e Portabilidade baseada na norma ISO/IEC 25010 forneceu o direcionamento estratégico necessário para as fases subsequentes.
 
@@ -705,7 +712,7 @@ Este projeto de avaliação de qualidade do Krita, desenvolvido ao longo do seme
 
 **Fase 4 - Execução e Evidenciação**: Materializou todo o planejamento anterior através da coleta sistemática de evidências objetivas. A execução rigorosa dos testes permitiu validar 8 das 8 hipóteses estabelecidas, demonstrando a qualidade excepcional do Krita.
 
-#### Resolução das Questões da Fase 3
+#### 6.2.2. Resolução das Questões da Fase 3
 
 As principais questões metodológicas identificadas na Fase 3 foram integralmente resolvidas:
 
@@ -717,7 +724,7 @@ As principais questões metodológicas identificadas na Fase 3 foram integralmen
 
 **4. Critérios de Validação**: Os níveis de pontuação (Desejável/Aceitável/Inaceitável) estabelecidos na Fase 2 permitiram classificação objetiva dos resultados, com 7 das 8 métricas alcançando nível "Desejável".
 
-#### Perspectivas Futuras
+#### 6.2.3. Perspectivas Futuras
 
 Os resultados obtidos abrem possibilidades para:
 
@@ -740,15 +747,15 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 
 | Versão | Data | Descrição | Autor | Revisor |
 | -- | -- | -- | -- | -- |
-| 0.1 | 11/11/2025 | Criação da página | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | - |
-| 0.2 | 11/11/2025 | Adição das evidências | [Enzo Emir](https://github.com/EnzoEmir)| - |
-| 0.3 | 16/11/2025 | Adição de evidências para TCR, TMI e TSI, além de cálculos preliminares do TCR | [Danielle Soares](https://github.com/danielle-soaress)| - |
-| 0.4 | 17/11/2025 | Adição de evidências para TCF, ICF e TCR | [Marcelo Makoto](https://github.com/MM4k)| - |
-| 0.5 | 17/11/2025 | Adição de evidências para TCR | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa)| - |
-| 0.6 | 17/11/2025 | Adição de evidência para ICF | [Marcelo Makoto](https://github.com/MM4k)| - |
-| 0.7 | 23/11/2025 | Adição de evidência para IPD | [Pedro Luciano](https://github.com/PedroALuciano)| - |
-| 0.8 | 25/11/2025 | Adição da conclusão e Finalização dos cálculos das métricas | [Pedro Luciano](https://github.com/PedroALuciano)| - |
-
-
-## Referências Bibliográficas
+| 0.1 | 11/11/2025 | Criação da página | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.2 | 11/11/2025 | Adição das evidências | [Enzo Emir](https://github.com/EnzoEmir)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.3 | 16/11/2025 | Adição de evidências para TCR, TMI e TSI, além de cálculos preliminares do TCR | [Danielle Soares](https://github.com/danielle-soaress)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.4 | 17/11/2025 | Adição de evidências para TCF, ICF e TCR | [Marcelo Makoto](https://github.com/MM4k)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.5 | 17/11/2025 | Adição de evidências para TCR | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.6 | 17/11/2025 | Adição de evidência para ICF | [Marcelo Makoto](https://github.com/MM4k)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.7 | 23/11/2025 | Adição de evidência para IPD | [Pedro Luciano](https://github.com/PedroALuciano)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 0.9 | 25/11/2025 | Cálculo do  TMI e TSI  | [Enzo Emir](https://github.com/EnzoEmir)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 1.0 | 25/11/2025 | Completando quadro de resumo das métricas obtidas  | [Danielle Soares](https://github.com/danielle-soaress)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 1.1 | 25/11/2025 | Adição da conclusão e Finalização dos cálculos das métricas | [Pedro Luciano](https://github.com/PedroALuciano)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 1.2 | 25/11/2025 | Correção do histórico de versões, Correção da tabela de métricas obtidas e ajustes finais no texto de conclusão | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 
