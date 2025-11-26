@@ -37,7 +37,7 @@ Cada membro da equipe ficou responsável por testar **2 questões específicas**
 | ICF | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) |
 | TCR | [Danielle Soares](https://github.com/danielle-soaress), [Marcelo Makoto](https://github.com/MM4k), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa) |
 | IAT | - |
-| TAM | - |
+| TAM | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa) |
 | TMI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
 | TSI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
 | IPD | - |
