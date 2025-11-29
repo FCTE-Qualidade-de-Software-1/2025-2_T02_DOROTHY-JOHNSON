@@ -207,7 +207,7 @@ Para medir a instalabilidade, utilizaremos o **Tempo Médio de Instalação (TMI
 
 #### Critérios de Medição e Julgamento
 
-- **Método de Coleta:** Cronometragem do processo de instalação (desde o download do instalador oficial até a primeira abertura bem-sucedida do software) em 4 plataformas (Windows, Linux, MacOS e Android).
+- **Método de Coleta:** Cronometragem do processo de instalação até a primeira abertura bem-sucedida do software em 3 plataformas (Windows, Linux e Android).
 
 #### Níveis de Pontuação (Julgamento) para TMI:
 
