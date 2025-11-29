@@ -83,18 +83,6 @@ Para Portabilidade:
 
 ### 1.3. Localização dos Dados de Avaliação
 
-Os dados coletados serão organizados e armazenados na seguinte estrutura:
+Todos os dados coletados, incluindo as evidências (vídeos dos testes), a aplicação das métricas e a análise dos resultados, foram consolidados e documentados diretamente no arquivo da [Fase 4](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase4/execucaoFase4/).
 
-- **`/docs/fase4/execucaoFase4/`**: Diretório principal para todos os dados da avaliação
-  - **`adequacao_funcional/`**: Resultados das métricas de adequação funcional
-    - `Checklist Funcionalidades`: Dados do TCF e ICF
-    - `Testes Correção`: Dados do TCR  
-    - `Workflow Tarefas`: Dados do IAT
-  - **`portabilidade/`**: Resultados das métricas de portabilidade
-    - `Adaptabilidade em Multiplataforma`: Dados do TAM
-    - `Instalação de Sistemas`: Dados do TMI e TSI
-    - `Migração de projetos`: Dados do IPD
-  - **`evidencias/`**: Capturas de tela, vídeos e logs dos testes realizados
-  - **`analise/`**: Análises estatísticas e relatórios consolidados
-
-Esta estrutura permitirá a rastreabilidade completa dos dados coletados e facilitará a análise posterior dos resultados obtidos.
+Esta abordagem centraliza todas as informações da execução em um único local, facilitando a consulta e a rastreabilidade dos resultados obtidos.
