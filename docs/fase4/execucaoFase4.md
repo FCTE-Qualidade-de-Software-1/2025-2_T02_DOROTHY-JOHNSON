@@ -780,9 +780,17 @@ As principais questões metodológicas identificadas na Fase 3 foram integralmen
 
 **4. Critérios de Validação**: Os níveis de pontuação (Desejável/Aceitável/Inaceitável) estabelecidos na Fase 2 permitiram classificação objetiva dos resultados, com 7 das 8 métricas alcançando nível "Desejável".
 
-#### 6.2.3. Perspectivas Futuras
+#### 6.2.3. Pontos de Melhoria Identificados
 
+Embora o Krita tenha demonstrado ótimo desempenho geral, algumas oportunidades de melhoria foram identificadas durante a avaliação:
 
+**1. Inconsistências em Dispositivos Móveis**
+- A Taxa de Correção Funcional (96,87%) foi impactada principalmente por inconsistências no Android, especialmente na ferramenta de seleção de cores e funções de desfazer/refazer
+- **Recomendação**: Otimização da interface touch e melhoria da responsividade em tablets
+
+**2. Funcionalidades Específicas com Comportamento Inconsistente**
+- O pincel "Pencil-1 Hard" apresentou comportamento inconsistente em alguns cenários de teste
+- **Recomendação**: Revisão da configuração padrão deste pincel e testes adicionais de estabilidade
 
 ## 7. Uso de IA
 
@@ -809,3 +817,4 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | 1.1 | 25/11/2025 | Adição da conclusão e Finalização dos cálculos das métricas | [Pedro Luciano](https://github.com/PedroALuciano)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 1.2 | 25/11/2025 | Correção do histórico de versões, Correção da tabela de métricas obtidas e ajustes finais no texto de conclusão | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 1.3 | 29/11/2025 | Correção da Conclusâo | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
+| 1.4 | 29/11/2025 | Pontos de Melhoria Identificados | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
