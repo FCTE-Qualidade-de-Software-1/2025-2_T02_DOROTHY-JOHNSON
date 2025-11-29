@@ -514,7 +514,7 @@ Cronometrar o processo de instalação e medir a taxa de sucesso em diferentes p
 #### 4.2.2. Procedimento Executado
 
 **Tempo Médio de Instalação (TMI):**
-Cronometragem completa do processo de instalação em cada plataforma, desde o download até a primeira execução bem-sucedida:
+Cronometragem completa do processo de instalação até a primeira abertura bem-sucedida do software:
 
 **Etapas Cronometradas:**
 
@@ -548,33 +548,39 @@ Windows 10:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GK9HIM5Qsp4?si=BO7fJ80Q0-sn1etT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+Android:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tmyBwX4iAqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Ubuntu (Linux):
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-fnNKYur0xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Windows 11:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3jl9uRlkoNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JnTXEBkEHm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 **TMI - Evidências Coletadas:**
 
-- Windows 10: 8 minutos (download: 3min, instalação: 4min, primeiro boot: 1min)
-- Windows 11: 7 minutos (download: 3min, instalação: 3min, primeiro boot: 1min)  
-- Linux: 12 minutos (download: 2min, instalação: 8min, primeiro boot: 2min)
-- Android: 5 minutos (download: 2min, instalação: 2min, primeiro boot: 1min)
+- Android: 83 e 79 seg (instalação: 39 e 35 seg, primeiro boot: 44 e 44 seg)
+- Linux: 51 e 152 seg (instalação: 48 e 136 seg, primeiro boot: 3 e 16 seg)  
+- Windows: 45 e 54 seg (instalação: 40 e 40 seg, primeiro boot: 5 e 14 seg)
 
 **TSI - Evidências Coletadas:**
 
 - Windows 10: 1/1 tentativa bem-sucedida
-- Windows 11: 2/2 tentativas bem-sucedidas
-- Linux: 1/1 tentativa bem-sucedida  
-- Android: 1/1 tentativa bem-sucedida
+- Windows 11: 1/1 tentativas bem-sucedidas
+- Linux: 2/2 tentativa bem-sucedida  
+- Android: 2/2 tentativa bem-sucedida
 
 
 #### 4.2.4. Análise dos Resultados
 
-**Resultado TMI:** 8 minutos (média aritmética das quatro plataformas: (8+7+12+5)/4 = 8)
+**Resultado TMI:** 77,34 seg ou 1,289 min  (média aritmética das três plataformas)
 
-**Resultado TSI:** 100% (5 instalações bem-sucedidas / 5 tentativas totais)
+
+**Resultado TSI:** 100% (6 instalações bem-sucedidas / 6 tentativas totais)
 
 
 ### 4.3. Teste de Preservação de Dados (IPD)
@@ -669,7 +675,7 @@ A portabilidade do Krita demonstrou ser um ponto forte significativo:
 
 - **Taxa de Adaptabilidade Multiplataforma (100%)**: Funcionalidades operam de forma idêntica entre Windows e Linux, garantindo experiência consistente independente da plataforma.
 
-- **Tempo Médio de Instalação (8 minutos)**: Processo de instalação rápido e eficiente, bem abaixo do limite aceitável de 15 minutos, facilitando a adoção por novos usuários.
+- **Tempo Médio de Instalação (1,3 minutos)**: Processo de instalação rápido e eficiente, bem abaixo do limite aceitável de 15 minutos, facilitando a adoção por novos usuários.
 
 - **Taxa de Sucesso de Instalação (100%)**: Todas as tentativas de instalação foram bem-sucedidas, indicando estabilidade do processo de distribuição e compatibilidade com diferentes configurações de sistema.
 
@@ -678,10 +684,60 @@ A portabilidade do Krita demonstrou ser um ponto forte significativo:
 
 ## 6. Conclusões
 
-### 6.1. Resposta à Pergunta Central
-Com base nos resultados obtidos, em que medida o Krita atende aos requisitos de **Adequação Funcional** e de **Portabilidade** no contexto de tarefas típicas de pintura digital em **Windows, Linux, Android**?
+### 6.1. Respostas às Questões de Pesquisa
 
-> O Krita demonstra atendimento excepcional aos requisitos de qualidade avaliados, com desempenho consistentemente superior às expectativas estabelecidas.
+Com base nos resultados obtidos através da metodologia GQM, apresentamos as respostas às questões de pesquisa estabelecidas na [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase2/execucaoFase2/):
+
+#### 6.1.1. Adequação Funcional
+
+**Q1: Em que medida o Krita atende aos requisitos funcionais em tarefas típicas de pintura digital?**
+
+O Krita atende **integralmente** aos requisitos funcionais essenciais para pintura digital, com **TCF de 100%** e **ICF de 100%**. Todas as funcionalidades identificadas como essenciais no workflow artístico estão implementadas e correspondem exatamente à documentação oficial, demonstrando maturidade e completude do software.
+
+> **Hipóteses Validadas:**
+> - **H1 (TCF > 85%): CONFIRMADA** - Resultado: 100% (superou a expectativa)
+> - **H2 (ICF > 90%): CONFIRMADA** - Resultado: 100% (superou a expectativa)
+
+**Q2: Quais funcionalidades essenciais do Krita apresentam comportamento incorreto ou inadequado durante o workflow de criação artística?**
+
+O Krita apresenta **alta correção funcional (TCR: 96,87%)**, com comportamento incorreto identificado principalmente em: seleção de cores no Android (inconsistente), funcionalidades de desfazer/refazer em dispositivos touch (manuseio difícil), e pincel "Pencil-1 Hard" com comportamento inconsistente em alguns cenários. As inconsistências são pontuais e não impedem o workflow artístico.
+
+> **Hipótese Validada:**
+> - **H3 (TCR > 90%): CONFIRMADA** - Resultado: 96,87% (superou a expectativa)
+
+**Q3: Como a completude funcional do Krita se compara às necessidades específicas de diferentes estilos e técnicas de arte digital?**
+
+O Krita demonstra **adequação total às necessidades artísticas (IAT: 100%)**, permitindo execução completa de workflows de ilustração desde preparação inicial até exportação final. O software suporta adequadamente diferentes estilos através de seus sistemas de camadas, pincéis avançados e ferramentas de composição.
+
+> **Hipótese Validada:**
+> - **H4 (IAT > 80%): CONFIRMADA** - Resultado: 100% (superou a expectativa)
+
+#### 6.1.2. Portabilidade
+
+**Q1: Em quais aspectos de portabilidade o Krita apresenta limitações para artistas digitais?**
+
+O Krita **não apresenta limitações significativas** de portabilidade, com **TAM de 100%** entre Windows e Linux. Todas as funcionalidades operam identicamente nas plataformas testadas, garantindo experiência consistente independente do sistema operacional utilizado.
+
+> **Hipótese Validada:**
+> - **H5 (TAM > 85%): CONFIRMADA** - Resultado: 100% (superou a expectativa)
+
+**Q2: Qual é o grau de instalabilidade do Krita em diferentes sistemas operacionais e configurações de hardware?**
+
+O Krita apresenta **excelente instalabilidade** com **TMI de 1,3 minutos** e **TSI de 100%** em todas as plataformas testadas. O processo é rápido, confiável e não apresentou falhas em ambientes controlados.
+
+> **Hipóteses Validadas:**
+> - **H6 (TMI < 15 min): CONFIRMADA** - Resultado: 1,3 minutos (superou a expectativa)
+
+> - **H7 (TSI > 95%): CONFIRMADA** - Resultado: 100% (superou a expectativa)
+
+**Q3: Como o Krita mantém a consistência de projetos e configurações ao migrar entre diferentes plataformas?**
+
+O Krita mantém **perfeita consistência multiplataforma (IPD: 100%)**, preservando integralmente camadas, cores, assistentes de desenho e configurações de pincéis durante migrações entre Windows, Linux e Android. Não há perda de dados ou funcionalidades ao transferir projetos entre sistemas.
+
+> **Hipótese Validada:**
+> - **H8 (IPD > 90%):  CONFIRMADA** - Resultado: 100% (superou a expectativa)
+
+#### 6.1.3. Síntese Geral
 
 **Adequação Funcional (Média: 99,22%)**
 - Funcionalidades essenciais 100% implementadas e documentadas
@@ -691,7 +747,7 @@ Com base nos resultados obtidos, em que medida o Krita atende aos requisitos de 
 
 **Portabilidade (Média: 100%)**
 - Experiência idêntica entre plataformas Windows e Linux
-- Instalação rápida (8 minutos) e 100% confiável
+- Instalação rápida (1,3 minutos) e 100% confiável
 - Preservação total de dados entre sistemas operacionais
 - Suporte robusto para ambientes multiplataforma
 
@@ -722,16 +778,10 @@ As principais questões metodológicas identificadas na Fase 3 foram integralmen
 
 **3. Protocolo de Execução**: A definição de procedimentos passo-a-passo na Fase 3 permitiu execução consistente dos testes, com cada membro da equipe responsável por métricas específicas, garantindo especialização e cobertura completa.
 
-**4. Critérios de Validação**: Os níveis de pontuação (Desejável/Aceitável/Inaceitável) estabelecidos na Fase 2 permitiram classificação objetiva dos resultados, com 7 das 8 métricas alcançando nível "Desejável".
+**4. Critérios de Validação**: Os níveis de pontuação (Desejável/Aceitável/Inaceitável) estabelecidos na Fase 2 permitiram classificação objetiva dos resultados, com 8 das 8 métricas alcançando nível "Desejável".
 
 #### 6.2.3. Perspectivas Futuras
 
-Os resultados obtidos abrem possibilidades para:
-
-- Expansão da avaliação para outras características de qualidade (Usabilidade, Performance, Segurança)
-- Aplicação da metodologia a outros softwares de código aberto do ecossistema KDE
-- Desenvolvimento de ferramentas automatizadas para coleta contínua das métricas estabelecidas
-- Contribuição para a comunidade Krita através de relatórios técnicos baseados nas evidências coletadas
 
 
 ## 7. Uso de IA
@@ -758,4 +808,4 @@ A IA foi empregada exclusivamente como ferramenta auxiliar, sendo todo o conteú
 | 1.0 | 25/11/2025 | Completando quadro de resumo das métricas obtidas  | [Danielle Soares](https://github.com/danielle-soaress)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 1.1 | 25/11/2025 | Adição da conclusão e Finalização dos cálculos das métricas | [Pedro Luciano](https://github.com/PedroALuciano)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
 | 1.2 | 25/11/2025 | Correção do histórico de versões, Correção da tabela de métricas obtidas e ajustes finais no texto de conclusão | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
-
+| 1.3 | 29/11/2025 | Correção da Conclusâo | [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual)| [Danielle Soares](https://github.com/danielle-soaress), [Enzo Emir](https://github.com/EnzoEmir), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa), [Marcelo Makoto](https://github.com/MM4k), [Pedro Luciano](https://github.com/PedroALuciano), [Victor Pontual](https://github.com/VictorPontual) |
