@@ -34,7 +34,7 @@ Com base no planejamento da Fase 2, serão coletados dados para as seguintes mé
 
 #### 1.2.1. Ambiente de Teste
 
-- **Sistemas Operacionais:** Windows 11 ou 10, Ubuntu 22.04 LTS, Android
+- **Sistemas Operacionais:** Windows 11 ou 10, Ubuntu 24.04.3 LTS, Android
 
 - **Hardware de Teste:** Configurações padronizadas com pelo menos 8GB RAM, processador Intel i5/AMD Ryzen 5 ou equivalente
 
