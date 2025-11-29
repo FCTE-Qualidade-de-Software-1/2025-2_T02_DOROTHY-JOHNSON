@@ -717,6 +717,18 @@ As principais questões metodológicas identificadas na Fase 3 foram integralmen
 
 **4. Critérios de Validação**: Os níveis de pontuação (Desejável/Aceitável/Inaceitável) estabelecidos na Fase 2 permitiram classificação objetiva dos resultados, com 7 das 8 métricas alcançando nível "Desejável".
 
+#### Pontos de Melhoria Identificados
+
+Embora o Krita tenha demonstrado ótimo desempenho geral, algumas oportunidades de melhoria foram identificadas durante a avaliação:
+
+**1. Inconsistências em Dispositivos Móveis**
+- A Taxa de Correção Funcional (96,87%) foi impactada principalmente por inconsistências no Android, especialmente na ferramenta de seleção de cores e funções de desfazer/refazer
+- **Recomendação**: Otimização da interface touch e melhoria da responsividade em tablets
+
+**2. Funcionalidades Específicas com Comportamento Inconsistente**
+- O pincel "Pencil-1 Hard" apresentou comportamento inconsistente em alguns cenários de teste
+- **Recomendação**: Revisão da configuração padrão deste pincel e testes adicionais de estabilidade
+
 #### Perspectivas Futuras
 
 Os resultados obtidos abrem possibilidades para:
