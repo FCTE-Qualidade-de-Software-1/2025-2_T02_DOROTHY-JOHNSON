@@ -44,7 +44,7 @@ A metodologia **Goal-Question-Metric (GQM)** [^2] é uma abordagem sistemática 
 
 ### 3.2. Questões e Métricas
 
-#### Q1: Em que medida o Krita atende aos requisitos funcionais em tarefas típicas de pintura digital?
+### Q1: Em que medida o Krita atende aos requisitos funcionais em tarefas típicas de pintura digital?
 
 Para avaliar a completude funcional do Krita, serão utilizadas as métricas **Taxa de Completude Funcional (TCF) e Índice de Cobertura Funcional (ICF)**, que medem, respectivamente, o percentual de funcionalidades essenciais de pintura digital que estão implementadas e operacionais e o grau de correspondência entre as funcionalidades documentadas e as efetivamente disponíveis no software.
 
@@ -59,7 +59,7 @@ Para avaliar a completude funcional do Krita, serão utilizadas as métricas **T
 >
 > **Conceito base:** Functional Completeness (ISO/IEC 25010/25023) [^1]
 
-### Critérios de Medição e Julgamento
+#### Critérios de Medição e Julgamento
 
 - **Método de Coleta:** A medição será realizada através de um checklist de funcionalidades essenciais derivadas do escopo da [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/#23-escopo-profundidade-e-objetos-de-avaliacao) (Seção 2.3), cobrindo:
 
@@ -68,7 +68,7 @@ Para avaliar a completude funcional do Krita, serão utilizadas as métricas **T
 3. **Camadas:** Criação, renomeação, grupos, opacidade, modos de mesclagem (Multiply, Overlay).
 4. **Exportação:** Salvar em .kra, exportar para PNG e JPEG.
 
-### **Níveis de Pontuação (Julgamento):**
+#### Níveis de Pontuação (Julgamento):
 
 - **Desejável:** TCF/ICF ≥ 95%
 - **Aceitável:** 80% ≤ TCF/ICF < 95%
@@ -80,7 +80,7 @@ Para avaliar a completude funcional do Krita, serão utilizadas as métricas **T
 
 **H2:** O Krita apresenta um Índice de Cobertura Funcional superior a 90%, indicando alta correspondência entre funcionalidades documentadas e implementadas.
 
-#### Q2: Quais funcionalidades essenciais do Krita apresentam comportamento incorreto ou inadequado durante o workflow de criação artística?
+### Q2: Quais funcionalidades essenciais do Krita apresentam comportamento incorreto ou inadequado durante o workflow de criação artística?
 
 Para medir a correção funcional, utilizaremos a **Taxa de Correção Funcional (TCR)**, que avalia a proporção de funcionalidades que operam conforme especificado.
 
@@ -90,11 +90,11 @@ Para medir a correção funcional, utilizaremos a **Taxa de Correção Funcional
 >
 > **Conceito base:** Functional Correctness (ISO/IEC 25010/25023) [^1]
 
-### Critérios de Medição e Julgamento
+#### Critérios de Medição e Julgamento
 
 - **Método de Coleta:** Execução de casos de teste baseados no workflow da [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/#23-escopo-profundidade-e-objetos-de-avaliacao) (Seção 2.3). Uma funcionalidade opera "corretamente" se o resultado observado corresponde ao resultado esperado.
 
-### **Níveis de Pontuação (Julgamento):**
+#### Níveis de Pontuação (Julgamento):
 
 - **Desejável:** TCR ≥ 95%
 - **Aceitável:** 80% ≤ TCR < 95%
@@ -106,7 +106,7 @@ Para medir a correção funcional, utilizaremos a **Taxa de Correção Funcional
 **H3:** A Taxa de Correção Funcional do Krita é superior a 90% para funcionalidades core, demonstrando alta confiabilidade operacional.
 
 
-#### Q3: Como a completude funcional do Krita se compara às necessidades específicas de diferentes estilos e técnicas de arte digital?
+### Q3: Como a completude funcional do Krita se compara às necessidades específicas de diferentes estilos e técnicas de arte digital?
 
 Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação às Tarefas (IAT)**, que mede o grau de alinhamento entre as funcionalidades oferecidas e as necessidades específicas dos workflows artísticos.
 
@@ -116,7 +116,7 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 >
 > **Conceito base:** Task Effectiveness (ISO/IEC 25022) [^1]
 
-### Critérios de Medição e Julgamento
+#### Critérios de Medição e Julgamento
 
 - **Método de Coleta:** Execução do workflow completo de ilustração definido na [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/#23-escopo-profundidade-e-objetos-de-avaliacao) (Seção 2.3), dividido em 3 tarefas macro:
 
@@ -124,7 +124,7 @@ Para avaliar a adequação funcional, utilizaremos o **Índice de Adequação à
 2. **Pintura, Arte-final e Gerenciamento de Camadas.**
 3. **Exportação e Validação.**
 
-### **Níveis de Pontuação (Julgamento):**
+#### Níveis de Pontuação (Julgamento):
 
 - **Desejável:** IAT ≥ 95%
 - **Aceitável:** 80% ≤ IAT < 95%
@@ -163,7 +163,7 @@ A Figura 1 ilustra a estrutura GQM para a Adequação Funcional.
 
 ### 4.2. Questões e Métricas
 
-#### Q1: Em quais aspectos de portabilidade o Krita apresenta limitações para artistas digitais?
+### Q1: Em quais aspectos de portabilidade o Krita apresenta limitações para artistas digitais?
 
 Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplataforma (TAM)**, que mede a capacidade do software de funcionar consistentemente em diferentes sistemas operacionais.
 
@@ -173,11 +173,11 @@ Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplat
 >
 > **Conceito base:** Adaptability (ISO/IEC 25010/25023) [^1]
 
-### Critérios de Medição e Julgamento
+#### Critérios de Medição e Julgamento
 
-- **Método de Coleta:** Execução das funcionalidades essenciais nas 3 plataformas de desktop (Windows, Linux, MacOS). Uma funcionalida opera "identicamente" se o resultado e a interface para alcançá-lo são consistentes.
+- **Método de Coleta:** Execução das funcionalidades essenciais nas 3 plataformas de desktop (Windows, Linux, Android). Uma funcionalida opera "identicamente" se o resultado e a interface para alcançá-lo são consistentes.
 
-### **Níveis de Pontuação (Julgamento):**
+#### Níveis de Pontuação (Julgamento):
 
 - **Desejável:** TAM ≥ 95%
 - **Aceitável:** 80% ≤ TAM < 95%
@@ -185,10 +185,10 @@ Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplat
 
 #### Hipótese
 
-**H5:** A Taxa de Adaptabilidade Multiplataforma do Krita é superior a 85% entre Windows, Linux e macOS.
+**H5:** A Taxa de Adaptabilidade Multiplataforma do Krita é superior a 85% entre Windows, Linux e Android.
 
 
-#### Q2: Qual é o grau de instalabilidade do Krita em diferentes sistemas operacionais e configurações de hardware?
+### Q2: Qual é o grau de instalabilidade do Krita em diferentes sistemas operacionais e configurações de hardware?
 
 Para medir a instalabilidade, utilizaremos o **Tempo Médio de Instalação (TMI)** e a **Taxa de Sucesso de Instalação (TSI)**.
 
@@ -205,17 +205,17 @@ Para medir a instalabilidade, utilizaremos o **Tempo Médio de Instalação (TMI
 >
 > **Conceito base:** Installability (ISO/IEC 25010/25023) [^1]
 
-### Critérios de Medição e Julgamento
+#### Critérios de Medição e Julgamento
 
-- **Método de Coleta:** Cronometragem do processo de instalação (desde o download do instalador oficial até a primeira abertura bem-sucedida do software) em 3 plataformas (Windows, Linux, MacOS).
+- **Método de Coleta:** Cronometragem do processo de instalação até a primeira abertura bem-sucedida do software em 3 plataformas (Windows, Linux e Android).
 
-### **Níveis de Pontuação (Julgamento) para TMI:**
+#### Níveis de Pontuação (Julgamento) para TMI:
 
 - **Desejável:** TMI ≤ 10 minutos
 - **Aceitável:** 10 < TMI ≤ 20 minutos
 - **Inaceitável:** TMI > 20 minutos
 
-### **Níveis de Pontuação (Julgamento) para TSI:**
+#### Níveis de Pontuação (Julgamento) para TSI:
 
 - **Desejável:** TSI = 100%
 - **Inaceitável:** TSI < 100%
@@ -227,7 +227,7 @@ Para medir a instalabilidade, utilizaremos o **Tempo Médio de Instalação (TMI
 **H7:** A Taxa de Sucesso de Instalação do Krita é superior a 95% em ambientes padrão.
 
 
-#### Q3: Como o Krita mantém a consistência de projetos e configurações ao migrar entre diferentes plataformas?
+### Q3: Como o Krita mantém a consistência de projetos e configurações ao migrar entre diferentes plataformas?
 
 Para avaliar a consistência de dados, utilizaremos o **Índice de Preservação de Dados (IPD)**, que mede a capacidade do software de manter integridade de arquivos e configurações entre diferentes sistemas operacionais.
 
@@ -237,7 +237,7 @@ Para avaliar a consistência de dados, utilizaremos o **Índice de Preservação
 >
 > **Conceito base:** Data Integrity (ISO/IEC 25010/25023) [^1]
 
-### Critérios de Medição e Julgamento
+#### Critérios de Medição e Julgamento
 
 - **Método de Coleta:** Execução do "Teste de Consistência Multiplataforma definido na [Fase 1](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_DOROTHY-JOHNSON/fase1/execucaoFase1/#23-escopo-profundidade-e-objetos-de-avaliacao) (Seção 2.3):
 
@@ -245,12 +245,10 @@ Para avaliar a consistência de dados, utilizaremos o **Índice de Preservação
 2. Abrir o mesmo .kra no SO 2 e no SO 3.
 3. Verificar a integridade visual e estrutural. A "integridade completa" significa que não há perda de dados, camadas, cores ou guias.
 
-### **Níveis de Pontuação (Julgamento):**
+#### Níveis de Pontuação (Julgamento):
 
 - **Desejável:** IPD = 100%
 - **Inaceitável:** IPD < 100%
-
-
 
 #### Hipótese
 
