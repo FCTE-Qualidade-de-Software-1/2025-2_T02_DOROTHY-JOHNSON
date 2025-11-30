@@ -651,7 +651,7 @@ Este resultado confirma que o Krita garante total preservação de dados multipl
 | TCR | 96,87% | Desejável | H3: > 90% | Aprovado |
 | IAT | 100% | Desejável | H4: > 80% | Aprovado |
 | TAM | 100% | Desejável | H5: > 85% | Aprovado |
-| TMI | 1,3 min | Desejável | H6: < 15 min | Aprovado |
+| TMI | 1.3 min | Desejável | H6: < 15 min | Aprovado |
 | TSI | 100% | Desejável | H7: > 95% | Aprovado |
 | IPD | 100% | Desejável | H8: > 90% | Aprovado |
 
