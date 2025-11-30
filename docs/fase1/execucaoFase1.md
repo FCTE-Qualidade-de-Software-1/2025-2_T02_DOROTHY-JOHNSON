@@ -2,7 +2,7 @@
 
 ## 1. Aplicação Escolhida 
 
-O software avaliado neste trabalho é o Krita, um aplicativo livre e de código aberto para pintura digital e ilustração mantido pela comunidade KDE/Krita Foundation. Trata-se de uma aplicação multiplataforma — com pacotes oficiais para Windows, Linux e macOS, além de versão para tablets Android — voltada a artistas, ilustradores e criadores de concept art, quadrinhos, texturas e matte painting. O repositório oficial está hospedado no [Krita](https://github.com/KDE/krita). 
+O software avaliado neste trabalho é o Krita, um aplicativo livre e de código aberto para pintura digital e ilustração mantido pela comunidade KDE/Krita Foundation. Trata-se de uma aplicação multiplataforma — com pacotes oficiais para Windows, Linux e Android, além de versão para tablets Android — voltada a artistas, ilustradores e criadores de concept art, quadrinhos, texturas e matte painting. O repositório oficial está hospedado no [Krita](https://github.com/KDE/krita). 
 
 Embora difundido amplamente, o Krita não é um produto comercial proprietário; é distribuído sob licença GPLv3, com desenvolvimento aberto e colaborativo. No enquadramento de aquisição e uso, ele se comporta como um software de prateleira (off-the-shelf) de código aberto, disponibilizado ao público em geral, sem personalizações específicas por cliente. 
 
@@ -38,7 +38,7 @@ As partes interessadas envolvidas no processo também incluem [^1] [^2]:
 Este trabalho, desenvolvido na disciplina de Qualidade de Software, tem como propósito gerar evidências objetivas sobre a qualidade do Krita (projeto KDE) à luz do SQuaRE/ISO/IEC 25010 e transformá-las em decisões práticas para uso e melhoria do produto. Em termos simples: queremos saber o quão bem o Krita atende ao que promete e o quão bem ele se comporta entre plataformas.
 
 **Pergunta central**  
-> Em que medida o Krita atende aos requisitos de **Adequação Funcional** e de **Portabilidade** no contexto de tarefas típicas de pintura digital (camadas, pincéis, abertura/salvamento/exportação) em **Windows, Linux, macOS e Android**?
+> Em que medida o Krita atende aos requisitos de **Adequação Funcional** e de **Portabilidade** no contexto de tarefas típicas de pintura digital (camadas, pincéis, abertura/salvamento/exportação) em **Windows, Linux, Android e Android**?
 
 **Objetivos específicos**
 1. **Identificar e priorizar** características de qualidade relevantes para o público-alvo.  
@@ -53,7 +53,7 @@ Foco nas duas características priorizadas (**Funcionalidade/Adequação Funcion
 
 ### 2.3. Escopo, profundidade e objetos de avaliação
 
-O escopo desta avaliação concentra-se na execução de um **fluxo de trabalho completo e representativo de um ilustrador digital**, utilizando o Krita em suas versões estáveis para **Windows, Linux e macOS**. A abrangência será limitada às duas características priorizadas do modelo ISO/IEC 25010: **Adequação Funcional** e **Portabilidade**.
+O escopo desta avaliação concentra-se na execução de um **fluxo de trabalho completo e representativo de um ilustrador digital**, utilizando o Krita em suas versões estáveis para **Windows, Linux e Android**. A abrangência será limitada às duas características priorizadas do modelo ISO/IEC 25010: **Adequação Funcional** e **Portabilidade**.
 
 A profundidade da análise será **prática e verticalizada**. Em vez de realizar um teste exaustivo de todas as centenas de funções do Krita, a avaliação seguirá um cenário de uso real, desde a criação de um arquivo em branco até a exportação final de uma ilustração. Este método permite gerar evidências sobre como o Krita atende às necessidades de um ciclo de produção de arte digital, avaliando não apenas as ferramentas isoladamente, mas também a sua integração e consistência.
 
@@ -123,7 +123,7 @@ Por ser gratuito e de código aberto, o Krita elimina barreiras financeiras que 
 #### 3.1.1. Descrição geral do produto
 
 - Aplicativo desktop de pintura e ilustração digital 2D, com suporte a animação, camadas, pincéis avançados e gerenciamento de recursos.
-- Gratuito e open source (GPL), multiplataforma (Windows, macOS, Linux; também há versão para Android/tablets).
+- Gratuito e open source (GPL), multiplataforma (Windows, Android, Linux; também há versão para Android/tablets).
 - Foco em artistas: ilustração, concept art, HQs, storyboards, texturas e animação 2D.
 
 #### 3.1.2. Principais funções do produto
@@ -180,7 +180,7 @@ Além disso, há diversos de painéis interativos (Camadas, Predefinições de P
 #### 3.1.7. Ambiente em que o produto será inserido
 
 - Estações de trabalho ou notebooks com mouse/teclado; idealmente com mesa digitalizadora/caneta.
-- Sistemas operacionais desktop (Windows/macOS/Linux) e tablets Android compatíveis.
+- Sistemas operacionais desktop (Windows/Android/Linux) e tablets Android compatíveis.
 - Uso frequentemente offline; integração com fluxos de arte (repositórios de assets).
 - Contextos de portabilidade: variação de hardware (GPUs e ambientes gráficos), monitores HiDPI e migração entre sistemas operacionais mantendo arquivos e configurações.
 
@@ -208,7 +208,7 @@ Adequação Funcional (completude, correção e adequação das funções)
 
 Portabilidade (adaptabilidade, instalabilidade e substituibilidade)
 
-  - Instaladores e execução em múltiplos sistemas operacionais: Windows, macOS e Linux; Android quando aplicável — instalação/desinstalação, dependências e inicialização bem‑sucedidas.
+  - Instaladores e execução em múltiplos sistemas operacionais: Windows, Android e Linux; Android quando aplicável — instalação/desinstalação, dependências e inicialização bem‑sucedidas.
   - Portabilidade de arquivos e projetos: abrir KRA e assets criados em um SO noutro, mantendo funcionalidades e conteúdo.
   - Migração de configurações e recursos: export/import de presets, atalhos e layouts entre plataformas.
   - Substituibilidade: facilidade de desinstalar/atualizar, não deixar resíduos críticos, reassociar tipos de arquivo.
@@ -226,7 +226,7 @@ Existem diversos recursos e materiais públicos úteis:
 
 Software:
 
-  - Windows, macOS ou Linux suportados (consultar página de Download oficial para versões específicas).
+  - Windows, Android ou Linux suportados (consultar página de Download oficial para versões específicas).
   - Dependências embarcadas (instalador oficial); Python opcional para scripting.
   
 Hardware (diretrizes gerais):
@@ -260,7 +260,7 @@ Referência para requisitos oficiais e atualizados por plataforma: https://krita
 
 **Plataformas:**
 
-- **Desktop:** Windows, Linux, macOS
+- **Desktop:** Windows, Linux, Android
 
 - **Mobile:** Android (em desenvolvimento)
 
@@ -392,7 +392,7 @@ A arquitetura modular do código-fonte (libs/image/, libs/brush/, libs/color/) f
 
 **Motivação para Escolha:**
 
-A Portabilidade foi escolhida para avaliar "o quão bem o Krita se comporta entre plataformas" (Windows, Linux, macOS e Android). As subcaracterísticas avaliadas são:
+A Portabilidade foi escolhida para avaliar "o quão bem o Krita se comporta entre plataformas" (Windows, Linux, Android e Android). As subcaracterísticas avaliadas são:
 
 - **Adaptabilidade:** Funcionamento efetivo em diferentes ambientes
 

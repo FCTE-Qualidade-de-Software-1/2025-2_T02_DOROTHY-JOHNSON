@@ -175,7 +175,7 @@ Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplat
 
 #### Critérios de Medição e Julgamento
 
-- **Método de Coleta:** Execução das funcionalidades essenciais nas 3 plataformas de desktop (Windows, Linux, MacOS). Uma funcionalida opera "identicamente" se o resultado e a interface para alcançá-lo são consistentes.
+- **Método de Coleta:** Execução das funcionalidades essenciais nas 3 plataformas de desktop (Windows, Linux, Android). Uma funcionalida opera "identicamente" se o resultado e a interface para alcançá-lo são consistentes.
 
 #### Níveis de Pontuação (Julgamento):
 
@@ -185,7 +185,7 @@ Para avaliar a adaptabilidade, utilizaremos a **Taxa de Adaptabilidade Multiplat
 
 #### Hipótese
 
-**H5:** A Taxa de Adaptabilidade Multiplataforma do Krita é superior a 85% entre Windows, Linux e macOS.
+**H5:** A Taxa de Adaptabilidade Multiplataforma do Krita é superior a 85% entre Windows, Linux e Android.
 
 
 ### Q2: Qual é o grau de instalabilidade do Krita em diferentes sistemas operacionais e configurações de hardware?

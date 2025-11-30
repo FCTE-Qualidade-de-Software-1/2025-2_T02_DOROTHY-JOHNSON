@@ -42,7 +42,7 @@ Cada membro da equipe ficou responsável por testar **2 questões específicas**
 | TCF | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) |
 | ICF | [Enzo Emir](https://github.com/EnzoEmir), [Marcelo Makoto](https://github.com/MM4k) |
 | TCR | [Danielle Soares](https://github.com/danielle-soaress), [Marcelo Makoto](https://github.com/MM4k), [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa) |
-| IAT | [Victor Pontual](https://github.com/VictorPontual)- |
+| IAT | [Victor Pontual](https://github.com/VictorPontual) |
 | TAM | [Leticia Arisa](https://github.com/Leticia-Arisa-K-Higa) |
 | TMI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
 | TSI | [Enzo Emir](https://github.com/EnzoEmir), [Danielle Soares](https://github.com/danielle-soaress) |
@@ -52,7 +52,7 @@ Cada membro da equipe ficou responsável por testar **2 questões específicas**
 
 ### 3.1. Teste de Completude Funcional (TCF)
 
-#### 3.1.1. Objetivo da Medição
+#### 3.1.1. Objetivo da Métrica
 Avaliar o percentual de funcionalidades essenciais de pintura digital que estão implementadas e operacionais no Krita.
 
 #### 3.1.2. Procedimento Executado
@@ -114,7 +114,7 @@ Baseado no checklist de funcionalidades essenciais derivado do workflow da [Fase
 
 ### 3.2. Teste de Cobertura Funcional (ICF)
 
-#### 3.2.1. Objetivo da Medição
+#### 3.2.1. Objetivo da Métrica
 Medir o grau de correspondência entre as funcionalidades documentadas e as efetivamente disponíveis no software.
 
 #### 3.2.2. Procedimento Executado
@@ -150,7 +150,7 @@ Conforme as categorias de funcionalidades definidas no escopo da [Fase 1](https:
 
 ### 3.3. Teste de Correção Funcional (TCR)
 
-#### 3.3.1. Objetivo da Medição
+#### 3.3.1. Objetivo da Métrica
 Avaliar a proporção de funcionalidades que operam conforme especificado durante o workflow de criação artística.
 
 #### 3.3.2. Procedimento Executado
@@ -376,7 +376,7 @@ Considerando os testes realizados em diferentes plataformas, dispositivos e esti
 
 ## 3.4. Teste de Adequação às Tarefas (IAT)
 
-### 3.4.1. Objetivo da Medição
+### 3.4.1. Objetivo da Métrica
 
 Medir o grau de alinhamento entre as funcionalidades oferecidas pelo Krita e as necessidades específicas do workflow artístico.
 O IAT avalia se as ferramentas disponíveis permitem executar integralmente o ciclo de criação de uma ilustração digital, considerando fluidez, continuidade do processo e ausência de impedimentos funcionais.
@@ -424,7 +424,7 @@ O Krita demonstrou adequação total às necessidades práticas de criação art
 
 ### 4.1. Teste de Adaptabilidade Multiplataforma (TAM)
 
-#### 4.1.1. Objetivo da Medição
+#### 4.1.1. Objetivo da Métrica
 Medir a capacidade do software de funcionar consistentemente em diferentes sistemas operacionais (Windows, Linux, Android).
 
 #### 4.1.2. Procedimento Executado
@@ -507,7 +507,7 @@ Para cada sistema operacional, foi executado o workflow completo de ilustração
 
 ### 4.2. Teste de Instalabilidade 
 
-#### 4.2.1. Objetivo da Medição
+#### 4.2.1. Objetivo da Métrica
 
 Cronometrar o processo de instalação e medir a taxa de sucesso em diferentes plataformas.
 
@@ -585,7 +585,7 @@ Windows 11:
 
 ### 4.3. Teste de Preservação de Dados (IPD)
 
-#### 4.3.1. Objetivo da Medição
+#### 4.3.1. Objetivo da Métrica
 Medir a capacidade do software de manter integridade de arquivos e configurações entre diferentes sistemas operacionais.
 
 #### 4.3.2. Procedimento Executado
